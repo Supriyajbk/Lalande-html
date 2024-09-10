@@ -1,4 +1,4 @@
 .contact-main{}
-.contact-lt{width: 40%; padding: 80px 0 0;}
+.contact-lt{flex: 40%; padding: 80px 0 0;}
 .contact-lt h1{color: var(--white);}
-.contact-rt{width: 60%; background-color: var(--bold-green);}
+.contact-rt{flex: 60%; background-color:  rgba(0, 66, 56, 0.5); flex-grow: 1;}
