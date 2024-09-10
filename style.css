@@ -145,11 +145,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {co
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover {color:var(--lime-500);}
 
 .h1, .h2, .h3, .h4, .h5, .h6 {display: block; font-family:"DM Serif Text", sans-serif; color: var(--heading);}
-.h1 {font-size: 3rem; line-height: 1.17; margin-bottom: 24px;}
+.h1 {font-size: 3rem; line-height: 1.3; margin-bottom: 24px; letter-spacing: -1.44px;}
 .h2 {font-size: 2.5rem; line-height: 1.2; margin-bottom: 20px;}
-.h3 {font-size: 2rem; line-height: 1.25; margin-bottom: 19px;} 
-.h4 {font-size: 1.5rem; line-height: 1.17; margin-bottom: 19px;} 
-.h5 {font-size: 1.25rem; line-height: 1.2; margin-bottom: 18px;} 
+.h3 {font-size: 2rem; line-height: 1.25; margin-bottom: 19px;}
+.h4 {font-size: 1.5rem; line-height: 1.25; margin-bottom: 19px;}
+.h5 {font-size: 1.25rem; line-height: 1.4; margin-bottom: 18px;}
 .h6 {font-size: 1.125rem; line-height: 1.4; margin: 0 0 19px;}
 
 
@@ -352,7 +352,7 @@ body .frm_forms .frm_submit .button:hover:after, body .frm_forms .frm_submit but
 
 
 
-.optional-text {font-size:1.125rem; color:var(--optionaltxt); font-weight:bold; margin:0 0 25px 0; display:block;}
+.optional-text {font-size:1rem; color:var(--white-lime); font-weight:500; margin:0 0 25px 0; display:block; line-height: 1.4;}
 .btn-wrap {width:100%; clear:both;}
 
 
