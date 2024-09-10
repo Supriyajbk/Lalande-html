@@ -272,9 +272,9 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms .frm_form_fields .frm_form_field{margin-bottom:24px; position: relative; clear: both;}
 .frm_forms .frm_form_fields .frm_form_field.frm_full {clear:both; width: 100%;}
 
-.frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label { font-size: 1rem; line-height: 1.25; padding: 0; text-indent: inherit; font-weight: normal; color: var(--blacktext); z-index: 1;}
+.frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label { font-size: 1rem; line-height: 1.5; padding: 0; text-indent: inherit; font-weight: 500; color: var(--white); z-index: 1;}
 .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label {font-weight: bold; padding: 0 0 10px 0;}
-.frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {font-weight: bold; color: var(--body-text); position: absolute; left: 16px; top: 15px; transition: all ease-in-out 0.3s; visibility: visible;}
+.frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {font-weight: bold; color: var(--white); position: absolute; left: 16px; top: 15px; transition: all ease-in-out 0.3s; visibility: visible;}
 .frm_forms .frm_form_fields .frm_form_field label span {font-weight: normal;}
 .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label.label-top {font-size: 0.875rem; top: -8px;}
 .frm_forms .frm_form_fields .frm_form_field label a {text-decoration: underline;}
@@ -287,14 +287,13 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_radio {margin: 0 0 5px 0;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_radio input.frm_other_input:not(.frm_other_full) {width: 100%; margin: 10px 0 0 0;}
 
-.frm_forms .frm_form_fields input, .frm_forms .frm_form_fields textarea, .frm_forms .frm_form_fields select {font-family: "DM Sans", sans-serif; font-weight: bold; display: block; outline: 0; border-radius: 0; font-size: 1rem; line-height: 1.25; font-style: normal; vertical-align: middle; -webkit-appearance: none; background-color: var(--input)!important; color: var(--blacktext)!important; border: 0 none!important; border-bottom:solid 1px var(--blacktext)!important; padding:15px 16px 15px 16px; width: 100%; box-shadow: none; transition: none;}
-body .frm_forms .frm_form_fields input:focus, body .frm_forms .frm_form_fields textarea:focus {box-shadow:none!important;  border: 0 none!important; border-bottom:solid 2px var(--green)!important; background-color: var(--input)!important; padding: 15px 16px 14px 16px;}
-body .frm_forms .frm_form_fields input.input-has-value, body .frm_forms .frm_form_fields textarea.input-has-value {border-bottom:solid 4px var(--heading)!important; padding: 15px 16px 12px 16px;}
-body .frm_forms .frm_form_fields input.input-has-value.highlight, body .frm_forms .frm_form_fields textarea.input-has-value.highlight {border-color: var(--input)!important;}
+.frm_forms .frm_form_fields input, .frm_forms .frm_form_fields textarea, .frm_forms .frm_form_fields select {font-family: "DM Sans", sans-serif; font-weight: bold; display: block; outline: 0; border-radius: 0; font-size: 1rem; line-height: 1.25; font-style: normal; vertical-align: middle; -webkit-appearance: none; background-color: var(--green-900)!important; color: var(--white)!important; border: 0 none!important; border-bottom:solid 2px var(--lime-500)!important; padding:15px 16px 15px 16px; width: 100%; box-shadow: none; transition: none;}
+body .frm_forms .frm_form_fields input:focus, body .frm_forms .frm_form_fields textarea:focus {box-shadow:none!important;  border: 0 none!important; border-bottom:solid 2px var(--lime-500)!important; background-color: var(--green-900)!important; padding: 15px 16px 14px 16px;}
+
 
 .frm_forms .frm_form_fields textarea {min-height:160px;}
 
-.frm_forms .frm_form_fields .selectBox-dropdown{background-color: var(--input); color: var(--blacktext); border:solid 1px var(--blacktext); padding:15px 46px 15px 16px; font-family: "DM Sans", sans-serif; font-weight: bold; border-top: 0 none; border-left: 0 none; border-right: 0 none; line-height: 1.3; text-transform: none;}
+.frm_forms .frm_form_fields .selectBox-dropdown{background-color: var(--green-900); color: var(--blacktext); border:solid 1px var(--blacktext); padding:15px 46px 15px 16px; font-family: "DM Sans", sans-serif; font-weight: bold; border-top: 0 none; border-left: 0 none; border-right: 0 none; line-height: 1.3; text-transform: none;}
 .frm_forms .frm_form_fields div.selector {margin-top:16px;}
 
 
@@ -435,8 +434,8 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 
 .readmore {position: relative; display: inline-block; font-size:1rem; padding-left: 49px; color: var(--body-text); font-weight: 400;}
-.readmore:before {left: 0px; content:"\f061"; font-size:1rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; color: var(--optionaltxt);}
-.readmore:hover:after {animation-name: bounceAlpha; animation-duration: 1.4s; animation-iteration-count: infinite; animation-timing-function: linear;}
+.readmore:before {left: 0px; content:"\f054"; font-size:1rem; font-family:"Font Awesome 6 Pro"; font-weight: 900; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; color: var(--optionaltxt);}
+.readmore:after {content: ""; background: var(--lime-500); width: 32px; height: 32px; display: block; position: absolute; left: 0; top: 0; z-index: -1;}
 .readmore:hover {color: var(--anchor-hover);}
 
 
