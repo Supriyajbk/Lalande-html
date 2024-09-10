@@ -99,27 +99,19 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;} 
 
 
-button, .button  {display: inline-block; font-size:1rem; font-weight: bold; line-height: normal; padding:8px 12px 11px 12px; vertical-align: middle; cursor: pointer; border:0 none; border-radius: 4px; background-color: var(--heading); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--white); font-family:"DM Sans", sans-serif; text-decoration: none; letter-spacing: -0.08px;}
-button:hover, button:focus, .button:hover, .button:focus {background-color: var(--green); color: var(--blacktext);}
-button::after, .button::after {content:"\f061"; font-size:1rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: static; display: inline-block; margin: -0.5px 0 0 8px;  vertical-align: middle; line-height: 12px; color: var(--green);}
-button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-duration:1.4s; animation-iteration-count:infinite; animation-timing-function:linear; color: var(--blacktext);}
+button, .button  {display: inline-block; font-size:1rem; font-weight: 500; line-height: normal; padding: 16px 24px; vertical-align: middle; cursor: pointer; border:0 none; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--heading); font-family:"DM Sans", sans-serif; text-decoration: none; letter-spacing: -0.28px;}
+button:hover, .button:hover {background-color: var(--green-700); color: var(--white);}
+button:focus, .button:focus, button:active, .button:active {background-color: var(--lime-500); color: var(--heading);}
 
 
-/* Lightgreen Button */
-.btn-green {background: var(--lightgreen); color: var(--heading); padding: 5px 8px 6px 8px;}
-.btn-green:hover {background: var(--heading); color: var(--white);}
-.btn-green:after {color:var(--optionaltxt);}
-.btn-green:hover:after {color: var(--green);}
 
-.green-btn {background: var(--green); color:var(--blacktext);}
-.green-btn:hover {background: var(--heading); color: var(--white);}
+/* darkgreen Button */
+.btn-dark {background: var(--green-700); color: var(--white);}
+.btn-dark:hover {background: var(--lime-500); color: var(--heading);}
+button.btn-dark:focus, .button.btn-dark:focus, button.btn-dark:active, .button.btn-dark:active {background-color: var(--green-700); color: var(--white);}
 
+.btn-big {font-size: 1.125rem; letter-spacing: -0.36px; padding: 16px 32px;}
 
-/* Default Outline Button*/
-.outline-btn {background: transparent; border: 2px solid var(--heading); color: var(--blacktext); padding:6px 10px 9px 10px; letter-spacing: normal;}
-.outline-btn:hover {background: var(--heading); border-color: var(--heading); color: var(--white);}
-.outline-btn:after {color: var(--optionaltxt);}
-.outline-btn:hover:after {color: var(--white);}
 
 input[type="submit"] {background-image: url("../images/search.svg") !important; background-repeat: no-repeat !important; position: absolute; right:19px; top:0; bottom: 0; padding: 0 !important; width: 17px; height: 17px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0;}
 
