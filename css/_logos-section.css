@@ -1,0 +1,49 @@
+.logos-section{clear: both; width: 100%;}
+.logos-section h1{ margin: 0 auto; padding-top: 10px; text-align: center; }
+.logos-section .selectBox-dropdown{font-family: "DMSerifDisplay";}
+.cnty-dropdown{ margin: 0 auto;}
+.cnty-dropdown .selectBox-dropdown{ padding: 18px 22px 15px 19px;}
+.logos-main{padding: 47px; border: 9px solid var(--limegreen); border-radius: 24px;}
+ul.logos-row{margin: 0; gap: 48px;}
+ul.logos-row > li::before {display: none;}
+ 
+.page-template-wheretowatch .selectBox-dropdown .selectBox-arrow::after, .page-template-home .selectBox-dropdown .selectBox-arrow::after { content: "\f0d7"; font-size: 16px; }
+.page-template-wheretowatch .selectBox-dropdown .selectBox-arrow::after, .page-template-home  .selectBox-dropdown .selectBox-arrow{right: 27px;}
+
+
+
+
+/*-- media css starts here --*/
+ @media only screen and (min-width: 1024px) {
+   .logos-section{margin-top: 80px;}
+    .logos-main{margin-bottom: 80px;}
+    .logos-section h1{width: 840px;  font-size: 2.5rem;}
+    .cnty-dropdown{padding: 48px 0;  width: 480px;}
+    ul.logos-row{gap: 48px;}
+    ul.logos-row > li{width: calc(14.8% - 48px);}
+ }
+ @media only screen and (max-width: 1299px) and (min-width: 1024px) {
+    ul.logos-row{gap: 48px} 
+    ul.logos-row > li { width: calc(17.4% - 48px);}
+    
+ } 
+ @media only screen and (max-width: 1023px) and (min-width: 720px) {
+    .logos-section{padding-bottom: 50px;}
+    .logos-section h1{font-size: 2rem;}
+    .cnty-dropdown{padding: 40px 0;  width: 480px;}
+    .logos-main{padding: 31px 29px;}
+    ul.logos-row{gap: 24px; justify-content: center;}
+    ul.logos-row > li {width: calc(25% - 24px);}
+    
+ }
+ @media only screen and (max-width: 719px) and (min-width: 200px) {
+    .logos-section{padding-bottom: 50px;}
+    .logos-section h1{font-size: 1.5rem; line-height: 1.75rem;}
+    .cnty-dropdown{padding: 32px 0;  width: 350px;}
+    .logos-main{padding: 23px 34px;}
+    ul.logos-row{gap: 24px; justify-content: center;}
+    ul.logos-row > li {width:calc(33.3% - 16px);}
+
+
+
+ }

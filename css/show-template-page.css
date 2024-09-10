@@ -1,0 +1,96 @@
+
+@import url("../css/_newsletter-signup.css");
+@import url("../css/_more-recipes-section.css");
+@import url("../css/_tv-show-slider.css");
+
+
+
+.video-wrap{margin: 80px 0 40px;}
+.video-caption{max-width: 400px;}
+
+.show-template-main{width: 100%; clear: both;}
+.show-template-article h1{margin-bottom: 32px;}
+.show-template-article .show-high p{font-size: 1.5rem; color: var(--foreground); margin-bottom: 40px;}
+.show-wrap { justify-content: space-between; padding: 32px 0 32px 0; align-items: center; position: relative; margin: 0 0 40px 0; }
+.show-wrap::before, .show-wrap::after { content: ""; display: inline-block; position: absolute; left: 0; top: 0; height: 2px; background-image: radial-gradient(circle at 1px, var(--green) 1px, rgba(255,255,255,0) 1.25px); width: 100%; background-size: 8px 2px; background-position: 0 0; } .show-wrap::after { top: inherit; bottom: 0; }
+
+.apply-rt .button{padding: 17px 20px 18px 20px;}
+.apply-rt .button:after{ content:"\f26c";  }   
+
+.show-aside-img { position: relative;  margin-bottom: 20px; width: 100%; clear: both;}
+.show-host-thumb { position: relative; border-bottom: 3px solid var(--darkgreen); z-index: 1;}
+.show-host-thumb figure {  position: relative; z-index: 1; }
+.show-host-bg { position: absolute; left: 0;  bottom: 0;  z-index: -1; }  
+.host-text a{ color: var(--body-text);  margin-bottom: 3px;}
+
+.host-name { font-size: 1.5rem; line-height: 1.75; color: var(--heading); font-weight: bold; font-family: DMSerif Display; margin-bottom: 22px; }
+.asidebar-gusto p{font-size: 1rem; color: var(--foreground); margin-bottom: 0;}
+.show-template-section hr{margin: 0;}
+  
+.tv-show-main{padding: 70px 0 80px;}
+.recipes-form .form-field { width: 100%; }
+.host-icons.share-icons{justify-content: space-between; margin: 32px 0; }
+ul.follow-icons > li{  margin-bottom: 0; background: var(--limegreen); border-radius: 50%; width: 40px; height: 40px; align-items: center; display: flex;}
+ul.follow-icons > li a{text-decoration: none;}
+ul.follow-icons > li::before{display: none;}
+ul.follow-icons{ justify-content: flex-end; margin: 0;}
+ul.follow-icons li:last-child{margin-right: 0;}
+
+
+
+
+  @media only screen and (min-width: 1200px) {
+    .show-template-main{gap: 0 120px; padding: 40px 0 80px; }
+    .show-template-article{flex: 0 0 67.2%;}
+    .asidebar-gusto{flex: 0 0 calc(32.8% - 120px);}
+    .host-icons.share-icons{gap: 20px;}
+    .host-icons.share-icons .share-text{flex: 0 0 42%;}
+    ul.follow-icons{flex: 0 0 calc(58% - 29px);}
+    ul.follow-icons > li{ margin-right: 8px;}
+    
+  }
+  @media only screen and (max-width: 1199px) and (min-width: 1024px) {
+    .show-template-main{gap: 0 56px; padding: 64px 0;}
+    .show-template-article{flex: 0 0 65.2%;}
+    .asidebar-gusto { flex: 0 0 calc(34.8% - 56px); }
+    .host-icons.share-icons{gap: 10px;}
+    .host-icons.share-icons .share-text { flex: 0 0 47%;}
+    ul.follow-icons { flex: 0 0 calc(53% - 10px); }
+    ul.follow-icons > li { margin-right: 7px; }
+  }
+  @media only screen and (min-width: 1024px) {
+    .show-host-thumb img{ max-width: 300px;}
+    .show-host-bg { max-width: 300px; width: 100%;}  
+    .asidebar-gusto .button{padding: 15px 12px 15px 12px;}
+    .host-icons.share-icons .share-text{margin-right: 0;}
+
+  }
+
+@media only screen and (max-width: 1023px) and (min-width: 720px) {
+    .show-template-section hr{margin: 40px 0;}
+    .show-host-list{display: flex; flex-wrap: wrap;  align-items: center; gap: 50px; margin-bottom: 32px;}
+    .show-aside-img{flex: 0 0 50%; margin-bottom: 0;}
+    .host-content{flex: 0 0 calc(50% - 50px);}
+    
+    .host-text{line-height: 0.8;}
+    .host-name{margin-bottom: 6px;}
+    .host-icons.share-icons{display: none;}
+    .asidebar-gusto{padding: 0 0 40px;}
+}
+@media only screen and (max-width: 719px) and (min-width: 200px) {
+    .video-wrap{margin: 20px 0;}
+    .video-caption{background: var(--limegreen);}
+    .show-template-main{padding: 40px 0 40px;}
+    .show-wrap{flex-direction: column-reverse;}
+    .apply-rt{margin-bottom: 20px; width: 100%;}
+    .sharethis-inline-share-buttons .st-btn{width: 40px!important; height: 40px!important; line-height: 38px!important;}
+    .show-template-section hr{margin: 54px 0 56px;}
+    
+    .host-icons.share-icons {gap: 10px;}
+    .host-icons.share-icons .share-text { flex: 0 0 34%; margin-right: 0; }
+    .follow-icons{flex: 0 0 calc(66% - 10px);}
+  
+    ul.follow-icons > li{ margin-right: 8px;}
+    .tv-show-main{padding: 40px 0 66px;}
+    .tv-show-heading .heading-lt{ margin-bottom: 24px;}
+}

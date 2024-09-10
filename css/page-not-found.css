@@ -1,0 +1,10 @@
+.page-not-section
+{
+  z-index: 1;
+  clear: both;
+  position: relative;
+  width: 100%;
+  }
+   .page-not-main { padding: 148px 0; width: 100%; text-align: center; margin: 0 auto; max-width: 650px; position: relative; }
+   .page-not-main h1{ font-size: 124px; line-height: 124px;}
+   .page-number { margin-bottom: 24px; font-size: 2rem; line-height: 2.5rem;   -webkit-text-stroke-width: 2px; display: block; color: var(--optionaltxt); }
