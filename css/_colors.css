@@ -5,15 +5,16 @@
     --white-20: rgb(255 255 255 / 20%);
     --white-50: rgb(255 255 255 / 50%);
     --white-75: rgb(255 255 255 / 75%);
-    --body-text: #2b2c2d;
-	--heading: #592c5f;
-    --green: #bfd000;
-    --limegreen: #f2f6ba;
-    --blacktext: #392c3a;
-    --optionaltxt: #667000;
-    --input: #f4f2ee;
-    --lightgreen: rgba(242, 246, 186, 0.5);
-    --darkgreen: #415941;
-    --foreground: #28282c;
-    --greyline: #f3f5f7;    
+    --body-text: #505050;
+	--heading: #0c0d0d;
+    --anchor:#00855d;
+    --anchor-hover:#8ec900;
+    --dirty-white:#f7f7f7;
+    --light-grey:#9db5ad;
+    --white-lime:#eeffc5;
+    --lime:#8ec900;
+    --green-black:#051719;
+    --green-bold:#004238;
+    --green-medium:#005a3f;
+    --green-regular:#00855d;
 }
