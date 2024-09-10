@@ -143,6 +143,7 @@ body {font-family:"DM Sans", sans-serif; color:var(--body-text); font-size:1.125
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {color:var(--heading); text-decoration: none;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover {color:var(--lime-500);}
+h1 span, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a
 
 .h1, .h2, .h3, .h4, .h5, .h6 {display: block; font-family:"DM Serif Text", sans-serif; color: var(--heading);}
 .h1 {font-size: 3rem; line-height: 1.3; margin-bottom: 24px; letter-spacing: -1.44px;}
@@ -219,7 +220,7 @@ body .mfp-close:after {display: none;}
 .breadcrumb ul li {display: inline-block; font-size:1.125rem; color: var(--foreground); margin: 0;}
 .breadcrumb ul li:before {left: inherit; top: inherit; content: "/"; position: relative; margin:-2px 12.5px 0 12.5px; display: inline-block; vertical-align: middle; color: var(--heading); width: inherit; height: inherit; background: none;}
 .breadcrumb ul li:first-child:before {display: none;}
-.breadcrumb ul li a {text-decoration: none; color:var(--optionaltxt); font-weight: 400;}
+.breadcrumb ul li a {text-decoration: none; color:var(--optionaltxt); font-weight: normal;}
 .breadcrumb ul li:first-child i {font-size: 1rem;}
 .breadcrumb ul li a:hover {color: var(--heading);}
 
@@ -340,7 +341,7 @@ body .frm_forms .frm_submit .button:hover:after, body .frm_forms .frm_submit but
 .frm_radio label {padding: 0px 0 0 34px; cursor: pointer;}
 
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"], 
-.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"] {position: absolute; left: 0; width: 21px; height: 21px; cursor: pointer;  outline: none;  -moz-border-radius: 4px; -webkit-border-radius: 4px;  border-radius: 3px; padding: 0 !important; background: var(--optionaltxt)!important; border: 0 none !important;}
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"] {position: absolute; left: 0; width: 21px; height: 21px; cursor: pointer;  outline: none;  -moz-border-radius: 4px; -webkit-border-radius: 4px;  border-radius: 3px; padding: 0 !important; background: var(--lime-500)!important; border: 0 none !important;}
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked:before { content: "\f00c"; font-family: "Font Awesome 6 Pro"; display: block; height: 21px; left: 0px; position: absolute; top: 2px; width: 21px; font-weight: 900; color: var(--white); font-size: 13px; transform: none; clip-path: inherit; box-shadow: none; text-align: center; margin: 0;}
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:before {display: none;}
 
@@ -379,7 +380,7 @@ body .frm_forms .frm_submit .button:hover:after, body .frm_forms .frm_submit but
 position: relative; z-index: 1; text-decoration: none; border-radius: 50%!important; background-color: var(--limegreen)!important; display: inline-block!important; text-align: center!important; cursor: pointer; margin: 0 0 0 10px!important; min-width: inherit!important; padding: 0 !important;}
 .sharethis-inline-share-buttons .st-btn.st-first {margin-left: 0!important;}
 .sharethis-inline-share-buttons {font-size: 0; display: inline-block!important; vertical-align: middle; z-index: 1 !important;}
-.sharethis-inline-share-buttons .st-btn:after {font-family: "Font Awesome 6 Brands"; font-weight: 400; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block; font-size: 1.25rem;}
+.sharethis-inline-share-buttons .st-btn:after {font-family: "Font Awesome 6 Brands"; font-weight: normal; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block; font-size: 1.25rem;}
 .sharethis-inline-share-buttons .st-btn[data-network=twitter]:after {content: "\e61b"; }
 .sharethis-inline-share-buttons .st-btn[data-network=facebook]:after {content: "\f39e";}
 .sharethis-inline-share-buttons .st-btn[data-network=linkedin]:after {content: "\f0e1";}
@@ -433,10 +434,12 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 
 
-.readmore {position: relative; display: inline-block; font-size:1rem; padding-left: 49px; color: var(--body-text); font-weight: 400;}
-.readmore:before {left: 0px; content:"\f054"; font-size:1rem; font-family:"Font Awesome 6 Pro"; font-weight: 900; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; color: var(--optionaltxt);}
-.readmore:after {content: ""; background: var(--lime-500); width: 32px; height: 32px; display: block; position: absolute; left: 0; top: 0; z-index: -1;}
-.readmore:hover {color: var(--anchor-hover);}
+.readmore {position: relative; display: inline-block; font-size:1rem; padding:0 13px 0 48px; color: var(--heading); font-weight: normal; line-height: 32px;}
+.readmore:before {left: 0px; content:""; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; width: 32px; height: 32px; justify-content: center; background: url("images/chevron-right.svg") center no-repeat;}
+.readmore:after {content: ""; background: var(--lime-500); width: 32px; height: 32px; display: block; position: absolute; left: 0; top: 0; z-index: -1; transition: all 0.3s ease;}
+.readmore:hover {color: var(--heading);}
+.readmore:hover:after {width:100%;}
+
 
 
 
