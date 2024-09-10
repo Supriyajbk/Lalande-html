@@ -1,5 +1,10 @@
 .contact-section{width: 100%; overflow: hidden; z-index: 1;}
 .contact-main{z-index: 1;}
-.contact-lt{flex: 40%; padding: 80px; flex-grow: 1;}
+.contact-lt{flex: 36.6%; padding: 80px 80px 80px 0; flex-grow: 1;}
 .contact-lt h1{color: var(--white);}
-.contact-rt{flex: 60%; background-color:  rgba(0, 66, 56, 0.5); flex-grow: 1;}
+.contact-rt{flex: calc(100% - 36.6%); flex-grow: 1;}
+.contact-rt:after{position: absolute; width: 1000vw; height: 100%; content:""; display: block; top: 0px; left: 0; background-color: rgba(0, 66, 56, 0.5); bottom: 0;}
+
+.contact-rt-txt{gap: 10px;}
+
+
