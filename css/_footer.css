@@ -1,4 +1,4 @@
-footer#main_footer {clear: both; padding: 80px 0 68px; width: 100%; position: relative; background: var(--teal); z-index: 1; overflow: hidden; color: var(--white)}
+footer#main_footer {clear: both; padding: 80px 0 68px; width: 100%; position: relative; background: var(--green-900); z-index: 1; overflow: hidden; color: var(--white)}
 footer#main_footer .footer {position: relative}
 footer#main_footer li:before {display: none}
 footer#main_footer .footer_top {justify-content: space-between; clear: both; align-items: flex-start; padding: 0 0 111px 0}
@@ -6,7 +6,7 @@ footer#main_footer .footer_top {justify-content: space-between; clear: both; ali
 footer#main_footer .footer_lt {width: 100%; margin-bottom: auto; max-width: 328px}
 footer#main_footer .footer_lt .footer-logo {margin: 0 0 29px 0}
 footer#main_footer .footer_lt .footer-logo a {display: inline-block}
-footer#main_footer .footer_lt .footer-logo img {width: 265px; height: 100%;}
+footer#main_footer .footer_lt .footer-logo img {width: 109px; height: 44px;}
 footer#main_footer .footer_lt .footer-lt-cnt {clear: both; width: 100%}
 footer#main_footer .footer_lt .footer-lt-cnt .mail-links {margin: 0 0 15px 0}
 footer#main_footer .footer_lt .footer-lt-cnt .mail-links li {margin-bottom: 12px; display: block; width: 100%}
