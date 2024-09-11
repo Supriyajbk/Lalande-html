@@ -436,8 +436,9 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 
 .readmore {position: relative; display: inline-block; font-size:1rem; padding:0 13px 0 48px; color: var(--heading); font-weight: normal; line-height: 32px;}
+.readmore.white {color: var(--white);}
 .readmore:before {left: 0px; content:""; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; width: 32px; height: 32px; justify-content: center; background: url("images/chevron-right.svg") center no-repeat;}
-.readmore:after {content: ""; background: var(--lime-500); width: 32px; height: 32px; display: block; position: absolute; left: 0; top: 0; z-index: -1; transition: all 0.3s ease;}
+.readmore:after {content: ""; background: var(--lime-500); width: 32px; height: 32px; display: block; position: absolute; left: 0; top: 0; z-index: -1; transition: all 0.35s ease;}
 .readmore:hover {color: var(--heading);}
 .readmore:hover:after {width:100%;}
 
