@@ -4,13 +4,17 @@
 .contact-main{z-index: 1; min-height: 979px;}
 .contact-lt{flex: 27.5%; padding: 80px 80px 80px 0; flex-grow: 1; color: var(--white)}
 .contact-lt h1{color: var(--white);}
-.contact-rt{flex: calc(100% - 36.6%); flex-grow: 1; padding: 80px 64px;}
+.contact-lt .optional-text{font-size: 1.25rem; margin-bottom: 30px;}
+.contact-lt p{font-size: 1.25rem; letter-spacing: -0.4px;}
+.contact-rt{flex: calc(100% - 36.6%); flex-grow: 1; padding:  64px  0 64px 80px;}
 .contact-rt:after{position: absolute; width: 1000vw; height: 100%; content:""; display: block; top: 0px; left: 0; background-color: rgba(0, 66, 56, 0.5); bottom: 0; z-index: -1;}
 .contact-rt.no-contact-lt:after{left: -100vw;}
-.contact-rt-txt h2{color: var(--white)}
-.contact-rt-txt{gap: 10px;}
-.contact-rt-txt h2{flex: 0 0 300px;}
-.contact-rt-txt span{flex: 0 0 calc(100% - 310px); flex-grow: 1;}
+.contact-rt-txt .contact-rt-left h2{color: var(--white); margin-bottom: 0;}
+.contact-rt-txt{gap: 23px; margin-bottom: 48px;}
+.contact-rt-txt .contact-rt-left{flex: 0 0 300px;}
+.contact-rt-txt .contact-rt-right{flex: 0 0 calc(100% - 323px); flex-grow: 1; margin-top: auto;}
+.contact-rt-txt .contact-rt-right .optional-text{font-size: 1rem; color: var(--light-grey); font-weight: normal;}
+.contact-rt-txt .contact-rt-right .optional-text span{color: var(--white-lime);}
 
 .location-section{background-color: var(--green-900); padding: 80px 0;}
 .location-main{}
