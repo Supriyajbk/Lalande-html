@@ -1,18 +1,18 @@
-footer#main_footer {clear: both; padding: 80px 0 68px; width: 100%; position: relative; background: var(--green-900); z-index: 1; overflow: hidden; color: var(--white)}
+footer#main_footer {clear: both; padding: 80px 0 80px; width: 100%; position: relative; background: var(--green-900); z-index: 1; overflow: hidden; color: var(--white)}
+footer#main_footer .background-bg:before {background-image: radial-gradient(circle at 50% 50%, rgba(5, 23, 25, 0), var(--green-900) 39%), linear-gradient(to bottom, var(--green-900), var(--green-900)); content: ""; display: block; width: 100%; height: 100%; left: 0; right: 0; margin: auto; position: absolute;}
 footer#main_footer .footer {position: relative}
-footer#main_footer li:before {display: none}
 footer#main_footer .footer_top {justify-content: space-between; clear: both; align-items: flex-start; padding: 0 0 111px 0}
 
-footer#main_footer .footer_lt {width: 100%; margin-bottom: auto; max-width: 328px}
+footer#main_footer .footer_lt {width: 100%; margin-bottom: auto; max-width: 337px}
+footer#main_footer .footer_lt .ftr-intro {margin: 0 0 58px 0; max-width: 300px;}
 footer#main_footer .footer_lt .footer-logo {margin: 0 0 29px 0}
 footer#main_footer .footer_lt .footer-logo a {display: inline-block}
 footer#main_footer .footer_lt .footer-logo img {width: 109px; height: 44px;}
 footer#main_footer .footer_lt .footer-lt-cnt {clear: both; width: 100%}
-footer#main_footer .footer_lt .footer-lt-cnt .mail-links {margin: 0 0 15px 0}
-footer#main_footer .footer_lt .footer-lt-cnt .mail-links li {margin-bottom: 12px; display: block; width: 100%}
-footer#main_footer .footer_lt .footer-lt-cnt .mail-links li i {font-size: 20px; line-height: 100%; color: var(--linkhover); letter-spacing: normal; font-weight: 400; position: absolute; left: 0; top: 2px; width: 20px; text-align: center}
-footer#main_footer .footer_lt .footer-lt-cnt .mail-links li a {line-height: 100%; font-size: 20px; font-weight: 500; color: var(--white); letter-spacing: -.4px; padding-left: 34px; display: inline-block}
-footer#main_footer .footer_lt .footer-lt-cnt .mail-links li a:hover {color: var(--linkhover);}
+
+footer#main_footer .footer_lt .mail-links {margin: 0 0 15px 0; padding-left: 34px; position: relative;}
+footer#main_footer .footer_lt .mail-links p {color: var(--light-grey);}
+footer#main_footer .footer_lt .mail-links i {color: var(--lime-500); position: absolute; left: 0; top: 2px; width: 20px; text-align: center}
 
 footer#main_footer .ftr-sm {clear: both; font-size: 0; margin: 0 0 0 auto}
 footer#main_footer .ftr-sm ul {margin: 0}
@@ -29,9 +29,7 @@ footer#main_footer .ftr-logos p a {font-weight: 600; color: var(--white)}
 footer#main_footer .ftr-logos p a:hover {color: var(--linkhover);}
 
 footer#main_footer .footer_rt {max-width: 61.88%; margin: 0; width: calc(100% - 328px)}
-footer#main_footer .ftr-intro {margin: 0 0 58px 0}
-footer#main_footer .ftr-intro p {font-size: 24px; line-height: 175%; font-weight: 400}
-footer#main_footer .ftr-intro p span {color: var(--linkhover); font-weight: 500}
+
 footer#main_footer .footer_rt ul {margin: 0; padding: 0; width: 100%}
 footer#main_footer .footer_rt .ftr-menu-wrap {justify-content: space-between}
 footer#main_footer .footer-menu {width: 23.98989898989899%; flex-wrap: wrap; display: flex; justify-content: space-between; margin-left: 10px; max-width: 277px}
