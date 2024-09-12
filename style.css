@@ -140,6 +140,11 @@ body {font-family:"DM Sans", sans-serif; color:var(--body-text); font-size:1rem;
 .container-l {max-width: 1440px; margin: 0 auto; padding: 0 40px;}
 .container-md {max-width:1060px; margin:0 auto; width:100%;}
 .btn {display:block;}
+.btn-wrap {width:100%; clear:both; font-size: 0; display: flex; flex-wrap: wrap; gap:24px;}
+.btn-wrap svg {margin-left: 17px;}
+.telbtn, .consult-btn {display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}
+.telbtn {font-weight: bold;}
+.consult-btn {font-size: 0.875rem; font-weight: 500; padding:16px 25px 16px 25px;}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {color:var(--heading); text-decoration: none;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover {color:var(--lime-500);}
@@ -302,7 +307,7 @@ body .frm_forms .frm_form_fields input:focus, body .frm_forms .frm_form_fields t
 
 
 .frm_forms .frm_submit{margin:0;}
-body .frm_forms .frm_submit .button, body .frm_forms .frm_submit button {margin:0; padding: 16px 24px 16px 24px; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 4px; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;}
+body .frm_forms .frm_submit .button, body .frm_forms .frm_submit button {margin:0; padding: 16px 24px 16px 24px; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;}
 body .frm_forms .frm_submit .button:hover, body .frm_forms .frm_submit button:hover, body .frm_forms .frm_submit button:focus {background-color: var(--green)!important; color: var(--blacktext)!important;}
 body .frm_forms .frm_submit .button:after, body .frm_forms .frm_submit button:after {right: 12px;}
 body .frm_forms .frm_submit .button:hover:after, body .frm_forms .frm_submit button:hover:after, body .frm_forms .frm_submit button:focus:after  {color: var(--blacktext);}
@@ -356,7 +361,6 @@ body .frm_forms .frm_submit .button:hover:after, body .frm_forms .frm_submit but
 .stars img{width: 95px; height: 15px; margin-bottom: 20px;}
 
 .optional-text {font-size:1rem; color:var(--white-lime); font-weight:500; margin:0 0 25px 0; display:block; line-height: 1.4;}
-.btn-wrap {width:100%; clear:both;}
 
 
 /* Heading */
