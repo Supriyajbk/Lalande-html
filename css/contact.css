@@ -13,7 +13,7 @@
 .contact-rt-txt{gap: 23px; margin-bottom: 48px;}
 .contact-rt-txt .contact-rt-left{flex: 0 0 300px;}
 .contact-rt-txt .contact-rt-right{flex: 0 0 calc(100% - 323px); flex-grow: 1; margin-top: auto;}
-.contact-rt-txt .contact-rt-right .optional-text{font-size: 1rem; color: var(--light-grey); font-weight: normal;}
+.contact-rt-txt .contact-rt-right .optional-text{font-size: 1rem; color: var(--light-grey); font-weight: normal; margin-bottom: 0;}
 .contact-rt-txt .contact-rt-right .optional-text span{color: var(--white-lime);}
 
 .location-section{background-color: var(--green-900); padding: 80px 0;}
