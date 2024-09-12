@@ -361,7 +361,7 @@ body .frm_forms .frm_submit .button:hover:after, body .frm_forms .frm_submit but
 .stars img{width: 95px; height: 15px; margin-bottom: 20px;}
 
 .optional-text {font-size:1rem; color:var(--white-lime); font-weight:500; margin:0 0 25px 0; display:block; line-height: 1.4;}
-
+.dark-bg ul li:before {color: var(--lime-500);}
 
 /* Heading */
 .heading {clear: both; padding: 0 0 41px; width: 100%; justify-content: space-between; align-items: center;}
