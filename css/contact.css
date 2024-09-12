@@ -18,5 +18,7 @@
 
 .location-section{background-color: var(--green-900); padding: 80px 0;}
 .location-main{}
-.location-head{color: var(--white);}
+.location-head{color: var(--white); text-align: center; max-width: 966px; margin: 0 auto 48px;}
 .location-head .h1{color: var(--white);}
+.location-head p{font-size: 1.25rem; line-height: 1.4;}
+.location-list h3{font-size: 1.875rem; color: var(--white-lime);}
