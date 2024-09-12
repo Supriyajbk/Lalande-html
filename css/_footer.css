@@ -1,5 +1,4 @@
 footer#main_footer {clear: both; padding: 80px 0 80px; width: 100%; position: relative; background: var(--green-900); z-index: 1; overflow: hidden; color: var(--white)}
-footer#main_footer .background-bg:before {background-image: radial-gradient(circle at 50% 50%, rgba(5, 23, 25, 0), var(--green-900) 39%), linear-gradient(to bottom, var(--green-900), var(--green-900)); content: ""; display: block; width: 100%; height: 100%; left: 0; right: 0; margin: auto; position: absolute;}
 footer#main_footer .footer {position: relative}
 footer#main_footer .footer_top {justify-content: space-between; clear: both; align-items: flex-start; padding: 0 0 51px 0}
 
@@ -28,13 +27,16 @@ footer#main_footer .footer_lt .privacy-links ul li:last-child:after {display: no
 footer#main_footer .footer_lt .privacy-links ul li > a {color: var(--light-grey);}
 footer#main_footer .footer_lt .privacy-links ul li > a:hover {color: var(--lime-500);}
 
-footer#main_footer .ftr-sm {clear: both; font-size: 0;}
+footer#main_footer .ftr-sm {clear: both; font-size: 0; margin-top: -1px;}
 footer#main_footer .ftr-sm ul {margin: 0}
 footer#main_footer .ftr-sm ul li {display: inline-block; margin: 0 0 0 16px}
 footer#main_footer .ftr-sm ul li:first-child {margin-left: 0}
-footer#main_footer .ftr-sm ul li a {font-size: 20px; color: var(--white); width:40px; height: 40px; position: relative; z-index: 1; line-height: 1; background-color: var(--lime-500);}
-
-
+footer#main_footer .ftr-sm ul li a {width:40px; height: 40px; position: relative; z-index: 1; background-color: var(--lime-500); display: block; text-indent: -999999px;}
+footer#main_footer .ftr-sm ul li a:hover {background: var(--green-700);}
+footer#main_footer .ftr-sm ul li a figure img {position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; transition: 0.3s all ease-in-out; width: auto; height: 25px;}
+footer#main_footer .ftr-sm ul li a figure img.show-on-hover {opacity: 0; visibility: hidden;}
+footer#main_footer .ftr-sm ul li a:hover figure img.show-on-hover {opacity: 1; visibility: visible;}
+footer#main_footer .ftr-sm ul li a:hover figure img.hide-on-hover {opacity: 0; visibility: hidden;}
 
 footer#main_footer .footer_rt {max-width: 943px; margin: 0; width: calc(100% - 337px);}
 
@@ -53,9 +55,9 @@ footer#main_footer .footer-menu ul.sub-menu li a {color: var(--white)}
 footer#main_footer .footer-menu ul li > a:hover, footer#main_footer .footer-menu ul li.current_page_parent > a, footer#main_footer .footer-menu ul li.current_page_item > a, footer#main_footer .footer-menu ul li.current-menu-parent > a, footer#main_footer .footer-menu ul li.current-post-ancestor > a, footer#main_footer .footer-menu ul li.current-menu-item > a, footer#main_footer .footer-menu ul li.current-page-ancestor > a, footer#main_footer .footer-menu ul li.current-menu-ancestor > a {color: var(--lime-500)}
 
 footer#main_footer .footer_btm {justify-content: space-between; align-items: center;}
-footer#main_footer .footer_btm .ftr-btm-lt {width: 50%; font-size: 0}
-
-
+footer#main_footer .footer_btm .ftr-btm-lt {width: 40%; font-size: 0}
+footer#main_footer .footer_btm .ftr-btm-rt {width: calc(100% - 40%); margin-left: auto;}
+footer#main_footer .footer_btm .ftr-btm-rt .btn-wrap {justify-content: flex-end;}
 
 
 
