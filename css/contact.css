@@ -30,7 +30,8 @@
     z-index: -1;
   }
 
-.contact-rt .common_form .frm_submit .button {background-image: url('/images/navigation-pointer.svg');}
+.contact-rt .common_form .frm_submit .button {background-image: url('/images/navigation-pointer.svg'); background-repeat: no-repeat;
+  background-position: center right 5px;}
 
 .location-section{background-color: var(--green-900); padding: 80px 0;}
 .location-main{}
