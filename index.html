@@ -20,7 +20,7 @@
 <body class="home">
 <div id="main">
   <header id="main_header" class="main_header">
-    <div class="container">
+    <div class="container-lg">
       <div class="header flex">
         <div class="logo"> <a href="index.html"><img src="images/logo.svg" alt="GustoTV Logo"></a></div>
         <div class="toggle_button flex flex-center"><span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span></div>
@@ -180,21 +180,25 @@
   <!-- end of main header -->
   
   <main id="mainContent">
-    <section class="home-banner-section">
+    <section class="default-banner-section pos-relative">
       <div class="banner-bg">
         <picture class="object-fit">
-          <source srcset="images/home-banner@2x.jpg" media="(min-width: 1024px)">
-          <source srcset="images/home-banner-tab@2x.jpg" media="(min-width: 720px)">
+          <source srcset="images/home-banner@2x.jpg" media="(min-width:768px)">
           <img src="images/home-banner-mobile@2x.jpg" alt="home-banner-mobile"> </picture>
         <div class="home-banner-overlay"></div>
       </div>
-      <div class="container home-banner-main">
-        <div class="b-border-top banner-border"></div>
-        <div class="b-border-left banner-border"></div>
-        <div class="b-border-bottom banner-border"></div>
-        <div class="home-banner-text">
-          <h1 data-text="the world’s best food channel">the world’s <span>best</span> food channel</h1>
-          <a href="#" class="readmore">Learn More</a> </div>
+      <div class="container">
+        <div class="default-banner-main flex flex-vcenter">
+        <div class="default-banner-text">
+          <div class="default-banner-bg pos-absolute">&nbsp;</div>
+                                <h1>An extraordinary St. Joe’s starts with an extraordinary community – you.</h1>
+          
+          <div class="btn-wrap">
+                          <a href="#" class="button">Read our Annual Report</a>
+                                     
+                      </div>
+        </div>
+      </div>
       </div>
     </section>
   </main>
