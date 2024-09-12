@@ -7,9 +7,9 @@
 
 /* Header Right */
 .main_header .header .toggle_button, .main_header ul li:before {display: none;}
-.main_header .header-btm {display: flex; flex-wrap: wrap; justify-content: flex-end;  width: 100%; align-items: center;}
+.main_header .header-btm {display: flex; flex-wrap: wrap; justify-content: flex-end;  width: 100%; align-items: center; top: -18px; position: relative; min-height: 80px;}
 .main_header .header_right {width: calc(100% - 109px);}
-
+.main_header .header-btns {position: relative; right: -40px;}
 .model-overlay-hide {overflow: hidden;}
 
 
@@ -19,20 +19,27 @@
 }
 
 @media only screen and (min-width:1024px) {
+    .main_header .header-btns .btn-wrap .consult-btn {padding: 27px 24px 28px; letter-spacing: -0.28px;}
+    .main_header .header-btns .btn-wrap svg {margin-left: 11px; position: relative; top: 1px;}
+    
     ul.main_menu {  margin: 0; font-size: 0;}
     ul.main_menu > li {margin-left: 32px; display: inline-block; margin-bottom: 0;}
     ul.main_menu > li:first-child {margin-left: 0;}
-    ul.main_menu > li > a {padding:14px 0 30px; font-size: 1rem; font-weight: 500; line-height: 157.143%; display: inline-block; position: relative; color: var(--white); letter-spacing: -0.28px;}
+    ul.main_menu > li > a {padding:0; font-size: 0.875rem; font-weight: 500; line-height: 157.143%; display: inline-block; position: relative; color: var(--white); letter-spacing: -0.28px;}
     ul.main_menu > li >a::after {content: ''; position: absolute; display: block; margin: auto; height: 2px; width: 0; bottom: 26px; transition: width .5s ease, background-color .5s ease; left: 50%; transform: translate(-50%, 0);}
     ul.main_menu > li >a:hover:after, ul.main_menu > li.current-menu-item > a:after, 
     ul.main_menu > li.current-menu-parent > a:after, 
     ul.main_menu > li.current-page-ancestor > a:after, 
     ul.main_menu > li.current_page_item > a:after  {width: 100%; background: var(--green);}
-
-    ul.main_menu > li.current-menu-item > a, 
-    ul.main_menu > li.current-menu-parent > a, 
-    ul.main_menu > li.current-page-ancestor > a, 
-    ul.main_menu > li.current_page_item > a{color: var(--lime-500);}
+    
+ul.main_menu li.current-menu-item>a,
+ul.main_menu li.current-menu-parent>a,
+ul.main_menu li.current-page-ancestor>a,
+ul.main_menu li.current-menu-ancestor>a,
+ul.main_menu li.current-menu-ancestor>a,
+ul.main_menu li.menu-item-has-children a:hover,
+ul.main_menu li.current_page_item>a,
+ul.main_menu li>a:hover {color: var(--lime-500);}
     
     
     /* Mega Menu */
