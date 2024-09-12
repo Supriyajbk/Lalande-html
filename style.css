@@ -137,7 +137,7 @@ body {font-family:"DM Sans", sans-serif; color:var(--body-text); font-size:1rem;
 #main {overflow:hidden; position:relative; float:left; width:100%; flex:1 0 auto;}
 #mainContent {clear:both; position:relative; float:left; width:100%; padding: 80px 0 0 0;}
 .container {max-width:1280px; margin:0 auto; width:100%;}
-.container-l {max-width: 1440px; margin: 0 auto; padding: 0 40px;}
+.container-lg {max-width: 1440px; margin: 0 auto; padding: 0 40px;}
 .container-md {max-width:1060px; margin:0 auto; width:100%;}
 .btn {display:block;}
 .btn-wrap {width:100%; clear:both; font-size: 0; display: flex; flex-wrap: wrap; gap:24px;}
