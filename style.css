@@ -358,8 +358,8 @@ body .frm_forms .frm_submit .button:hover:after, body .frm_forms .frm_submit but
 .form-intro h2 {margin: 0 0 16px 0;}
 /*-- common form css ends here --*/
 
-.stars{clear: both; width: 100%;}
-.stars img{width: 95px; height: 15px; margin-bottom: 20px;}
+.stars{clear: both; width: 100%; margin-bottom: 6px}
+.stars img{width: 97px; height: 15px; }
 
 .optional-text {font-size:1rem; color:var(--white-lime); font-weight:500; margin:0 0 25px 0; display:block; line-height: 1.4;}
 .dark-bg ul li:before {color: var(--lime-500);}
