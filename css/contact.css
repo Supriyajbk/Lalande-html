@@ -1,6 +1,6 @@
 .contact-section{width: 100%; overflow: hidden; z-index: 1; background-color: var(--green-900); min-height: 979px;}
-.contact-bg img{opacity: 0.4;}
-.contact-bg figure:after{position: absolute; content:""; display: block; width: 100%; top:0; left: 0;height: 100%;  background: radial-gradient(ellipse, #051719 0%, #051719 100%); z-index: -1; }
+/* .contact-bg img{opacity: 0.4;}
+.contact-bg figure:after{position: absolute; content:""; display: block; width: 100%; top:0; left: 0;height: 100%;  background: radial-gradient(ellipse, #051719 0%, #051719 100%); z-index: -1; } */
 .contact-main{z-index: 1; min-height: 979px;}
 .contact-lt{flex: 27.5%; padding: 80px 80px 80px 0; flex-grow: 1; color: var(--white)}
 .contact-lt h1{color: var(--white);}
