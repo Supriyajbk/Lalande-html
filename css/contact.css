@@ -21,4 +21,11 @@
 .location-head{color: var(--white); text-align: center; max-width: 966px; margin: 0 auto 48px;}
 .location-head .h1{color: var(--white);}
 .location-head p{font-size: 1.25rem; line-height: 1.4;}
-.location-list h3{font-size: 1.875rem; color: var(--white-lime);}
+.loaction-row{gap: 40px;}
+.location-list{flex: 0 0 calc(25% - 30px);}
+.location-list h3{font-size: 1.875rem; color: var(--white-lime); position: relative; padding-top: 42px;}
+.location-list  ul li a{color: var(--dirty-white); font-size: 1.125rem; line-height: 1.33;}
+.location-list ul{margin: 18px 0 0 24px;}
+.location-list ul li:before{font-size: 0.8rem; left: -20.5px; top: 5px; line-height: 14px;}
+.location-list h3:after{position: absolute;  display: block; width: 16px; height: 16px; top: 0; left: 0; font-family: "Font Awesome 6 Pro" ; content:"\f3c5"; font-size: 16px;
+    color: var(--lime-500);}
