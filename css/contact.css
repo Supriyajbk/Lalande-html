@@ -48,3 +48,15 @@
 .location-list ul li:before{font-size: 0.8rem; left: -20.5px; top: 5px; line-height: 14px;}
 .location-list h3:after{position: absolute;  display: block; width: 16px; height: 16px; top: 0; left: 2px; font-family: "Font Awesome 6 Pro" ; content:"\f3c5"; font-size: 16px;
     color: var(--lime-500);}
+
+
+
+
+    @media only screen and (max-width:1240px)and (min-width:1024px){
+
+      .contact-lt{flex: 33.5%; padding: 80px 40px 80px 0;}
+      .contact-rt::before {left: calc(100% - 64.7%);}
+      .contact-rt::after {left: calc(100% - 64.7%);}
+      .contact-rt-wrap { padding: 60px 0 60px 40px; }
+
+    }

@@ -168,8 +168,11 @@ section ol:last-child, section ul:last-child {margin-bottom: 0;}
 
 
 /* Banner Bg */
-.banner-bg {top:0; left:0; right:0; bottom:0; width:100%; height:100%; position:absolute; z-index:-1;}
+.banner-bg {top:0; left:0; right:0; bottom:0; width:100%; height:100%; position:absolute; z-index:-1; opacity: 0.4;}
 .banner-bg img {width:100%; height:100%; font-family:"object-fit:cover"; object-fit:cover; -o-object-fit:cover; object-position:0 0; -o-object-position:0 0;}
+.banner-bg:before {background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.00) 0%, #051719 100%); content: ""; display: block; width: 100%; height: 100%; left: 0; right: 0; margin: auto; position: absolute;}
+
+
 
 /* Background Bg */
 .background-bg {width: 100%; height: 100%; top: 0; left: 0; position: absolute;  z-index: -1; opacity: 0.4;}
