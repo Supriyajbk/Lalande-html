@@ -1,21 +1,16 @@
 .accordion-module {clear: both; width: 100%; padding: 36px 0;}
 
-.accordion-item { position: relative; margin: 0 0 24px 0; background-color: var(--input); border-radius: 16px; font-size: 1rem;}
-.accordion-item.active {background: rgba(242, 246, 186, 0.5);}
-.accordion-item .content { display: none; padding: 8px 22px 17px 22px; line-height: 1.5; color: var(--foreground);}
+.accordion-item { position: relative; background-color: var(--dirty-white); margin: 0 0 8px 0;}
+.accordion-item .content { display: none; padding: 14px 72px 16px 24px; line-height: 1.5; color: var(--grey);}
 .accordion-main .accordion:last-child .accordion-item{margin-bottom: 0;}
-.accordion-item.active .accordion-heading::after { content: "\f056"; }
-.accordion-item .accordion-heading::after { content: "\f055"; width: 20px; font-family: 'Font Awesome 6 Pro'; font-style: normal; font-weight: normal; font-size: 1.25rem; line-height:16px; height: 20px; color:var(--optionaltxt); right: 22px; top: 20px; position: absolute; display: inline-block; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; }
-.accordion-item .accordion-heading { display: block; line-height: 1.44; font-size: 1.125rem; color: var(--heading); text-decoration: none; font-weight: bold; padding:14px 50px 16px 22px; position: relative;}
-.accordion-item .content p { margin-bottom: 0; }
 
-.accordion-item .content ol:first-child, .accordion-item .content ul:first-child {margin-top: 0;}
-.accordion-item .content ol, .accordion-item .content ul {margin-bottom: 40px;}
-.accordion-item .content ol > li::before {font-size: 1rem; top: 2px;}
-.accordion-item .content ol:last-child, .accordion-item .content ul:last-child {margin-bottom: 0;}
+.accordion-item.active .accordion-heading::after { content: "\f068"; }
+.accordion-item .accordion-heading::after { content: "\2b"; width: 48px; font-family: 'Font Awesome 6 Sharp'; font-style: normal; font-weight: normal; font-size: 19px; line-height:48px; height: 48px; color:var(--optionaltxt); right: 0; top: -1px; position: absolute; display: inline-block; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; bottom: 0; display: flex; justify-content: center; align-items: center;}
+.accordion-item .accordion-heading:before {content: ""; background: var(--lime-500); width: 48px; height: 48px; right: 0; top: 0; display: block; position: absolute;}
+.accordion-item .accordion-heading { display: block; line-height: 1.44; font-size: 1.125rem; color: var(--heading); text-decoration: none; font-weight: 500; padding:14px 72px 16px 24px;}
+
 
 /*-- media starts here --*/
 @media only screen and (max-width: 719px) and (min-width: 200px){
-    .accordion-item .accordion-heading {padding: 15px 50px 17px 22px;}
-    .accordion-item .content {padding: 7px 22px 17px 22px;}
+    
 }

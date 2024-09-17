@@ -468,7 +468,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     
 }
 @media only screen and (max-width:1400px) {
-    .container {padding:0 40px; max-width:100%;}
+    .container, .container-lg {padding:0 20px; max-width:100%;}
 }
 
 @media only screen and (max-width:1240px)and (min-width:1024px) {

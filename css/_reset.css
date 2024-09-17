@@ -99,7 +99,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;} 
 
 
-button, .button  {display: inline-block; font-size:1rem; font-weight: 500; line-height: normal; padding: 16px 24px; vertical-align: middle; cursor: pointer; border:0 none; background-color: var(--lime-500); position: relative; transition: all .35s ease-in-out; -webkit-transition: all .35s ease-in-out; -moz-transition: all .35s ease-in-out; text-align: center; color: var(--heading); font-family:"DM Sans", sans-serif; text-decoration: none; letter-spacing: -0.28px; overflow: hidden; z-index: 1;}
+button, .button  {display: inline-block; font-size:0.875rem; font-weight: bold; line-height: normal; padding: 16px 24px; vertical-align: middle; cursor: pointer; border:0 none; background-color: var(--lime-500); position: relative; transition: all .35s ease-in-out; -webkit-transition: all .35s ease-in-out; -moz-transition: all .35s ease-in-out; text-align: center; color: var(--heading); font-family:"DM Sans", sans-serif; text-decoration: none; letter-spacing: -0.28px; overflow: hidden; z-index: 1;}
 button:hover, .button:hover {color: var(--white); z-index: 1;}
 button:focus, .button:focus, button:active, .button:active {background-color: var(--lime-500); color: var(--heading);}
 button svg path, .button svg path {transition: all .35s ease-in-out;}
