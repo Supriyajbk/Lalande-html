@@ -1,3 +1,7 @@
+@import url("../css/_faq-block.css");
+@import url("../css/_accordion-module.css");
+
+
 .home .default-banner-main {min-height: 601px;}
 .home .default-banner-section .banner-bg:after {background: 
     linear-gradient(270deg, rgba(0, 0, 0, 0.00) 32.88%, rgba(0, 0, 0, 0.20) 100%), 

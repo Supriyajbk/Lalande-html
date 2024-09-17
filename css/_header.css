@@ -1,6 +1,6 @@
 .main_header {width: 100%; top: 0; left: 0; right: 0; position: fixed; z-index: 999; transition: .3s ease-in-out;}
 .main_header .container {position: relative;}
-.main_header .header {padding:18px 0 0;}
+.main_header .header {padding:18px 0 0; max-height: 80px;}
 .main_header .logo {width: 109px; position: relative;}
 .main_header .logo a {width: 100%; height: 100%; display: block;}
 
@@ -9,6 +9,8 @@
 .main_header .header .toggle_button, .main_header ul li:before {display: none;}
 
 .model-overlay-hide {overflow: hidden;}
+
+.main_header.fixed-header {background: var(--green-900);}
 
 
 /*** Responsive ***/
@@ -34,11 +36,8 @@
     ul.main_menu > li {margin-left:41px; display: inline-block; margin-bottom: 0;}
     ul.main_menu > li:first-child {margin-left: 0;}
     ul.main_menu > li > a {padding:0; font-size: 0.875rem; font-weight: 500; line-height: 157.143%; display: inline-block; position: relative; color: var(--white); letter-spacing: -0.28px;}
-    ul.main_menu > li >a::after {content: ''; position: absolute; display: block; margin: auto; height: 2px; width: 0; bottom: 26px; transition: width .5s ease, background-color .5s ease; left: 50%; transform: translate(-50%, 0);}
-    ul.main_menu > li >a:hover:after, ul.main_menu > li.current-menu-item > a:after, 
-    ul.main_menu > li.current-menu-parent > a:after, 
-    ul.main_menu > li.current-page-ancestor > a:after, 
-    ul.main_menu > li.current_page_item > a:after  {width: 100%; background: var(--green);}
+    ul.main_menu > li.menu-item-has-children >a {padding: 0 24px 0 0;}
+    ul.main_menu > li.menu-item-has-children >a::after {content: "\f107"; font-family: 'Font Awesome 6 Pro'; font-weight: 400; font-size: 13px; position: absolute; right: 2px; top: 0; color: var(--lime-500);}
     
     ul.main_menu li.current-menu-item>a,
     ul.main_menu li.current-menu-parent>a,
@@ -91,25 +90,15 @@
 
 
 @media only screen and (max-width:1400px)and (min-width:1024px) {
-    ul.main_menu li.flex-menu > ul > li {padding: 0 25px;}
+    
 }
 
 
-@media only screen and (max-width:1240px)and (min-width:1024px) {
-    .main_header .logo {width: 168px;}
-    .main_header .header_right {width:calc(100% - 168px);}
-    .main_header .header-btm {gap:24px;}
-    .header-search {max-width: 169px;}
-    .header-search .search-btn {top: 16px;}
-    .search_form input[type="search"] {padding: 14px 50px 14px 10px; font-size: 0.865rem;}
-    .header-search ::placeholder{font-size: 0.865rem;}
-    .header-search :-moz-placeholder {font-size: 0.865rem;}
-    .header-search ::-moz-placeholder {font-size: 0.865rem;}
-    .header-search :-ms-input-placeholder {font-size: 0.865rem;}
-    
-    ul.main_menu > li {margin-left: 24px;}
-    ul.main_menu > li > a {padding: 10px 0 26px;}
-    ul.main_menu > li > a::after {bottom: 22px;}
+@media only screen and (max-width: 1199px) and (min-width: 1024px) {
+    .main_header .header-btns {right: -20px; margin: 0;}
+    .main_header .header-btns .btn-wrap .consult-btn {padding: 27px 15px 28px;}
+    .main_header .header-btns .btn-wrap .header_phone a {font-size: 1rem; line-height: 24px;}
+    ul.main_menu > li {margin-left: 20px;}
 }
 
 
