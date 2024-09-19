@@ -119,6 +119,12 @@ button.btn-dark:before, button.btn-dark:after, .button.btn-dark:before, .button.
 
 .btn-big {font-size: 1.125rem; letter-spacing: -0.36px; padding: 16px 32px;}
 
+.btn-black{background-color: black; color: var(--white);}
+/* .btn-black:hover{color: var(--heading);} */
+.btn-black:hover svg path {stroke:var(--white);}
+button.btn-black:focus, .button.btn-black:focus, button.btn-black:active, .button.btn-black:active {background-color: var(--lime-500); color: var(--white);}
+button.btn-black:before, button.btn-black:after, .button.btn-black:before, .button.btn-black:after{background: var(--lime-500);}
+
 
 input[type="submit"] {background-image: url("../images/search.svg") !important; background-repeat: no-repeat !important; position: absolute; right:19px; top:0; bottom: 0; padding: 0 !important; width: 17px; height: 17px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0;}
 

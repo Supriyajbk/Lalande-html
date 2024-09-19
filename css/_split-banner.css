@@ -53,10 +53,10 @@ flex-wrap: wrap; align-items: center; z-index: 1; flex-grow: 1;}
     .split-banner-section.no-banner-img .container {padding:0 40px;}
 }
 
-@media only screen and (max-width: 1199px) and (min-width:1024px){
+/* @media only screen and (max-width: 1199px) and (min-width:1024px){
     .split-banner-main .split-banner-text {width: 38.333%;}
     .split-banner-main .split-banner-thumb {width: 61.667%;}
-}
+} */
 
 @media only screen and (max-width: 1140px) and (min-width:1024px){
     .members-grid, .members-grid:nth-child(3n+1) {width: 47.829%; margin: 26px 0 0 3.0534351145038165%;}

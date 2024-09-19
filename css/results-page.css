@@ -2,7 +2,7 @@
 @import url("../css/_stats-module.css");
 @import url("../css/_form-section.css");
 
-.btn-black{background-color: black; color: var(--white);}
+
 
 .result-main-section{width: 100%;position: relative; clear: both;}
 .result-main { padding: 80px 0 54px; clear: both; width: 100%; display: flex; flex-wrap: wrap; gap: 0 50px; }
