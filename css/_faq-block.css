@@ -15,7 +15,7 @@
 .faq-rt {width:64.15094339622641%; margin-left: auto; flex-grow: 1;}
 
 .faq-rt .accordion-item .accordion-heading {font-size: 1rem; line-height: 1.38; padding: 2px 72px 2px 24px; min-height: 48px; display: flex; align-items: center;}
-.faq-rt .accordion-item .content {line-height: 1.55;}
+.faq-rt .accordion-item .content {line-height: 1.55; padding: 12px 72px 18px 24px;}
 /*-- media starts here --*/
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
