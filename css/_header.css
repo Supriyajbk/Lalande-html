@@ -10,7 +10,7 @@
 
 .model-overlay-hide {overflow: hidden;}
 
-.main_header.fixed-header {background: var(--green-900);}
+.main_header.fixed-header, .no-banner .main_header {background: var(--green-900);}
 
 
 /*** Responsive ***/
