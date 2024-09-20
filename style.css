@@ -164,14 +164,9 @@ h2 span:after{bottom: 1px;}
 
 section ol:last-child, section ul:last-child {margin-bottom: 0;}
 
-
-
-
 /* Banner Bg */
 .banner-bg {top:0; left:0; right:0; bottom:0; width:100%; height:100%; position:absolute; z-index:-1; }
 .banner-bg img {width:100%; height:100%; font-family:"object-fit:cover"; object-fit:cover; -o-object-fit:cover; object-position:0 0; -o-object-position:0 0;}
-
-
 
 /* Background Bg */
 .background-bg {width: 100%; height: 100%; top: 0; left: 0; position: absolute;  z-index: -1; opacity: 0.4;}
@@ -274,23 +269,35 @@ body ul.selectBox-dropdown-menu li a {font-size:0.875rem; line-height:1.5; lette
 body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--green); background-color:transparent; cursor:pointer;}
 
 
-.dirty-white-block{position: relative;}
-.dirty-white-block:before{position: absolute; display: block; top: 0; left: 0; content: ""; width: 255px; height: 255px; background-color: var(--dirty-white); z-index: -1;}
-
 /*-- common form css starts here --*/
+.default_form {padding:32px; border-radius: 24px; border: solid 8px var(--input); clear: both; width:100%; margin: 64px 0 17px;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_fields_container {display:block;}
-.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input, .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field textarea {border-bottom:solid 2px #f00!important; padding: 15px 16px 14px 16px;}
-.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error {right:16px !important; width:100%; display:block; font-size:12px !important; color:#f00 !important; background:transparent; padding:0; margin:0; border-radius:0; text-align:right !important; line-height:normal !important; font-weight:400; top:-9px; position:absolute;}
 .frm_forms .frm_form_fields fieldset {margin:0; padding:0; border:0;}
 .frm_forms .frm_form_fields .frm_form_field{margin-bottom:24px; position: relative; clear: both;}
 .frm_forms .frm_form_fields .frm_form_field.frm_full {clear:both; width: 100%;}
+.form-intro {clear: both; width: 100%; margin: 0 0 40px 0;}
+.form-intro h2 {margin: 0 0 16px 0;}
 
+/* Field Width */
+.frm_half {width:calc(50% - 20px); float: left; clear: none!important;}
+.frm_first {margin-right: 40px;}
+.frm_last {float: right; margin-left: auto;}
+.frm_full {margin-right: 0;}
+
+
+/* Error */
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error {right:16px !important; width:100%; display:block; font-size:12px !important; color:var(--white) !important; background:transparent; padding:0; margin:0; border-radius:0; text-align:right !important; line-height:normal !important; font-weight:400; top:-9px; position:absolute;}
+
+
+/* Label */
 .frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label { font-size: 1rem; line-height: 1.5; padding: 0; text-indent: inherit; font-weight: 500; color: var(--white); z-index: 1; text-transform: capitalize; display: block; margin-bottom: 3px;}
 .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label {font-weight: bold; padding: 0 0 10px 0;}
 .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {font-weight: bold; color: var(--white); position: absolute; left: 16px; top: 15px; transition: all ease-in-out 0.3s; visibility: visible;}
 .frm_forms .frm_form_fields .frm_form_field label span {font-weight: normal;}
 .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label.label-top {font-size: 0.875rem; top: -8px;}
 .frm_forms .frm_form_fields .frm_form_field label a {text-decoration: underline;}
+
+/* Radio Button */
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio .frm_error {right: inherit !important; left: 0; text-align: left !important; top: inherit; margin-top: 6px;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio  label {padding-left:29px; display:block; cursor: pointer;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio.frm_other_container label {padding-left:29px; display:block; cursor: pointer;}
@@ -300,72 +307,41 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_radio {margin: 0 0 5px 0;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_radio input.frm_other_input:not(.frm_other_full) {width: 100%; margin: 10px 0 0 0;}
 
+
+/* Checkbox */
+.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"], 
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"] {position: absolute; left: 0; width: 21px; height: 21px; cursor: pointer;  outline: none;  -moz-border-radius: 4px; -webkit-border-radius: 4px;  border-radius: 3px; padding: 0 !important; background: var(--lime-500)!important; border: 0 none !important;}
+.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked:before { content: "\f00c"; font-family: "Font Awesome 6 Pro"; display: block; height: 21px; left: 0px; position: absolute; top: 2px; width: 21px; font-weight: 900; color: var(--heading); font-size: 13px; transform: none; clip-path: inherit; box-shadow: none; text-align: center; margin: 0;}
+.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:before {display: none;}
+
+
+/* Input & Textarea*/
 .frm_forms .frm_form_fields input, .frm_forms .frm_form_fields textarea, .frm_forms .frm_form_fields select {font-family: "DM Sans", sans-serif; font-weight: bold; display: block; outline: 0; border-radius: 0; font-size: 1rem; line-height: 1.25; font-style: normal; vertical-align: middle; -webkit-appearance: none; background-color: rgb(5 23 25 / 80%)!important; color: var(--white)!important; border: 0 none!important; border-bottom:solid 2px var(--lime-500)!important; padding:14px 16px 14px 16px; width: 100%; box-shadow: none; transition: none;}
-body .frm_forms .frm_form_fields input:focus, body .frm_forms .frm_form_fields textarea:focus {box-shadow:none!important;  border: 0 none!important; border-bottom:solid 2px var(--lime-500)!important; background-color: var(--green-900)!important; padding: 15px 16px 14px 16px;}
-
-
+.frm_forms .frm_form_fields input:focus, .frm_forms .frm_form_fields textarea:focus {box-shadow:none!important;  border: 0 none!important; border-bottom:solid 2px var(--lime-500)!important;}
 .frm_forms .frm_form_fields textarea {min-height: 268px;}
 
-.frm_forms .frm_form_fields .selectBox-dropdown{background-color: var(--green-900); color: var(--blacktext); border:solid 1px var(--blacktext); padding:15px 46px 15px 16px; font-family: "DM Sans", sans-serif; font-weight: bold; border-top: 0 none; border-left: 0 none; border-right: 0 none; line-height: 1.3; text-transform: none;}
-.frm_forms .frm_form_fields div.selector {margin-top:16px;}
+/* Select Box */
+.frm_forms .frm_form_fields .selectBox-dropdown{background-color: var(--green-900); color: var(--white); padding:15px 46px 15px 16px; font-family: "DM Sans", sans-serif; font-weight: bold; border-top: 0 none; border-left: 0 none; border-right: 0 none; line-height: 1.3; text-transform: none;}
 
-
-
+/* Button */
 .frm_forms .frm_submit{margin:0;}
-body .frm_forms .frm_submit .button, body .frm_forms .frm_submit button {margin:0; padding: 16px 24px 16px 24px; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;
-    background-image: url('/images/navigation-pointer.svg');
-    background-repeat: no-repeat;
-    padding: 20px 65px 19px 24px;
-    background-position: center right 24px;}
-body .frm_forms .frm_submit .button:hover, body .frm_forms .frm_submit button:hover, body .frm_forms .frm_submit button:focus {background-color: var(--green)!important; color: var(--white)!important;}
-body .frm_forms .frm_submit .button:after, body .frm_forms .frm_submit button:after {right: 12px;}
-body .frm_forms .frm_submit .button:hover:after, body .frm_forms .frm_submit button:hover:after, body .frm_forms .frm_submit button:focus:after  {color: var(--blacktext);}
+.frm_forms .frm_submit .button, .frm_forms .frm_submit button {margin:0; padding:0; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;}
+.frm_forms .frm_submit .button:hover, .frm_forms .frm_submit button:hover {background-color: var(--green-700); color: var(--white);}
+.frm_forms .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block;}
+.frm_forms .frm_submit button span:before {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
+.frm_forms .frm_submit button:hover span:before {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
 
- body .frm_forms .frm_submit button:hover{color: var(--white);}
 
-.form-field {position:relative; margin-bottom:20px;}
-.form-note p {font-size: 0.75rem; line-height: 1.67;}
+/* Error & Success Message */
 .frm_forms .frm_error_style {display: none;}
 .frm_forms .frm_message, .frm_forms .frm_success_style {margin: 0 0 20px 0; padding: 0; background: top; border: 0 none; font-weight: bold; font-size: 1rem; line-height: 1.5;}
 .frm_forms .frm_message p {color: var(--optionaltxt); text-align: center; padding: 0 25px;}
 
-.frm_forms .frm_form_fields .frm_form_field.attach {background-color: var(--input); color: var(--blacktext); border-bottom:solid 1px var(--blacktext); cursor: pointer;}
-.frm_forms .frm_form_fields .frm_form_field.attach.frm_blank_field {border-bottom: solid 2px #f00 }
-.frm_forms .frm_form_fields .frm_form_field.attach label {position: inherit; left: 0; top:0; padding:15px 40px 15px 16px; cursor: pointer; z-index: 1;}
-
-.frm_forms .frm_dropzone {margin: 0; line-height: normal; min-height: inherit; font-size: 0; background: transparent !important; padding: 0 16px; position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 1;}
-.frm_forms .frm_dropzone.dz-started {position: inherit;}
-.frm_forms .dz-message {margin: 0!important; background-color: var(--input); color: var(--blacktext); border-radius: 0; border: 0 none; padding:0; text-align: left;  font-size: inherit;}
-.frm_forms .dz-message button:after {display: none;}
-.frm_forms .dz-message svg {display: none;}
-.frm_forms .dz-message:after {content:"\f093"; font-family: "Font Awesome 6 Pro"!important; font-weight: 900; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: flex; font-size: 1rem; color: var(--heading); position: absolute; right: 18px; top: 0; line-height: 14px; align-items: center; bottom: 0;}
-.frm_dropzone .frm_small_text {display: none;}
-.frm_upload_text button {text-align: left;}
-.frm_dropzone .dz-preview .dz-error-message{display: block; visibility: visible; opacity: 1; height: auto; font-size: 1rem; line-height: 1.5rem; color: #f00;}
-
+/* Bottom Button Wrapper */
 .frm-wrapper {width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;}
-/* .frm-wrapper .frm_submit {width: calc(100% - 82.7%);} */
 .frm-wrapper .frm_submit button {margin-left: auto!important;}
 .frm_forms .frm_form_fields .frm-wrapper .frm_form_field {margin: 0; width: 75%;}
 .frm_forms .frm_form_fields .frm-wrapper > .frm_form_field .frm_form_field {margin-bottom: 0; width: 100%;}
-
-
-.frm_half {width:calc(50% - 20px); float: left; clear: none!important;}
-.frm_first {margin-right: 40px;}
-.frm_last {float: right; margin-left: auto;}
-.frm_full {margin-right: 0;}
-
-.frm_radio {margin: 0 0 9px 0;}
-.frm_radio label {padding: 0px 0 0 34px; cursor: pointer;}
-
-.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"], 
-.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"] {position: absolute; left: 0; width: 21px; height: 21px; cursor: pointer;  outline: none;  -moz-border-radius: 4px; -webkit-border-radius: 4px;  border-radius: 3px; padding: 0 !important; background: var(--lime-500)!important; border: 0 none !important;}
-.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked:before { content: "\f00c"; font-family: "Font Awesome 6 Pro"; display: block; height: 21px; left: 0px; position: absolute; top: 2px; width: 21px; font-weight: 900; color: var(--white); font-size: 13px; transform: none; clip-path: inherit; box-shadow: none; text-align: center; margin: 0;}
-.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:before {display: none;}
-
-.default_form {padding:32px; border-radius: 24px; border: solid 8px var(--input); clear: both; width:100%; margin: 64px 0 17px;}
-.form-intro {clear: both; width: 100%; margin: 0 0 40px 0;}
-.form-intro h2 {margin: 0 0 16px 0;}
 /*-- common form css ends here --*/
 
 .stars{clear: both; width: 100%; margin-bottom: 6px}

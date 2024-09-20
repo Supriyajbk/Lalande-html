@@ -1,50 +1,44 @@
 .contact-section{width: 100%; overflow: hidden; z-index: 1; background-color: var(--green-900); min-height: 979px;}
-/* .contact-bg img{opacity: 0.4;}
-.contact-bg figure:after{position: absolute; content:""; display: block; width: 100%; top:0; left: 0;height: 100%;  background: radial-gradient(ellipse, #051719 0%, #051719 100%); z-index: -1; } */
 .contact-main{z-index: 1; min-height: 979px;}
 .contact-lt{flex: 27.5%; padding: 80px 80px 80px 0; flex-grow: 1; color: var(--white)}
 .contact-lt h1{color: var(--white);}
 .contact-lt .optional-text{font-size: 1.25rem; margin-bottom: 27px; letter-spacing: -0.2px;}
 .contact-lt p{font-size: 1.25rem; letter-spacing: -0.4px; line-height: 1.75rem;}
+
 .contact-rt{flex: calc(100% - 36.6%); flex-grow: 1; }
 .contact-rt:after{position: absolute; width: 1000vw; height: 100%; content:""; display: block; top: 0px; left: calc(100% - 67.7%); background-color: var(--green-700); bottom: 0; z-index: -2;}
 .contact-rt-wrap{padding:  60px  0 60px 80px;}
 .contact-rt.no-contact-lt:after{left: -100vw;}
+
 .contact-rt-txt .contact-rt-left h2{color: var(--white); margin-bottom: 0;}
-.contact-rt-txt{gap: 23px; margin-bottom: 48px;}
+.contact-rt-txt {gap: 23px; margin-bottom: 48px;}
 .contact-rt-txt .contact-rt-left{flex: 0 0 300px;}
 .contact-rt-txt .contact-rt-right{flex: 0 0 calc(100% - 323px); flex-grow: 1; margin-top: auto;}
 .contact-rt-txt .contact-rt-right .optional-text{font-size: 1rem; color: var(--light-grey); font-weight: normal; margin-bottom: 0; line-height: 1.5rem;}
 .contact-rt-txt .contact-rt-right .optional-text span a{color: var(--white-lime);}
-.contact-rt::before { position: absolute; width: 1000vw; height: 100%; content: ""; display: block; top: 0px; left: calc(100% - 67.7%); background-image: url("/images/contact-rt-img@2x.png"); background-size: contain; bottom: 0; z-index: -1; }
-/* 
-.contact-rt .common_form .frm_submit .button {background-image: url('/images/navigation-pointer.svg'); background-repeat: no-repeat; padding: 20px 65px 19px 24px;
-  background-position: center right 24px;} */
+.contact-rt::before { position: absolute; width: 1000vw; height: 100%; content: ""; display: block; top: 0px; left: calc(100% - 67.7%); background-image: url("../images/contact-rt-img@2x.png"); background-size: contain; bottom: 0; z-index: -1; }
+
 
 .location-section{background-color: var(--green-900); padding: 80px 0;}
-.location-main{}
 .location-head{color: var(--white); text-align: center; max-width: 966px; margin: 0 auto 48px;}
 .location-head .h1{color: var(--white);}
 .location-head p{font-size: 1.25rem; line-height: 1.4;}
 .loaction-row{gap: 40px;}
+
 .location-list{flex: 0 0 calc(25% - 30px);  padding-top: 22px;}
 .location-list h3{font-size: 1.875rem; color: var(--white-lime); position: relative; padding-top: 42px;}
-.location-list  ul li a{color: var(--dirty-white); font-size: 1.125rem; line-height: 1.33; font-weight: normal;}
-.location-list  ul li a:hover{color: var(--lime-500);}
+.location-list h3:after{position: absolute;  display: block; width: 16px; height: 16px; top: 0; left: 2px; font-family: "Font Awesome 6 Pro" ; content:"\f3c5"; font-size: 16px; color: var(--lime-500);}
+
 .location-list ul{margin: 18px 0 0 24px;}
 .location-list ul li{margin-bottom: 8px;}
 .location-list ul li:before{font-size: 0.8rem; left: -20.5px; top: 5px; line-height: 14px;}
-.location-list h3:after{position: absolute;  display: block; width: 16px; height: 16px; top: 0; left: 2px; font-family: "Font Awesome 6 Pro" ; content:"\f3c5"; font-size: 16px;
-    color: var(--lime-500);}
+.location-list ul li a{color: var(--dirty-white); font-size: 1.125rem; line-height: 1.33; font-weight: normal;}
+.location-list ul li a:hover{color: var(--lime-500);}
 
 
-
-
-    @media only screen and (max-width:1240px)and (min-width:1024px){
-
-      .contact-lt{flex: 33.5%; padding: 80px 40px 80px 0;}
-      .contact-rt::before {left: calc(100% - 64.7%);}
-      .contact-rt::after {left: calc(100% - 64.7%);}
-      .contact-rt-wrap { padding: 60px 0 60px 40px; }
-
-    }
+@media only screen and (max-width:1240px)and (min-width:1024px){
+  .contact-lt{flex: 33.5%; padding: 80px 40px 80px 0;}
+  .contact-rt::before {left: calc(100% - 64.7%);}
+  .contact-rt::after {left: calc(100% - 64.7%);}
+  .contact-rt-wrap { padding: 60px 0 60px 40px; }
+ }
