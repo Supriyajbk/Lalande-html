@@ -1,7 +1,7 @@
 .accordion-module {clear: both; width: 100%; padding: 36px 0;}
 
 .accordion-item { position: relative; background-color: var(--dirty-white); margin: 0 0 8px 0;}
-.accordion-item .content { display: none; padding: 14px 72px 16px 24px; line-height: 1.5; color: var(--grey);}
+.accordion-item .content { display: none; padding:12px 72px 14px 24px; line-height: 1.5; color: var(--grey);}
 .accordion-main .accordion:last-child .accordion-item{margin-bottom: 0;}
 
 .accordion-item.active .accordion-heading::after { content: "\f068"; }

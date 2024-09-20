@@ -148,9 +148,9 @@ body {font-family:"DM Sans", sans-serif; color:var(--body-text); font-size:1rem;
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {color:var(--heading); text-decoration: none;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover {color:var(--lime-500);}
-h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, .h1 span, .h2 span, .h3 span, .h4 span, .h5 span, .h6 span {position: relative; display: inline-block;}
-h1 span:after, h2 span:after, h3 span:after, h4 span:after, h5 span:after, h6 span:after, .h1 span:after, .h2 span:after, .h3 span:after, .h4 span:after, .h5 span:after, .h6 span:after {background:var(--lime-500); display: inline-block; height: 2px; width: 100%; content: ""; position: absolute; bottom: 5px; left: 0;}
-h2 span:after{bottom: 1px;}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, .h1 span, .h2 span, .h3 span, .h4 span, .h5 span, .h6 span {position: relative; display: inline-block; z-index: 1;}
+h1 span:after, h2 span:after, h3 span:after, h4 span:after, h5 span:after, h6 span:after, .h1 span:after, .h2 span:after, .h3 span:after, .h4 span:after, .h5 span:after, .h6 span:after {background:var(--lime-500); display: inline-block; height: 2px; width: 100%; content: ""; position: absolute; bottom: 5px; left: 0; z-index: -1;}
+/*h2 span:after{bottom: 4px;}*/
 
 .h1, .h2, .h3, .h4, .h5, .h6 {display: block; font-family:"DM Serif Text", sans-serif; color: var(--heading);}
 .h1 {font-size: 3rem; line-height: 1.3; margin-bottom: 24px; letter-spacing: -1.44px;}
@@ -328,7 +328,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms .frm_submit .button, .frm_forms .frm_submit button {margin:0; padding:0; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;}
 .frm_forms .frm_submit .button:hover, .frm_forms .frm_submit button:hover {background-color: var(--green-700); color: var(--white);}
 .frm_forms .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block;}
-.frm_forms .frm_submit button span:before {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
+.frm_forms .frm_submit button span:before {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; right: 24px; top: 16px;}
 .frm_forms .frm_submit button:hover span:before {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
 
 
