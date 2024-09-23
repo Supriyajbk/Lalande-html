@@ -1,7 +1,9 @@
 @import url("../css/_hero-banner.css");
 @import url("../css/_faq-block.css");
 @import url("../css/_accordion-module.css");
-
+@import url("../css/_mini-cta-module.css");
+@import url("../css/_recent-insights-module.css");
+@import url("../css/_form-section.css");
 
 .home .default-banner-main {min-height: 601px;}
 .home .default-banner-section .banner-bg:after {background: 
