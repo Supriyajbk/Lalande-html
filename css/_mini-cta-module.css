@@ -1,6 +1,6 @@
 .mini-cta-module {clear: both; width: 100%; background: var(--green-900); color:var(--light-grey); min-height:32.223vw; z-index: 1;}
 .mini-cta-bg {top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; z-index: -1;}
-.mini-cta-main {max-width: 1030px; width: 100%; margin: 0 auto; padding:13.36% 7.766990291262135%;}
+.mini-cta-main {max-width: 1030px; width: 100%; margin: 0 auto; padding:13.36% 7.766990291262135%; min-height: 32.223vw; display: flex; align-items: center;}
 .mini-cta-main h2 {color: var(--white); margin-bottom: 7px;}
 .mini-cta-main p {margin: 0;}
 .mini-cta-main .btn-wrap .button {font-size: 1.125rem; width: 100%; padding: 16px 31px;}
