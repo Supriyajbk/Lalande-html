@@ -438,7 +438,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 .readmore:hover:after {width:100%;}
 
 .stats-more {position: relative; z-index: 1; width: 100%; text-align: center;}
-.stats-more .readmore{color: var(--white);}
+/* .stats-more .readmore{color: var(--white);} */
 
 .fullimg {clear: both; width: 100%;}
 
