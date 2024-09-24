@@ -20,7 +20,7 @@ function check_if_view() {
     ) {
       animation_started = true;
 
-      $element.find(".big").each(function() {
+      $element.find(".counter").each(function() {
         let $this = jQuery(this);
         let countTo = parseInt($this.attr("data-count-to"));
         let countDuration = parseInt($this.attr("data-duration"));
