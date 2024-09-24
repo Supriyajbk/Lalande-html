@@ -6,7 +6,7 @@
 flex-wrap: wrap; align-items: center; z-index: 1; flex-grow: 1;}
 .split-banner-main .split-banner-text .split-txt-inner {max-width: 574px; margin-left: auto; width: 100%;}
 .split-banner-main .split-banner-text .split-banner-bg {background: var(--optionaltxt); height: 1000%; width: 1000%; display: block; right: 0; top: -100%; z-index: -1;}
-.split-banner-main .split-banner-text h1 {color: var(--white); font-size: 3rem; font-weight: 500; letter-spacing: -0.8px; margin-bottom: 32px;}
+.split-banner-main .split-banner-text h1 {color: var(--white);  font-weight: 500; letter-spacing: -0.8px; }
 .split-banner-main .split-banner-text h1 span {color: var(--link);}
 .split-banner-main .split-banner-text .optional-text {color: var(--link); margin-bottom: 24px;}
 .split-banner-main .split-banner-text p {font-size: 1.25rem; margin-bottom:32px; line-height: 1.44; color:var(--white); font-weight: 400;}
