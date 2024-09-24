@@ -119,10 +119,11 @@ button.btn-dark:before, button.btn-dark:after, .button.btn-dark:before, .button.
 
 .btn-big {font-size: 1.125rem; letter-spacing: -0.36px; padding: 16px 32px;}
 
-.btn-black{background-color: black; color: var(--white);}
-/* .btn-black:hover{color: var(--heading);} */
-.btn-black:hover svg path {stroke:var(--white);}
-button.btn-black:focus, .button.btn-black:focus, button.btn-black:active, .button.btn-black:active {background-color: var(--lime-500); color: var(--white);}
+.btn-black{background: var(--green-900); color: var(--white);}
+.btn-black:hover{color: var(--green-900);}
+.btn-black:hover svg path{stroke: var(--green-900);}
+
+utton.btn-black:focus, .button.btn-black:focus, button.btn-black:active, .button.btn-black:active {background-color: var(--lime-500); color: var(--white);}
 button.btn-black:before, button.btn-black:after, .button.btn-black:before, .button.btn-black:after{background: var(--lime-500);}
 
 

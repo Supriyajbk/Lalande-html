@@ -10,6 +10,7 @@
 .stats-list .h4{font-size: 1.5rem; color: var(--white); font-family: "DM Serif Medium", sans-serif}
 .stats-list p{color: var(--light-grey);}
 
+.stats-more .readmore{cursor: pointer;}
 
 @media only screen and (min-width: 1024px){
     .stats-list:nth-child(4n+1)::after{display: none;}
@@ -20,6 +21,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .stats-main{padding: 30px 0;}
     .stats-list:nth-child(3n+1)::after{display: none;}
+    .stats-list{flex: 0 0 33.33%;}
 
 
 }

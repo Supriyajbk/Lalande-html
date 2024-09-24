@@ -1,6 +1,7 @@
 /* Banner */
-.split-banner-section {clear: both; width: 100%; position: relative; overflow: hidden;  background-color: var(--green-900); z-index: 1;}
+.split-banner-section {clear: both; width: 100%; position: relative; overflow: hidden;  background-color: var(--green-900); z-index: 1; min-height: 402px;}
 .split-banner-section .container {max-width: 100%; padding-right: 0;}
+.split-banner-main{min-height: 402px;}
 .split-banner-main .split-banner-text {clear: both;  padding: 40px 55px 40px 64px;  position: relative; width: 50%; display: flex;
 flex-wrap: wrap; align-items: center; z-index: 1; flex-grow: 1;}
 .split-banner-main .split-banner-text .split-txt-inner {max-width: 574px; margin-left: auto; width: 100%;}
