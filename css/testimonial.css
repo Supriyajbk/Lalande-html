@@ -43,11 +43,13 @@
 
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .testimonial-wrap{padding: 50px 0}
+    .testimonial-wrap{padding: 40px 0 40px;}
     .testimonial-section .stars { margin-bottom: 10px; }
-
+    .testimonial-bg{padding: 64px 0 0;}
     .testimonial-bg .background-bg{height: auto;}
     .testimonial-bg .background-bg:before{background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.00) 0%, #051719 100%);} 
-
+    .testimonial-list{margin-bottom: 32px;}
+    .testimonial-aut-cont h2 { font-size: 1.25rem; line-height: 1; margin-bottom: 4px;}
+    .testimonial-section .stats-more { margin-top: 0;  text-align: left;}
 
 }
