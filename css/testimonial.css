@@ -23,7 +23,7 @@
 .testimonial-aut img{width: 48px; border-radius: 80px; height: 48px;}
 
 .testimonial-aut-cont{flex: 0 0 calc(100% - 64px); flex: 1;}
-.testimonial-aut-cont h2{font-size: 1.5rem; color: var(--white); margin-bottom: 0;}
+.testimonial-aut-cont .h4{ color: var(--white); margin-bottom: 0;}
 .testimonial-aut-cont span{margin-bottom: 0;}
 
 
@@ -49,7 +49,7 @@
     .testimonial-bg .background-bg{height: auto;}
     .testimonial-bg .background-bg:before{background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.00) 0%, #051719 100%);} 
     .testimonial-list{margin-bottom: 32px;}
-    .testimonial-aut-cont h2 { font-size: 1.25rem; line-height: 1; margin-bottom: 4px;}
+    .testimonial-aut-cont .h4 { font-size: 1.25rem; line-height: 1; margin-bottom: 4px;}
     .testimonial-section .stats-more { margin-top: 0;  text-align: left;}
 
 }
