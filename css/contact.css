@@ -13,8 +13,8 @@
 .contact-rt-txt .contact-rt-left{flex: 0 0 300px;}
 .contact-rt-txt .contact-rt-right{flex: 0 0 calc(100% - 323px); flex-grow: 1; margin-top: auto;}
 .contact-rt-txt .contact-rt-right .optional-text{font-size: 1rem; color: var(--light-grey); font-weight: normal; margin-bottom: 0; line-height: 1.5rem;}
-.contact-rt-txt .contact-rt-right .optional-text span a{color: var(--white-lime);}
-.contact-rt-txt .contact-rt-right .optional-text span a:hover{color: var(--lime-500);}
+.contact-rt-txt .contact-rt-right .optional-text  a{color: var(--white-lime);}
+.contact-rt-txt .contact-rt-right .optional-text  a:hover{color: var(--lime-500);}
 
 
 
