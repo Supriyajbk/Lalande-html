@@ -55,14 +55,16 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {-w
 button[disabled], input[disabled] {cursor: default;}
 input[type="checkbox"], input[type="radio"] {padding: 0;}
 
-input[type="search"] {border: none; border-bottom: 1px solid var(--blacktext); background: var(--input); text-transform: capitalize; font-size:1rem; text-transform: none; font-weight: bold; padding:14px 47px 13px 16px; appearance: none; -moz-appearance: none; -webkit-appearance: none;}
-input[type="search"]::placeholder{font-size: 0.875rem; text-transform: none; letter-spacing: -0.1px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
-input[type="search"]:-moz-placeholder {font-size: 0.875rem; text-transform: none; letter-spacing: -0.1px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
-input[type="search"]::-moz-placeholder {font-size: 0.875rem; text-transform: none; letter-spacing: -0.1px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
-input[type="search"]:-ms-input-placeholder {font-size: 0.875rem; text-transform: none; letter-spacing: -0.1px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+input[type="search"] {border: none;  background: var(--white); color: var(--grey); text-transform: capitalize; font-size:1rem; text-transform: none; font-weight: bold; padding: 20px 47px 20px 16px; appearance: none; -moz-appearance: none; -webkit-appearance: none;}
+input[type="search"]::placeholder{font-size: 1rem; line-height: 1.25; font-weight: 500; text-transform: none; letter-spacing: -0.1px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+input[type="search"]:-moz-placeholder {color: var(--grey)!important; font-size: 1rem; text-transform: none; letter-spacing: -0.1px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+input[type="search"]::-moz-placeholder {color: var(--grey)!important; font-size: 1rem; text-transform: none; letter-spacing: -0.1px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+input[type="search"]:-ms-input-placeholder {color: var(--grey)!important; font-size: 1rem; text-transform: none; letter-spacing: -0.1px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
 
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {display: none;}
 input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+
+.search-form .form-field{position: relative;}
 
 button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
 textarea {overflow: auto; vertical-align: top; min-height: 128px; border-radius: 26px;}
@@ -127,7 +129,7 @@ utton.btn-black:focus, .button.btn-black:focus, button.btn-black:active, .button
 button.btn-black:before, button.btn-black:after, .button.btn-black:before, .button.btn-black:after{background: var(--lime-500);}
 
 
-input[type="submit"] {background-image: url("../images/search.svg") !important; background-repeat: no-repeat !important; position: absolute; right:19px; top:0; bottom: 0; padding: 0 !important; width: 17px; height: 17px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0;}
+input[type="submit"] {background-image: url("../images/search-icon.svg") !important; background-repeat: no-repeat !important; position: absolute; right:16px; top:0; bottom: 0; padding: 0 !important; width: 24px; height: 24px; margin: auto; background-color: transparent !important; border: 0 none; border-radius: 0;}
 
 
 ::-webkit-input-placeholder {color: var(--white); font-family:"DM Sans", sans-serif; opacity: 1; font-size: 1rem;}
@@ -170,11 +172,6 @@ img.alignnone {margin:44px 0 40px; display: block; clear: both;}
 
 
 
-@media only screen and (max-width: 1023px) and (min-width: 720px) {
-	
-    h1 {font-size: 2.5rem; line-height: 1.2; margin-bottom: 24px;}
-
-}
 
 
 @media only screen and (max-width: 719px) and (min-width: 200px) {

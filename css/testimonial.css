@@ -1,9 +1,8 @@
 @import url("../css/_form-section.css");
 @import url("../css/_hero-banner-section.css");
 
-.testimonial-bg{background-color: var(--green-900); overflow: hidden; z-index: 1; width: 100%;}
-.testimonial-bg .background-bg:before{background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.50) 0%, rgba(5, 23, 25, 0.50) 100%);} 
-.testimonial-bg.background-bg{opacity: 1;}
+.hero-bg .background-bg:before{background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.50) 0%, rgba(5, 23, 25, 0.50) 100%);} 
+
 .testimonial-section{ width: 100%; overflow: hidden; z-index: 1; }
 
 .testimonial-row{gap: 40px;  display: block;}
@@ -15,7 +14,7 @@
 
 .testimonial-list .testimonial-text:only-child p:first-child{padding-top: 32px;}
 .testimonial-list .testimonial-text:only-child .testimonial-aut-wrap{margin-bottom: 16px;}
-.testimonial-list .testimonial-text:only-child p:first-child:before{ top: 0; left: 0;}
+.testimonial-list .testimonial-text:only-child p:first-child:before{ top: 0; left: 0; bottom:inherit;}
 .testimonial-list .testimonial-text:only-child .testimonial-aut img{width: 24px; height: 24px;} 
 .testimonial-list.no-testimonial-img{border: 1px solid var(--green-300); margin-bottom: 46px;}
 
@@ -35,7 +34,7 @@
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .testimonial-wrap{padding: 64px;}
+    .testimonial-wrap{padding: 64px 0;}
     .testimonial-row {column-count: 2;}
 
 
@@ -45,9 +44,9 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .testimonial-wrap{padding: 40px 0 40px;}
     .testimonial-section .stars { margin-bottom: 10px; }
-    .testimonial-bg{padding: 64px 0 0;}
-    .testimonial-bg .background-bg{height: auto;}
-    .testimonial-bg .background-bg:before{background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.00) 0%, #051719 100%);} 
+    .hero-bg{padding: 64px 0 0;}
+    .hero-bg .background-bg{height: auto;}
+    .hero-bg .background-bg:before{background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.00) 0%, #051719 100%);} 
     .testimonial-list{margin-bottom: 32px;}
     .testimonial-aut-cont .h4 { font-size: 1.25rem; line-height: 1; margin-bottom: 4px;}
     .testimonial-section .stats-more { margin-top: 0;  text-align: left;}
