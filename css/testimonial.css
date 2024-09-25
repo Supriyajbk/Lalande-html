@@ -11,7 +11,7 @@
 
 .testimonial-img{margin-bottom: 16px;}
 .testimonial-text p{position: relative; margin-bottom: 25px;}
-.testimonial-text p:first-child::before{position: absolute; content: ""; background-image: url('/images/testimonial-icon.svg'); bottom: 6px; right: -16px; width: 85px; height: 63px; display: block; z-index: -1;}
+.testimonial-text p:first-child::before{position: absolute; content: ""; background-image: url('../images/testimonial-icon.svg'); bottom: 6px; right: -16px; width: 85px; height: 63px; display: block; z-index: -1;}
 
 .testimonial-list .testimonial-text:only-child p:first-child{padding-top: 32px;}
 .testimonial-list .testimonial-text:only-child .testimonial-aut-wrap{margin-bottom: 16px;}
