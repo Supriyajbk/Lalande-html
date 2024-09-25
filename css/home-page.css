@@ -1,10 +1,11 @@
-@import url("../css/_hero-banner.css");
-@import url("../css/_features-module.css");
-@import url("../css/_faq-block.css");
-@import url("../css/_accordion-module.css");
-@import url("../css/_mini-cta-module.css");
-@import url("../css/_recent-insights-module.css");
-@import url("../css/_form-section.css");
+@import url("_default-banner.css");
+@import url("_features-module.css");
+@import url("_faq-block.css");
+@import url("_accordion-module.css");
+@import url("_mini-cta-module.css");
+@import url("_recent-insights-module.css");
+@import url("_form-section.css");
+
 
 
 
