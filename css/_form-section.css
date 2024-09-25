@@ -16,7 +16,8 @@
 
 .form-section .frm_forms .frm_form_fields textarea { min-height: 138px; }
 
-
+.form-lt p span{display: block;}
+.form-lt p span a:hover{color: var(--lime-500);}
 
 .form-images figure{width: 32px; height: 32px;}
 .form-images img{width: 32px; height: 32px; border-radius: 40px; border: 2px solid var(--green-300)}
@@ -24,6 +25,7 @@
 .form-images figure{margin-left: -10px;}
 
 .form-section .background-bg{opacity: 0.05;}
+
 @media only screen and (min-width: 1024px){
 
 

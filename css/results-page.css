@@ -1,24 +1,26 @@
-@import url("../css/_split-banner.css");
+@import url("../css/_split-banner.css?v=999uuu");
 @import url("../css/_stats-module.css");
 @import url("../css/_form-section.css");
 
 
 
 .result-main-section{width: 100%;position: relative; clear: both;}
-.result-main { padding: 80px 0 54px; clear: both; width: 100%;  flex-wrap: wrap; gap: 0 50px; }
+.result-main {position: relative; padding: 80px 0 54px; clear: both; width: 100%;  flex-wrap: wrap; gap: 0 50px; }
+.result-main:after{position: absolute; content: ""; display: block; top: 0; left: -80px; width: 255px; height: 255px; background-color: var(--dirty-white); z-index: -1;}
 .result-lt h2{max-width: 667px;}
-.result-lt p{font-size: 1.25rem; line-height: 1.75rem;}
+.result-lt p{font-size: 1.25rem; line-height: 1.4;}
 .result-rt{ text-align: center; z-index: 1; position: relative;}
 
 .result-rt .result-icon{max-width: 24px; margin: 0 auto 4px;}
-.result-rt h3{font-size: 3rem; color: var(--white); margin: 0 auto 24px; max-width: 300px;}
-.result-rt p{font-size: 1.125rem; line-height: 1.688rem; color: var(--light-grey); margin-bottom: 37px;}
+.result-rt .h1{ color: var(--white); margin: 0 auto 24px; max-width: 300px;}
+.result-rt p{font-size: 1.125rem; line-height: 1.5; color: var(--light-grey); margin-bottom: 37px;}
 .result-rt .consult-btn{font-size: 1.125rem}
 .result-rt .button{width: 100%;}
 .result-rt .btn-wrap{gap: 8px;}
 .result-rt-wrap{ padding: 40px 30px; color: var(--white); background-color: var(--green-700); text-align: center;  }
 .result-rt p br{display: none;}
 
+.result-main-section .result-rt-wrap .btn-wrap .consult-btn:after, .result-main-section .result-rt-wrap .btn-wrap .consult-btn:before{background: var(--green-900)!important; color: var(--white);}
 
 @media only screen and (min-width: 1024px){
     .result-main{display: flex;}

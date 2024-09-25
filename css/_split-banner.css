@@ -1,11 +1,12 @@
 /* Banner */
-.split-banner-section {clear: both; width: 100%; position: relative; overflow: hidden;  background-color: var(--green-900); z-index: 1;}
+.split-banner-section {clear: both; width: 100%; position: relative; overflow: hidden;  background-color: var(--green-900); z-index: 1; min-height: 402px; padding: 80px 0 0 0;}
 .split-banner-section .container {max-width: 100%; padding-right: 0;}
+.split-banner-main{min-height: 402px;}
 .split-banner-main .split-banner-text {clear: both;  padding: 40px 55px 40px 64px;  position: relative; width: 50%; display: flex;
 flex-wrap: wrap; align-items: center; z-index: 1; flex-grow: 1;}
 .split-banner-main .split-banner-text .split-txt-inner {max-width: 574px; margin-left: auto; width: 100%;}
 .split-banner-main .split-banner-text .split-banner-bg {background: var(--optionaltxt); height: 1000%; width: 1000%; display: block; right: 0; top: -100%; z-index: -1;}
-.split-banner-main .split-banner-text h1 {color: var(--white); font-size: 3rem; font-weight: 500; letter-spacing: -0.8px; margin-bottom: 32px;}
+.split-banner-main .split-banner-text h1 {color: var(--white);  font-weight: 500; letter-spacing: -0.8px; }
 .split-banner-main .split-banner-text h1 span {color: var(--link);}
 .split-banner-main .split-banner-text .optional-text {color: var(--link); margin-bottom: 24px;}
 .split-banner-main .split-banner-text p {font-size: 1.25rem; margin-bottom:32px; line-height: 1.44; color:var(--white); font-weight: 400;}
