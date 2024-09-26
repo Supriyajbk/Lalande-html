@@ -323,11 +323,11 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_radio {margin: 0 0 5px 0;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_radio input.frm_other_input:not(.frm_other_full) {width: 100%; margin: 10px 0 0 0;}
 
-
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio label{font-size: 0.875rem; color: var(--light-grey); text-transform: none;}
 /* Checkbox */
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"], 
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"] {position: absolute; left: 0; width: 21px; height: 21px; cursor: pointer;  outline: none;  -moz-border-radius: 4px; -webkit-border-radius: 4px;  border-radius: 3px; padding: 0 !important; background: var(--lime-500)!important; border: 0 none !important;}
-.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked:before { content: "\f00c"; font-family: "Font Awesome 6 Pro"; display: block; height: 21px; left: 0px; position: absolute; top: 2px; width: 21px; font-weight: 900; color: var(--heading); font-size: 13px; transform: none; clip-path: inherit; box-shadow: none; text-align: center; margin: 0;}
+.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked:before { content: "\f00c"; font-family: "Font Awesome 6 Pro"; display: block; height: 21px; left: 0px; position: absolute; top: 2px; width: 21px; font-weight: 900; color: var(--heading); font-size: 13px; transform: none; clip-path: inherit; box-shadow: none; text-align: center; margin: 0; background-image: none!important;}
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:before {display: none;}
 
 .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked {background-color: var(--lime-500)!important;}
@@ -508,7 +508,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
     .h1 {font-size: 2.5rem; line-height: 1.2; margin-bottom:24px;}
-    .frm_forms .frm_form_fields .frm-wrapper .frm_form_field {width: 100%; margin-bottom: 20px; }
+    .frm_forms .frm_form_fields .frm-wrapper .frm_form_field { margin-bottom: 20px; }
     .frm-wrapper .frm_submit {width: 100%;}
     .frm-wrapper .frm_submit button {margin-left: 0!important;}
     
