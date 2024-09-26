@@ -7,7 +7,7 @@
 @import url("_recent-insights-module.css");
 @import url("_form-section.css");
 
-
+.default-banner-main .default-banner-text h1 span:after {height: 3px;}
 
 
 
