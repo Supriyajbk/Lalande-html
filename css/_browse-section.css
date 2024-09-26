@@ -1,0 +1,3 @@
+.browse-row{gap: 24px;}
+.browse-row button{width: 302px;}
+.browse-dropdown{width: calc(33.33% - 302px); flex: 1;}
