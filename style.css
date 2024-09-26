@@ -237,18 +237,18 @@ body .mfp-close:after {display: none;}
 
 
 /* Default Slick navigations */
-.slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; width: 12px; height: 12px;bottom: 0; margin: auto; border-top: 3px solid var(--foreground); opacity: 0.75; border-left: 3px solid var(--foreground);}
-.slick-arrow:hover {border-color: var(--foreground); opacity: 0.5}
-.slick-arrow:before {display: block; height: 200%; width: 200%; margin-left: -50%; margin-top: -50%; content: ""; transform: rotate(46.5deg);}
-.slick-arrow.prev-arrow {right: auto; left: 0; transform: rotate(-46deg);}
-.slick-arrow.next-arrow {right: 0; left: auto;  transform: rotate(135deg);}
-.slick-arrow.slick-disabled {pointer-events:none; border-color: rgba(0, 0, 0, 0.2);}
+.slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; width: 56px; height: 56px;bottom: 0; margin: auto; background: var(--lime-500);}
+.slick-arrow:hover {background: var(--green-700); color: var(--white);}
+.slick-arrow:before {display: block; height: 100%; width: 100%; margin-left: -50%; margin-top: -50%;}
+.slick-arrow.prev-arrow {right: auto; left: 0;}
+.slick-arrow.next-arrow {right: 0; left: auto;}
+.slick-arrow.slick-disabled {pointer-events:none;}
 
 
 ul.slick-dots {margin:0; padding-top:31px; padding-bottom: 15px; display:flex; justify-content:center; flex-wrap:wrap; width: 100%;}
 ul.slick-dots li {margin:0 7.5px 15px!important; display:inline-block; font-size:0; line-height:0;}
 ul.slick-dots li::before, ul.slick-dots li button:before, ul.slick-dots li button:after {display:none;}
-ul.slick-dots li button {width:5px; height:5px; min-width:0; padding:0; font-size:0; line-height:0; border:0 none; background:var(--text-violetblue); opacity:0.3;}
+ul.slick-dots li button {width:5px; height:5px; min-width:0; padding:0; font-size:0; line-height:0; border:0 none; background:var(--lime-500); opacity:0.3;}
 ul.slick-dots li.slick-active button {opacity:1;}
 
 #blog_list{margin: 0;}
@@ -305,7 +305,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 
 /* Error */
-.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error { right: 0; width: 100%; display: block; font-size: 12px !important; color: var(--white); background: transparent; padding: 0; margin: 0; border-radius: 0; text-align: right !important; line-height: normal !important; font-weight: 400; top: 4px; position: absolute; }
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error { right: 0; width: 100%; display: block; font-size: 12px !important; color: var(--white); background: transparent; padding: 0; margin: 0; border-radius: 0; text-align: right !important; line-height: normal !important; font-weight: 400; top: inherit; position: absolute; }
 
 /* Label */
 .frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label { font-size: 1rem; line-height: 1.5; padding: 0; text-indent: inherit; font-weight: 500; color: var(--white); z-index: 1; text-transform: capitalize; display: block; margin-bottom: 3px; visibility: visible;}
@@ -316,6 +316,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms .frm_form_fields .frm_form_field label a {text-decoration: underline;}
 
 /* Radio Button */
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm-wrapper .frm_form_field.form-field.frm_required_field.frm_top_container.vertical_radio {margin-right: 10px; width: 75%;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio .frm_error {right: inherit !important; left: 0; text-align: left !important; top: inherit; margin-top: 6px;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio  label {padding-left:29px; display:block; cursor: pointer;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio.frm_other_container label {padding-left:29px; display:block; cursor: pointer;}
@@ -345,15 +346,17 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 /* Button */
 .frm_forms .frm_submit{margin:0;}
-.frm_forms .frm_submit .button, .frm_forms .frm_submit button {margin:0; padding:0; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;}
-.frm_forms .frm_submit .button:hover, .frm_forms .frm_submit button:hover { color: var(--white);}
-.frm_forms .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block; color: var(--heading);
-    font-weight: 700; }
-.frm_forms .frm_submit button span:after {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; right: 24px; top: 16px;}
- .frm_forms .frm_submit button:hover span:after {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
- .frm_style_formidable-style.with_frm_style .frm_submit button { padding: 0; box-shadow: none; border: 0; margin: 0; margin-left: 0px; border-radius: 0; background: var(--lime-500); }
- .frm_style_formidable-style.with_frm_style .frm_submit button:hover { background: var(--green-700); color: #ffffff; }
- .frm_style_formidable-style.with_frm_style .frm_submit button:hover span{color: var(--white);}
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit .button, 
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button,
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button:active {margin:0; padding:0; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--heading); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal; box-shadow: none;}
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit.button:hover, .frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button:hover { color: var(--white);}
+
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block;}
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button span:after {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; right: 24px; top: 16px;}
+ .frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button:hover span:after {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
+
+
+
 /* Error & Success Message */
 .frm_forms .frm_error_style {display: none;}
 .frm_forms .frm_message, .frm_forms .frm_success_style {margin: 0 0 20px 0; padding: 0; background: top; border: 0 none; font-weight: bold; font-size: 1rem; line-height: 1.5;}

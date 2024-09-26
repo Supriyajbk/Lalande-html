@@ -21,8 +21,8 @@ if(tvslideCount > 7){
     touchThreshold: 100,
       autoplay:true,
       autoplaySpeed:1000,
-      prevArrow:'<span class="slick-arrow prev-arrow fa-sharp fa-light fa-arrow-left-long flex flex-center"></span>',
-      nextArrow:'<span class="slick-arrow next-arrow fa-sharp fa-light fa-arrow-right-long flex flex-center"></span>',
+      prevArrow:'<span class="slick-arrow prev-arrow fa-regular fa-angle-left flex flex-center"></span>',
+      nextArrow:'<span class="slick-arrow next-arrow fa-regular fa-angle-right flex flex-center"></span>',
   });
 }
   }
