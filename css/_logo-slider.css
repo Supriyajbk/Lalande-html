@@ -3,16 +3,16 @@
 .logo-slider-row .slick-track{display: flex; align-items: center;}
 .logo-slider {max-width: 1124px; margin: 0 auto; padding: 0 0 0 24px;}
 .logo-img { margin: 0 24px;}
-.logo-img img{height: 49px; width: auto;}
+.logo-img img{height: 49px;}
 
 @media only screen and (max-width: 1240px) and (min-width: 1024px) {
     .logo-slider {padding: 0 100px;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 720px) {
-    .logo-img img{max-height: 64px;}
+    .logo-slider {padding: 0 48px;}
+    .logo-img {width: 122px;}
 }
 
 @media only screen and (max-width: 719px) and (min-width: 200px) {   
-    .logo-img img{max-height: 48px;}
 }

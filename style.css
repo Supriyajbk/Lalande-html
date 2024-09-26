@@ -216,7 +216,7 @@ body .mfp-close:after {display: none;}
 .cat-wrap ul {margin: 0; font-size: 0;}
 .cat-wrap ul li {margin: 0; margin: 0 8px 10px 0; display: inline-block;}
 .cat-wrap ul li:before {display: none;}
-.cat-wrap ul li a {display: inline-block; color: var(--darkgreen); font-size: 0.75rem; font-weight: bold; line-height: 1; text-decoration: none; position: relative;  padding: 0 2px 0 1px; z-index: 1;}
+.cat-wrap ul li a {display: inline-block; color: var(--white); font-size: 0.75rem; font-weight: bold; line-height: 1; text-decoration: none; position: relative;  padding: 0 2px 0 1px; z-index: 1;}
 .cat-wrap ul li a:after{ content: ""; display: block; background: var(--green); width: 100%; height: 1px; bottom: -1px; left: 0; position: absolute; transition: all 0.3s ease-in-out; z-index: -1;}
 .cat-wrap ul li a:hover:after {height: 6px; background: var(--limegreen);}
 
@@ -254,28 +254,9 @@ ul.slick-dots li.slick-active button {opacity:1;}
 #blog_list{margin: 0;}
 .btn-center{position: relative; z-index: 1; width: 100%; text-align: center;}
 
-/*.button.btn-big.consult-btn svg { margin-left: 11px; position: relative; top: 1px; }*/
-
+/* Custom Selectbox */
 select.selectBox {display:none!important;}
-body .selectBox-dropdown {
-    outline: 0;
-    width: 100% !important;
-    font-size: 1rem;
-    line-height: 1.25;
-    background: var(--green-700);
-    color: var(--light-grey);
-    box-shadow: none;
-    border-radius: 0;
-    padding: 22px 16px 21px 16px;
-    border-bottom: 1px solid var(--lime-500);
-    vertical-align: middle;
-    height: auto;
-    text-transform: capitalize;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    cursor: pointer;
-    font-weight: bold;}
+body .selectBox-dropdown {outline: 0; width: 100% !important; font-size: 1rem; line-height: 1.25; background: var(--green-700); color: var(--light-grey); box-shadow: none; border-radius: 0; padding: 22px 16px 21px 16px; border-bottom: 1px solid var(--lime-500); vertical-align: middle; height: auto; text-transform: capitalize; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; cursor: pointer; font-weight: bold;}
 body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color:rgba(207, 216, 223, 0.5);}
 body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
@@ -370,7 +351,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .stars img{width: 97px; height: 15px; }
 
 .optional-text {font-size:1rem; color:var(--white-lime); font-weight:500; margin:0 0 25px 0; display:block; line-height: 1.4;}
-.optional-head {font-size:0.875rem; color:var(--green-300); font-weight:500; margin:0 0 7px 0; display:block; line-height: 1.43;}
+.optional-head {font-size:0.875rem; color:var(--green-300); font-weight:500; margin:0 0 9px 0; display:block; line-height: 1.43;}
 
 .dark-bg ul li:before {color: var(--lime-500);}
 
@@ -516,9 +497,6 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .heading_mobile_menu:after {width:auto; right:20px; top:calc(50% + 2px); transform:translateY(-50%); font-size:18px; color: var(--heading); border:none; font-family:"Font Awesome 6 Pro"; font-weight:600; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none; content:"\f107";}
     .heading_mobile_menu.active::after {transform:translateY(-50%) rotate(-180deg);}
     
-
-    .slick-arrow{display: none!important;}
-
     .stars{margin-bottom: 20px;}
 }
 

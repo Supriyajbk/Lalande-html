@@ -1,21 +1,40 @@
-.features-module {clear: both; width: 100%; padding:80px 0; background: var(--white); position: relative; z-index: 1;}
+.features-module {clear: both; width: 100%; padding:81px 0 80px 0; background: var(--white); position: relative; z-index: 1;}
 .intro {position: relative; align-items: center;}
-.intro-lt {flex-grow: 1; width: 23.828125%; margin-right: 10.078125%;}
-.intro-lt:only-child {margin-right: 0;}
-.intro-lt h2 {font-size: 2.25rem; margin-bottom: 30px;}
-.intro-lt .button {font-weight: bold;}
-.intro-rt {font-size: 1.125rem; line-height: 1.5; color: var(--grey); flex-grow: 1; width: calc(100% - 33.90625%);}
-.accordion-item { position: relative; background-color: var(--dirty-white); margin: 0 0 8px 0;}
-.accordion-item .content { display: none; padding:12px 72px 14px 24px; line-height: 1.5; color: var(--grey);}
-.accordion-main .accordion:last-child .accordion-item{margin-bottom: 0;}
+.intro:before {content: ""; height: 255px; width: 546px; position: absolute; background: var(--dirty-white); right: -80px; z-index: -1; top: -35px; display: block
+;}
+.intro:after {content: ""; height: 255px; width:1000%; position: absolute; background: var(--dirty-white); right: -1000%; z-index: -1; top: -35px; display: block;}
 
-.accordion-item.active .accordion-heading::after { content: "\f068"; }
-.accordion-item .accordion-heading::after { content: "\2b"; width: 48px; font-family: 'Font Awesome 6 Sharp'; font-style: normal; font-weight: normal; font-size: 19px; line-height:48px; height: 48px; color:var(--optionaltxt); right: 0; top: -1px; position: absolute; display: inline-block; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; bottom: 0; display: flex; justify-content: center; align-items: center;}
-.accordion-item .accordion-heading:before {content: ""; background: var(--lime-500); width: 48px; height: 48px; right: 0; top: 0; display: block; position: absolute;}
-.accordion-item .accordion-heading { display: block; line-height: 1.44; font-size: 1.125rem; color: var(--heading); text-decoration: none; font-weight: 500; padding:14px 72px 16px 24px;}
+.intro-lt {flex-grow: 1; width:305px; margin-right:129px;}
+.intro-lt:only-child {margin-right: 0;}
+.intro-lt h2 {font-size: 2.25rem; margin-bottom: 32px; line-height: 1.1;}
+.intro-lt h2 span:after {bottom: 0; height: 3px;}
+.intro-lt .button {font-weight: bold; letter-spacing: -0.28px; padding: 16px 23px 16px 24px;}
+.intro-rt {font-size: 1.125rem; line-height: 1.5; color: var(--grey); flex-grow: 1; width:calc(100% - 434px);}
+
+/* Features */
+.features-main {display: flex; flex-wrap: wrap; width: 100%;}
+.features-main .features-grid {padding: 32px; flex-direction: column; width: 25%; display: inline-block; vertical-align: top; position: relative; margin: 64px 0 0 0;}
+.features-main .features-grid:before {content:""; background: var(--light-grey); width: 1px; opacity: 0.5; height:calc(100% - 122px); display:block; top: 29px; left: 0; position: absolute;}
+.features-main .features-grid .feature-icon {width: 100%; clear: both; margin: 0 0 16px 0;}
+.features-main .features-grid .feature-icon img {width:auto; height:24px;}
+.features-main .features-grid .h4 {font-family: "DM Sans", sans-serif; font-weight: 500; line-height: 1.4; letter-spacing: -0.78px; font-size: 1.625rem; margin-bottom: 15px;}
+.features-main .features-grid  p {margin-bottom: 17px;}
+
 
 
 /*-- media starts here --*/
-@media only screen and (max-width: 719px) and (min-width: 200px){
+
+@media only screen and (min-width: 1024px) {
+    .features-main:only-child .features-grid:nth-child(-n+4) {margin-top: 0;}
+    .features-main .features-grid:nth-child(4n+1):before {display: none;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){    
+    .intro:before {right: -350px;}
+    .intro-lt {margin-right: 60px;}
+    .intro-rt {width: calc(100% - 365px);}
     
+    .features-main {width: calc(100% + 40px); position: relative; left: -20px;}
+    .features-main .features-grid {width: 33.333%; padding: 20px;}
+    .features-main .features-grid:nth-child(3n+1):before {display: none;}
+    .features-main .features-grid::before {height: calc(100% - 110px); top: 17px;}
 }
