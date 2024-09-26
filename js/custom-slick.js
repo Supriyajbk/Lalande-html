@@ -7,11 +7,11 @@ jQuery(document).ready(function () {
   var $tvslider = jQuery('.logo-slider-row');
   var tvslideCount = $tvslider.children().length;
   if(windowWidth >= 1024) {
-if(tvslideCount > 7){
+if(tvslideCount > 5){
   $tvslider.slick({
-    slidesToShow: 7,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: true,
+    infinite: false,
     speed: 1000,
     dots: false,
     arrows: true,
@@ -19,7 +19,7 @@ if(tvslideCount > 7){
     draggable: true,
     swipeToSlide: true,
     touchThreshold: 100,
-      autoplay:true,
+      autoplay:false,
       autoplaySpeed:1000,
       prevArrow:'<span class="slick-arrow prev-arrow fa-regular fa-angle-left flex flex-center"></span>',
       nextArrow:'<span class="slick-arrow next-arrow fa-regular fa-angle-right flex flex-center"></span>',
@@ -30,7 +30,7 @@ else{
   $tvslider.slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: true,
+    infinite: false,
     speed: 1000,
     dots: false,
     arrows: true,
@@ -38,7 +38,7 @@ else{
     draggable: true,
     swipeToSlide: true,
     touchThreshold: 100,      
-      autoplay:true,
+      autoplay:false,
       autoplaySpeed:1000,
       prevArrow:'<span class="slick-arrow prev-arrow fa-sharp fa-light fa-arrow-left-long flex flex-center"></span>',
       nextArrow:'<span class="slick-arrow next-arrow fa-sharp fa-light fa-arrow-right-long flex flex-center"></span>',
