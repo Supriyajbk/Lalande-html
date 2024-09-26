@@ -86,6 +86,6 @@
   .location-list{flex: 100%; margin-bottom: 34px;}
   .location-list:last-child{margin-bottom: 0;}
 
-
+  .location-head .h1 span:after{bottom: 0;}
 
  }
