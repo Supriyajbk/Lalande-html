@@ -237,9 +237,9 @@ body .mfp-close:after {display: none;}
 
 
 /* Default Slick navigations */
-.slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; width: 56px; height: 56px;bottom: 0; margin: auto; background: var(--lime-500);}
+.slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; width: 56px; height: 56px;bottom: 0; margin: auto; background: var(--lime-500); color: var(--heading);}
 .slick-arrow:hover {background: var(--green-700); color: var(--white);}
-.slick-arrow:before {display: block; height: 100%; width: 100%; margin-left: -50%; margin-top: -50%;}
+.slick-arrow:before {display: flex; height: 100%; width: 100%; justify-content: center; align-items: center; font-size: 1.25rem;}
 .slick-arrow.prev-arrow {right: auto; left: 0;}
 .slick-arrow.next-arrow {right: 0; left: auto;}
 .slick-arrow.slick-disabled {pointer-events:none;}
@@ -310,10 +310,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 /* Label */
 .frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label { font-size: 1rem; line-height: 1.5; padding: 0; text-indent: inherit; font-weight: 500; color: var(--white); z-index: 1; text-transform: capitalize; display: block; margin-bottom: 3px; visibility: visible;}
 .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label {font-weight: bold; padding: 0 0 10px 0;}
-/* .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {font-weight: bold; color: var(--white); position: absolute; left: 16px; top: 15px; transition: all ease-in-out 0.3s; visibility: visible;} */
-.frm_forms .frm_form_fields .frm_form_field label span {font-weight: normal;}
-/* .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label.label-top {font-size: 0.875rem; top: -8px;} */
-.frm_forms .frm_form_fields .frm_form_field label a {text-decoration: underline;}
+
 
 /* Radio Button */
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm-wrapper .frm_form_field.form-field.frm_required_field.frm_top_container.vertical_radio {margin-right: 10px; width: 75%;}
