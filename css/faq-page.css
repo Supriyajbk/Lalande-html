@@ -5,14 +5,10 @@
 .hero-banner-main{padding: 75px 0 64px;}
 
 .faq-section{width: 100%; clear: both; overflow: hidden; background: var(--green-900);}
-.faq-main{padding: 0 0 40px;}
+.faq-main{padding: 0 0 80px;}
 .faq-head{margin: 0 auto 40px; text-align: center;}
 .faq-head h3{color: var(--white); margin-bottom: 0;}
-.faq-row{gap: 48px 24px;}
+.faq-row{gap: 48px 24px; margin-bottom: 48px;}
 .faq-block{flex: 0 0 calc(33.33% - 16px); padding: 32px; border: 1px solid var(--green-500); color: var(--white);}
 .faq-block h4{color: var(--white); font-family:"DM Sans", sans-serif; font-weight: 600;}
 .faq-block p{margin-bottom: 60px;}
-/* .faq-block .readmore{color: var(--white);}
-.faq-block .readmore::after {z-index: 0;}
-.faq-block .readmore::before{z-index: 1;} */
-/* .faq-block .readmore:hover{color: var(--)} */
