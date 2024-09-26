@@ -257,25 +257,7 @@ ul.slick-dots li.slick-active button {opacity:1;}
 /*.button.btn-big.consult-btn svg { margin-left: 11px; position: relative; top: 1px; }*/
 
 select.selectBox {display:none!important;}
-body .selectBox-dropdown {
-    outline: 0;
-    width: 100% !important;
-    font-size: 1rem;
-    line-height: 1.25;
-    background: var(--green-700);
-    color: var(--light-grey);
-    box-shadow: none;
-    border-radius: 0;
-    padding: 22px 16px 21px 16px;
-    border-bottom: 1px solid var(--lime-500);
-    vertical-align: middle;
-    height: auto;
-    text-transform: capitalize;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    cursor: pointer;
-    font-weight: bold;}
+body .selectBox-dropdown {outline:0; width:100% !important; font-size: 1rem; line-height:1.56; background:var(--input); color:var(--body-text); box-shadow:none; border-radius: 0; padding: 13px 46px 13px 16px; border-bottom: 1px solid var(--blacktext); vertical-align:middle; height:auto;  text-transform:capitalize; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; cursor:pointer; font-weight: bold;}
 body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color:rgba(207, 216, 223, 0.5);}
 body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
@@ -305,14 +287,15 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 
 /* Error */
-.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error { right: 0; width: 100%; display: block; font-size: 12px !important; color: var(--white); background: transparent; padding: 0; margin: 0; border-radius: 0; text-align: right !important; line-height: normal !important; font-weight: 400; top: 4px; position: absolute; }
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error {right:16px !important; width:100%; display:block; font-size:12px !important; color:var(--white) !important; background:transparent; padding:0; margin:0; border-radius:0; text-align:right !important; line-height:normal !important; font-weight:400; top:-9px; position:absolute;}
+
 
 /* Label */
-.frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label { font-size: 1rem; line-height: 1.5; padding: 0; text-indent: inherit; font-weight: 500; color: var(--white); z-index: 1; text-transform: capitalize; display: block; margin-bottom: 3px; visibility: visible;}
+.frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label { font-size: 1rem; line-height: 1.5; padding: 0; text-indent: inherit; font-weight: 500; color: var(--white); z-index: 1; text-transform: capitalize; display: block; margin-bottom: 3px;}
 .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label {font-weight: bold; padding: 0 0 10px 0;}
-/* .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {font-weight: bold; color: var(--white); position: absolute; left: 16px; top: 15px; transition: all ease-in-out 0.3s; visibility: visible;} */
+.frm_forms .frm_form_fields .frm_form_field label.frm_primary_label {font-weight: bold; color: var(--white); position: absolute; left: 16px; top: 15px; transition: all ease-in-out 0.3s; visibility: visible;}
 .frm_forms .frm_form_fields .frm_form_field label span {font-weight: normal;}
-/* .frm_forms .frm_form_fields .frm_form_field label.frm_primary_label.label-top {font-size: 0.875rem; top: -8px;} */
+.frm_forms .frm_form_fields .frm_form_field label.frm_primary_label.label-top {font-size: 0.875rem; top: -8px;}
 .frm_forms .frm_form_fields .frm_form_field label a {text-decoration: underline;}
 
 /* Radio Button */
@@ -332,8 +315,6 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked:before { content: "\f00c"; font-family: "Font Awesome 6 Pro"; display: block; height: 21px; left: 0px; position: absolute; top: 2px; width: 21px; font-weight: 900; color: var(--heading); font-size: 13px; transform: none; clip-path: inherit; box-shadow: none; text-align: center; margin: 0;}
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:before {display: none;}
 
-.frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked {background-color: var(--lime-500)!important;}
-
 
 /* Input & Textarea*/
 .frm_forms .frm_form_fields input, .frm_forms .frm_form_fields textarea, .frm_forms .frm_form_fields select {font-family: "DM Sans", sans-serif; font-weight: bold; display: block; outline: 0; border-radius: 0; font-size: 1rem; line-height: 1.25; font-style: normal; vertical-align: middle; -webkit-appearance: none; background-color: rgb(5 23 25 / 80%)!important; color: var(--white)!important; border: 0 none!important; border-bottom:solid 2px var(--lime-500)!important; padding:14px 16px 14px 16px; width: 100%; box-shadow: none; transition: none;}
@@ -346,14 +327,12 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 /* Button */
 .frm_forms .frm_submit{margin:0;}
 .frm_forms .frm_submit .button, .frm_forms .frm_submit button {margin:0; padding:0; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;}
-.frm_forms .frm_submit .button:hover, .frm_forms .frm_submit button:hover { color: var(--white);}
-.frm_forms .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block; color: var(--heading);
-    font-weight: 700; }
+.frm_forms .frm_submit .button:hover, .frm_forms .frm_submit button:hover {background-color: var(--green-700); color: var(--white);}
+.frm_forms .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block;}
 .frm_forms .frm_submit button span:after {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; right: 24px; top: 16px;}
- .frm_forms .frm_submit button:hover span:after {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
- .frm_style_formidable-style.with_frm_style .frm_submit button { padding: 0; box-shadow: none; border: 0; margin: 0; margin-left: 0px; border-radius: 0; background: var(--lime-500); }
- .frm_style_formidable-style.with_frm_style .frm_submit button:hover { background: var(--green-700); color: #ffffff; }
- .frm_style_formidable-style.with_frm_style .frm_submit button:hover span{color: var(--white);}
+.frm_forms .frm_submit button:hover span:after {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
+
+
 /* Error & Success Message */
 .frm_forms .frm_error_style {display: none;}
 .frm_forms .frm_message, .frm_forms .frm_success_style {margin: 0 0 20px 0; padding: 0; background: top; border: 0 none; font-weight: bold; font-size: 1rem; line-height: 1.5;}
@@ -362,7 +341,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 /* Bottom Button Wrapper */
 .frm-wrapper {width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;}
 .frm-wrapper .frm_submit button {margin-left: auto!important;}
-.frm_forms .frm_form_fields .frm-wrapper .frm_form_field {margin: 0; }
+.frm_forms .frm_form_fields .frm-wrapper .frm_form_field {margin: 0; width: 75%;}
 .frm_forms .frm_form_fields .frm-wrapper > .frm_form_field .frm_form_field {margin-bottom: 0; width: 100%;}
 /*-- common form css ends here --*/
 
