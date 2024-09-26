@@ -242,7 +242,7 @@ body .mfp-close:after {display: none;}
 .slick-arrow:before {display: flex; height: 100%; width: 100%; justify-content: center; align-items: center; font-size: 1.25rem;}
 .slick-arrow.prev-arrow {right: auto; left: 0;}
 .slick-arrow.next-arrow {right: 0; left: auto;}
-.slick-arrow.slick-disabled {pointer-events:none;}
+.slick-arrow.slick-disabled {pointer-events:none; opacity: 0.2;}
 
 
 ul.slick-dots {margin:0; padding-top:31px; padding-bottom: 15px; display:flex; justify-content:center; flex-wrap:wrap; width: 100%;}
@@ -323,11 +323,11 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_radio {margin: 0 0 5px 0;}
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_radio input.frm_other_input:not(.frm_other_full) {width: 100%; margin: 10px 0 0 0;}
 
-
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio label{font-size: 0.875rem; color: var(--light-grey); text-transform: none;}
 /* Checkbox */
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"], 
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"] {position: absolute; left: 0; width: 21px; height: 21px; cursor: pointer;  outline: none;  -moz-border-radius: 4px; -webkit-border-radius: 4px;  border-radius: 3px; padding: 0 !important; background: var(--lime-500)!important; border: 0 none !important;}
-.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked:before { content: "\f00c"; font-family: "Font Awesome 6 Pro"; display: block; height: 21px; left: 0px; position: absolute; top: 2px; width: 21px; font-weight: 900; color: var(--heading); font-size: 13px; transform: none; clip-path: inherit; box-shadow: none; text-align: center; margin: 0;}
+.frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked:before { content: "\f00c"; font-family: "Font Awesome 6 Pro"; display: block; height: 21px; left: 0px; position: absolute; top: 2px; width: 21px; font-weight: 900; color: var(--heading); font-size: 14px; transform: none; clip-path: inherit; box-shadow: none; text-align: center; margin: 0; background-image: none!important; margin-top: 2px;}
 .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:before {display: none;}
 
 .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked {background-color: var(--lime-500)!important;}
@@ -508,7 +508,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
     .h1 {font-size: 2.5rem; line-height: 1.2; margin-bottom:24px;}
-    .frm_forms .frm_form_fields .frm-wrapper .frm_form_field {width: 100%; margin-bottom: 20px; }
+    .frm_forms .frm_form_fields .frm-wrapper .frm_form_field { margin-bottom: 20px; }
     .frm-wrapper .frm_submit {width: 100%;}
     .frm-wrapper .frm_submit button {margin-left: 0!important;}
     
@@ -551,18 +551,18 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
     .frm_forms .frm_submit {width: 100%;}
     .frm_forms .frm_form_fields textarea { min-height: 107px; }
-    .frm_forms .frm_submit button span::after{ position: relative; display: inline-block; left: 0;  top: 7px; margin-left: 16px; }
-    .frm_forms .frm_submit button span {padding: 12px 65px 16px 65px;}
+    .frm_forms .frm_submit button span::after{ position: relative!important; display: inline-block!important; left: 0;  top: 7px!important; margin-left: 16px; }
+    .frm_forms .frm_submit button span {padding: 11px 65px 17px 65px!important;}
     .frm_half {width:100%; margin-left: 0; margin-right: 0; margin-bottom: 16px!important;} 
     
     body .frm_forms .frm_submit .button, body .frm_forms .frm_submit button {width: 100%;}
-    .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio, 
+    .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm-wrapper .frm_form_field.form-field.frm_required_field.frm_top_container.vertical_radio, 
     .default_form .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio {width: 100%; margin: 0 0 23px 0;}
-    .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio label {padding: 0 50px 0 0; line-height: 1.25;}
+    .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio label { line-height: 1.25;}
     /* .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"],  */
     .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"] {left: inherit; right: 0; width: 35px; height: 35px; border-radius: 5px; margin: 0;}
-    .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked::before, 
-    .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"]:checked::before {height: 35px; width: 35px; font-size: 21px; line-height: 33px; top: 0;}
+    /* .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked::before,  */
+    /* .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"]:checked::before {height: 35px; width: 35px; font-size: 21px; line-height: 33px; top: 0;} */
     .frm_forms .frm_form_fields .frm-wrapper .frm_form_field {margin: 0; width: 100%; min-height: 35px;}
     .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio .frm_error {text-align: right!important;}
     .frm_forms .frm_form_fields .frm_form_field label span {display: block;}
@@ -583,6 +583,9 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     
     
     .category-main.no-post-found {text-align: center;}
+
+    h1 span::after, h2 span::after, h3 span::after, h4 span::after, h5 span::after, h6 span::after, .h1 span::after, .h2 span::after, .h3 span::after, .h4 span::after, .h5 span::after, .h6 span::after {bottom: -3px;}
+
 }
 
 @media only screen and (max-width:576px) {  
