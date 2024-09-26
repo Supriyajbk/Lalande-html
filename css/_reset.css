@@ -64,7 +64,7 @@ input[type="search"]:-ms-input-placeholder {color: var(--grey)!important; font-s
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {display: none;}
 input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
 
-.search-form .form-field{position: relative;}
+.search-form .form-field{position: relative; margin-bottom: 24px;}
 
 button::-moz-focus-inner, input::-moz-focus-inner {border: 0; padding: 0;}
 textarea {overflow: auto; vertical-align: top; min-height: 128px; border-radius: 26px;}

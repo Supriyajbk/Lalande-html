@@ -1,5 +1,5 @@
-.contact-section{width: 100%; overflow: hidden; z-index: 1; background-color: var(--green-900); min-height: 979px;}
-.contact-main{z-index: 1; min-height: 979px;}
+.contact-section{width: 100%; overflow: hidden; z-index: 1; background-color: var(--green-900); }
+.contact-main{z-index: 1; }
 .contact-lt{flex: 27.5%; padding: 80px 80px 80px 0; flex-grow: 1; color: var(--white)}
 .contact-lt h1{color: var(--white);}
 .contact-lt .optional-text{font-size: 1.25rem; margin-bottom: 27px; letter-spacing: -0.2px;}
@@ -10,7 +10,7 @@
 
 .contact-rt-txt .contact-rt-left h2{color: var(--white); margin-bottom: 0;}
 .contact-rt-txt {gap: 23px; margin-bottom: 48px;}
-.contact-rt-txt .contact-rt-left{flex: 0 0 300px;}
+.contact-rt-txt .contact-rt-left{flex: 0 0 300px; flex-grow: 1;}
 .contact-rt-txt .contact-rt-right{flex: 0 0 calc(100% - 323px); flex-grow: 1; margin-top: auto;}
 .contact-rt-txt .contact-rt-right .optional-text{font-size: 1rem; color: var(--light-grey); font-weight: normal; margin-bottom: 0; line-height: 1.5rem;}
 .contact-rt-txt .contact-rt-right .optional-text  a{color: var(--white-lime);}
