@@ -260,13 +260,13 @@ body .selectBox-dropdown {outline: 0; width: 100% !important; font-size: 1rem; l
 body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color:rgba(207, 216, 223, 0.5);}
 body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
-body .selectBox-dropdown .selectBox-arrow {width:auto; right:20px; top:calc(50% + 2px); transform:translateY(-50%); font-size:18px; color: var(--heading); border:none; font-family:"Font Awesome 6 Pro"; font-weight:600; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none;}
+body .selectBox-dropdown .selectBox-arrow {width:auto; right:20px; top:calc(50% + 2px); transform:translateY(-50%); font-size:18px; color: var(--lime-500); border:none; font-family:"Font Awesome 6 Pro"; font-weight:600; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none;}
 body .selectBox-dropdown .selectBox-arrow::after {content:"\f107";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow {transform:translateY(-50%) rotate(-180deg);}
-body ul.selectBox-dropdown-menu { background-color: var(--input); border-color:transparent; padding:19px 0 11px; margin:2px 0 0 0;  box-shadow:0 1px 8px rgba(0, 0, 0, .2) ; -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 8px rgba(0, 0, 0, .2); border-radius: 0!important; z-index: 50;}
-body ul.selectBox-dropdown-menu li { margin-bottom: 14px; padding: 0 16px; color: var(--blacktext); }
-body ul.selectBox-dropdown-menu li a {font-size:0.875rem; line-height:1.5; letter-spacing:normal; display:block; padding:0; white-space:nowrap; text-transform:capitalize; color:var(--body-text); overflow:hidden; text-overflow:ellipsis; text-decoration: none; font-weight: bold;}
-body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--green); background-color:transparent; cursor:pointer;}
+body ul.selectBox-dropdown-menu { background-color: var(--green-700); border-color:transparent; padding:19px 0 11px; margin:2px 0 0 0;  box-shadow:0 1px 8px rgba(0, 0, 0, .2) ; -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 8px rgba(0, 0, 0, .2); border-radius: 0!important; z-index: 50; }
+body ul.selectBox-dropdown-menu li { margin-bottom: 14px; padding: 0 16px; color: var(--light-grey); }
+body ul.selectBox-dropdown-menu li a {font-size:0.875rem; line-height:1.5; letter-spacing:normal; display:block; padding:0; white-space:nowrap; text-transform:capitalize; color: var(--light-grey); overflow:hidden; text-overflow:ellipsis; text-decoration: none; font-weight: bold;}
+body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--lime-500); background-color:transparent; cursor:pointer;}
 
 
 /*-- common form css starts here --*/
@@ -435,7 +435,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 
 
-.readmore {position: relative; display: inline-block; font-size:1rem; padding:0 13px 0 48px; color: var(--heading); font-weight: normal; line-height: 32px;}
+.readmore {position: relative; display: inline-block; font-size:1rem; padding:0 13px 0 48px; color: var(--heading); font-weight: normal; line-height: 32px; z-index: 1;}
 .readmore.white {color: var(--white);}
 .readmore:before {left: 0px; content:""; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; width: 32px; height: 32px; justify-content: center; background: url("images/chevron-right.svg") center no-repeat;}
 .readmore:after {content: ""; background: var(--lime-500); width: 32px; height: 32px; display: block; position: absolute; left: 0; top: 0; z-index: -1; transition: all 0.35s ease;}
