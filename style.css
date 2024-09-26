@@ -238,7 +238,7 @@ body .mfp-close:after {display: none;}
 
 /* Default Slick navigations */
 .slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; width: 56px; height: 56px;bottom: 0; margin: auto; background: var(--lime-500);}
-.slick-arrow:hover {opacity: 0.5}
+.slick-arrow:hover {background: var(--green-700); color: var(--white);}
 .slick-arrow:before {display: block; height: 100%; width: 100%; margin-left: -50%; margin-top: -50%;}
 .slick-arrow.prev-arrow {right: auto; left: 0;}
 .slick-arrow.next-arrow {right: 0; left: auto;}
@@ -345,15 +345,17 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 /* Button */
 .frm_forms .frm_submit{margin:0;}
-.frm_forms .frm_submit .button, .frm_forms .frm_submit button {margin:0; padding:0; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;}
-.frm_forms .frm_submit .button:hover, .frm_forms .frm_submit button:hover { color: var(--white);}
-.frm_forms .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block; color: var(--heading);
-    font-weight: 700; }
-.frm_forms .frm_submit button span:after {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; right: 24px; top: 16px;}
- .frm_forms .frm_submit button:hover span:after {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
- .frm_style_formidable-style.with_frm_style .frm_submit button { padding: 0; box-shadow: none; border: 0; margin: 0; margin-left: 0px; border-radius: 0; background: var(--lime-500); }
- .frm_style_formidable-style.with_frm_style .frm_submit button:hover { background: var(--green-700); color: #ffffff; }
- .frm_style_formidable-style.with_frm_style .frm_submit button:hover span{color: var(--white);}
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit .button, 
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button,
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button:active {margin:0; padding:0; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--heading); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal; box-shadow: none;}
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit.button:hover, .frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button:hover { color: var(--white);}
+
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block;}
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button span:after {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; right: 24px; top: 16px;}
+ .frm_forms.frm_style_formidable-style.with_frm_style .frm_submit button:hover span:after {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
+
+
+
 /* Error & Success Message */
 .frm_forms .frm_error_style {display: none;}
 .frm_forms .frm_message, .frm_forms .frm_success_style {margin: 0 0 20px 0; padding: 0; background: top; border: 0 none; font-weight: bold; font-size: 1rem; line-height: 1.5;}
