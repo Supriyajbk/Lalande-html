@@ -305,8 +305,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 
 /* Error */
-.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error {right:16px !important; width:100%; display:block; font-size:12px !important; color:var(--white) !important; background:transparent; padding:0; margin:0; border-radius:0; text-align:right !important; line-height:normal !important; font-weight:400; top:-9px; position:absolute;}
-
+.frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field .frm_error { right: 0; width: 100%; display: block; font-size: 12px !important; color: var(--white); background: transparent; padding: 0; margin: 0; border-radius: 0; text-align: right !important; line-height: normal !important; font-weight: 400; top: 4px; position: absolute; }
 
 /* Label */
 .frm_forms .frm_form_fields .frm_form_field label, .frm_forms .frm_form_fields .frm_form_field div.frm_primary_label { font-size: 1rem; line-height: 1.5; padding: 0; text-indent: inherit; font-weight: 500; color: var(--white); z-index: 1; text-transform: capitalize; display: block; margin-bottom: 3px; visibility: visible;}
@@ -349,11 +348,12 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms .frm_submit .button, .frm_forms .frm_submit button {margin:0; padding:0; vertical-align: middle; cursor: pointer; border: 0 none; border-radius: 0; background-color: var(--lime-500); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--black); font-family: "DM Sans", sans-serif; text-decoration: none; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal;}
 .frm_forms .frm_submit .button:hover, .frm_forms .frm_submit button:hover { color: var(--white);}
 .frm_forms .frm_submit button span {position: relative; padding: 20px 65px 19px 24px; display: block; color: var(--heading);
-    font-weight: 700; background: var(--lime-500);}
+    font-weight: 700; }
 .frm_forms .frm_submit button span:after {background-image: url('./images/navigation-pointer.svg'); background-repeat: no-repeat; content: ""; display: block; position: absolute; right: 0; width: 24px; height: 24px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; right: 24px; top: 16px;}
-.frm_forms .frm_submit button:hover span:after {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
-.frm_style_formidable-style.with_frm_style .frm_submit button:hover {background: none!important;}
-.frm_style_formidable-style.with_frm_style .frm_submit button{background: none!important; border: none; box-shadow: none;}
+ .frm_forms .frm_submit button:hover span:after {background-image: url('./images/navigation-pointer-white.svg'); transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
+ .frm_style_formidable-style.with_frm_style .frm_submit button { padding: 0; box-shadow: none; border: 0; margin: 0; margin-left: 0px; border-radius: 0; background: var(--lime-500); }
+ .frm_style_formidable-style.with_frm_style .frm_submit button:hover { background: var(--green-700); color: #ffffff; }
+ .frm_style_formidable-style.with_frm_style .frm_submit button:hover span{color: var(--white);}
 /* Error & Success Message */
 .frm_forms .frm_error_style {display: none;}
 .frm_forms .frm_message, .frm_forms .frm_success_style {margin: 0 0 20px 0; padding: 0; background: top; border: 0 none; font-weight: bold; font-size: 1rem; line-height: 1.5;}
