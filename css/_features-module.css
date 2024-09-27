@@ -1,4 +1,4 @@
-.features-module {clear: both; width: 100%; padding:81px 0 80px 0; background: var(--white); position: relative; z-index: 1;}
+.features-module {clear: both; width: 100%; padding:80px 0 80px 0; background: var(--white); position: relative; z-index: 1;}
 .intro {position: relative; align-items: center;}
 .intro:before {content: ""; height: 255px; width: 546px; position: absolute; background: var(--dirty-white); right: -80px; z-index: -1; top: -35px; display: block
 ;}

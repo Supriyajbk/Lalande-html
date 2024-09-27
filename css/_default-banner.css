@@ -14,7 +14,7 @@
 .default-banner-main {margin: 0 auto; width: 100%; min-height: 601px; align-items: flex-end;}
 .default-banner-main .default-banner-text {max-width:520px; clear: both; padding: 40px 0 80px 0; position: relative; width: 100%; color: var(--white);}
 
-.default-banner-main .default-banner-text h1 {color: var(--white);}
+.default-banner-main .default-banner-text h1 {color: var(--white); letter-spacing: -1.44px;}
 .default-banner-main .default-banner-text .optional-text {margin-bottom:7px; letter-spacing: -0.48px;}
 .default-banner-main .default-banner-text p {font-size:1.25rem; margin-bottom:32px; line-height: 1.4; color:var(--white); letter-spacing: -0.4px; font-weight: normal;}
 

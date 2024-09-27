@@ -6,11 +6,12 @@
 @import url("_recent-insights-module.css");
 @import url("_form-section.css");
 
+.split-banner-section, .split-banner-main {min-height: 398px;}
+
 .general-default-article-section {float: left; width: 100%; padding:80px 0 44px 0; background: var(--white); position: relative; z-index: 1;}
-.general-default-article-section .default-main .container {padding: 0;}
 .general-default-article-section .default-inner {position: relative;}
 .general-default-article-section .default-inner .highlight-head p, .general-default-article-section .default-inner p:first-of-type span {font-size: 1.745rem; line-height: 1.29; color: var(--optionaltxt); margin: 0 0 62px 0; letter-spacing: -0.01px; display: block;}
-.general-default-article-section h1 {margin-bottom: 64px;}
+.general-default-article-section h1 {margin-bottom: 64px; line-height: 1.17;}
 .general-default-article-section h3 {padding: 37px 0 0 0;}
 .general-default-article-section ol, .general-default-article-section ul {margin-bottom: 63px;}
 .general-default-article-section .default-inner p > a > img {width: 100%;}

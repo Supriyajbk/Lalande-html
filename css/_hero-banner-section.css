@@ -4,7 +4,7 @@
 .hero-banner-main{padding: 75px 0 80px; text-align: center;  margin: 0 auto; position: relative; z-index: 1;}
 .hero-banner-text{max-width: 946px; margin: 0 auto; text-align: center;}
 .hero-banner-main{color: var(--white);}
-.hero-banner-main h1{color: var(--white); margin-bottom: 22px;}
+.hero-banner-main h1{color: var(--white); margin-bottom: 22px; letter-spacing: -1.44px;}
 .hero-banner-main p{font-size: 1.25rem; line-height: 1.4; margin-bottom: 22px;}
 .hero-banner-main .banner-btn{justify-content: center;}
 .hero-banner-main .button.btn-big.consult-btn svg { margin-left: 11px; position: relative; top: 1px;}
