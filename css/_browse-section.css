@@ -1,3 +1,37 @@
 .browse-row{gap: 24px;}
-.browse-row button{width: 302px;}
+.browse-row button { width: 302px; padding: 21px; text-align: left; text-transform: capitalize; font-size: 1rem;}
 .browse-dropdown{width: calc(33.33% - 302px); flex: 1;}
+.browse-row button span{position: relative; display: block; font-weight: 600;}
+.browse-row button span:before{
+
+    font-family: "Font Awesome 6 Pro";
+  content: "\f054";
+  display: block;
+  position: absolute;
+ 
+  width: 24px;
+  height: 24px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  right: -17px;
+  top: 2px;
+  left: auto;
+  font-size: 12px;}
+
+
+  @media only screen and (max-width: 1023px) and (min-width: 768px){
+.browse-row button{width: 250px;}
+
+
+
+  }
+
+  @media only screen and (max-width: 767px) and (min-width: 200px){
+    .browse-row {display: block;}
+    .browse-row button {width: 100%; margin-bottom: 16px;}
+    .browse-dropdown{width: 100%; margin-bottom: 16px;}
+    .browse-row button span:before{right: -8px;}
+    
+    
+      }

@@ -2,7 +2,6 @@
 @import url("../css/_mini-cta-module.css");
 @import url("../css/_browse-section.css");
 
-.hero-banner-main{padding: 75px 0 64px;}
 
 .faq-section{width: 100%; clear: both; overflow: hidden; background: var(--green-900);}
 .faq-main{padding: 0 0 80px;}
@@ -12,3 +11,24 @@
 .faq-block{flex: 0 0 calc(33.33% - 16px); padding: 32px; border: 1px solid var(--green-500); color: var(--white);}
 .faq-block h4{color: var(--white); font-family:"DM Sans", sans-serif; font-weight: 600;}
 .faq-block p{margin-bottom: 60px;}
+
+
+@media only screen and (min-width: 1024px){
+    .hero-banner-main{padding: 75px 0 64px;}
+
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+.faq-block {padding: 20px;}
+.mini-cta-module.fluid-width .mini-cta-content{padding: 90px 0;}
+
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .hero-banner-text{margin-bottom: 10px;}
+
+
+
+}
