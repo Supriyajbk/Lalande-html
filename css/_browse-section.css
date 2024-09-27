@@ -1,5 +1,5 @@
 .browse-row{gap: 24px;}
-.browse-row button { width: 302px; padding: 21px; text-align: left; text-transform: capitalize; font-size: 1rem;}
+.browse-row button { width: 302px; padding: 17px; text-align: left; text-transform: capitalize; font-size: 1rem;}
 .browse-dropdown{width: calc(33.33% - 302px); flex: 1;}
 .browse-row button span{position: relative; display: block; font-weight: 600;}
 .browse-row button span:before{
@@ -33,5 +33,5 @@
     .browse-dropdown{width: 100%; margin-bottom: 16px;}
     .browse-row button span:before{right: -8px;}
     
-    
+    .browse-dropdown:last-child{margin-bottom: 0;}
       }
