@@ -32,9 +32,7 @@
 .sidebar .side-bucket ul li.active a, .sidebar .side-bucket ul li:hover a{color: var(--white);} 
 .side-bucket .menu-bucket h5{color: var(--coal); margin-bottom: 35px;}
 
-.side-bucket .menu-bucket ul li::after{position: absolute; content: "\f054"; display: block; width: 16px;  right: 0; font-family: "Font Awesome 6 Pro"; color: var(--lime-500);
-    top: 50%;
-    transform: translate(-50% , -50%); font-size: 12px;}
+.side-bucket .menu-bucket ul li::after{position: absolute; content: "\f054"; display: block; width: 16px;  right: 0; font-family: "Font Awesome 6 Pro"; color: var(--lime-500); top: 50%; transform: translate(-50% , -50%); font-size: 12px;}
 
 /* Default Thumb */
 .default-thumb {margin:64px 0 28px 0; position: relative;}
