@@ -449,7 +449,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 .fullimg {clear: both; width: 100%;}
 
-
+.logo-text {/*font-family: "DM Serif Text", sans-serif; text-transform: uppercase; font-size: 12.39vw; font-weight: normal;*/ opacity: 0.3; z-index: -1; mix-blend-mode: overlay; bottom: 0; left: 0; right: 0; margin: auto;}
 
 .category-main.no-post-found {padding-bottom: 0;}
 
