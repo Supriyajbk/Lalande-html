@@ -24,12 +24,17 @@
 .sidebar .side-bucket {clear: both;}
 .sidebar .side-bucket h3  {display: block!important; border-bottom:  solid 4px var(--green); color: var(--heading); padding:0 0 8px 0!important; margin-bottom: 24px!important; font-family: DM Serif Display ,sans-serif; line-height: 1.25!important; font-size: 2rem!important; }
 .sidebar .side-bucket ul {margin: 0; padding: 0;}
-.sidebar .side-bucket ul li {display: block; margin-bottom:24px!important;}
+.sidebar .side-bucket ul li {display: block; margin-bottom: 8px!important; background-color: var(--dirty-white); color: var(--heading);}
 .sidebar .side-bucket ul li:last-child {margin-bottom: 0!important;}
 .sidebar .side-bucket ul li:before {display: none;}
-.sidebar .side-bucket ul li a {text-decoration: none; font-size: 1.125rem; font-weight: normal; padding:4px 8px 5px 8px; display: inline-block;}
-.sidebar .side-bucket ul li.active a, .sidebar .side-bucket ul li a:hover {background: var(--input); border-radius: 4px; color:rgb(57, 44, 58, 0.8);}
+.sidebar .side-bucket ul li a {text-decoration: none; font-size: 1rem; font-weight: normal; padding: 7px 86px 7px 16px; display: inline-block; color: var(--heading); }
+.sidebar .side-bucket ul li.active , .sidebar .side-bucket ul li:hover {background: var(--green-700); border-radius: 4px;  }
+.sidebar .side-bucket ul li.active a, .sidebar .side-bucket ul li:hover a{color: var(--white);} 
+.side-bucket .menu-bucket h5{color: var(--coal); margin-bottom: 35px;}
 
+.side-bucket .menu-bucket ul li::after{position: absolute; content: "\f054"; display: block; width: 16px;  right: 0; font-family: "Font Awesome 6 Pro"; color: var(--lime-500);
+    top: 50%;
+    transform: translate(-50% , -50%); font-size: 12px;}
 
 /* Default Thumb */
 .default-thumb {margin:64px 0 28px 0; position: relative;}
@@ -39,6 +44,7 @@
 .default-thumb figure figcaption:after {content: "\f03e"; display: block; position: absolute; width: 18px; height: 12px; left: 12px; font-family: "Font Awesome 6 Pro"; top: 14px; font-weight: normal; font-size: 1rem; color: var(--green); line-height: 12px;}
 
 .video-thumbnail iframe, .video-thumbnail.video_post {max-height: 540px; min-height: inherit !important;}
+
 
 /*-- media css starts here --*/
 
