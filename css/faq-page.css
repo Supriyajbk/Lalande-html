@@ -23,11 +23,18 @@
 .faq-block {padding: 20px;}
 .mini-cta-module.fluid-width .mini-cta-content{padding: 90px 0;}
 
+.mini-cta-module.fluid-width{width:  calc(100% + 40px)!important; left: inherit; margin-left: 0;}
 
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .hero-banner-text{margin-bottom: 10px;}
+    .hero-banner-text{margin-bottom: 30px;}
+
+    .faq-row{display: block;}
+    .faq-block h4{margin-bottom: 14px;}
+    .faq-block p{margin-bottom: 15px;}
+    .faq-block{margin-bottom: 24px;}
+
 
 
 

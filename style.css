@@ -564,6 +564,9 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
     h1 span::after, h2 span::after, h3 span::after, h4 span::after, h5 span::after, h6 span::after, .h1 span::after, .h2 span::after, .h3 span::after, .h4 span::after, .h5 span::after, .h6 span::after {bottom: -3px;}
 
+    body .selectBox-dropdown .selectBox-arrow {right: 23px;}
+
+    .cat-wrap{margin: 0 0 3px 0;}
 }
 
 @media only screen and (max-width:576px) {  
