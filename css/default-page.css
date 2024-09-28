@@ -8,12 +8,14 @@
 
 .split-banner-section, .split-banner-main {min-height: 398px;}
 
-.general-default-article-section {float: left; width: 100%; padding:79px 0 44px 0; background: var(--white); position: relative; z-index: 1;}
+.general-default-article-section {float: left; width: 100%; padding:79px 0 81px 0; background: var(--white); position: relative; z-index: 1;}
 .general-default-article-section .default-inner {position: relative;}
-.general-default-article-section .default-inner p:first-of-type {font-size: 1.5rem; line-height: 1.33; color: var(--grey); margin: 0 0 24px 0; display: block;}
-.general-default-article-section h1 {line-height: 1.17;}
-.general-default-article-section .default-inner p > a > img {width: 100%;}
-.general-default-article-section .default-inner p > img {margin: 0 0 20px 0;}
+.general-default-article-section .default-inner > p:first-of-type {font-size: 1.5rem; line-height: 1.33; color: var(--grey); margin: 0 0 24px 0; display: block;}
+.general-default-article-section .default-inner > p:first-of-type + .button {margin-bottom:23px;}
+.general-default-article-section .default-inner h1 {line-height: 1.17;}
+.general-default-article-section .default-inner h2 {padding-top: 25px;}
+.general-default-article-section .default-inner h3 {padding-top: 25px;}
+.general-default-article-section .default-inner ol {margin-top: -3px;}
 .default-main {justify-content: space-between;}
 .default-inner {width:67.578125%; flex-grow: 1;}
 

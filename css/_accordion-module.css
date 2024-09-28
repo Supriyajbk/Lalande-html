@@ -1,13 +1,13 @@
-.accordion-module {clear: both; width: 100%; padding: 36px 0;}
+.accordion-module {clear: both; width: 100%; margin: 0 0 24px 0;}
 
 .accordion-item { position: relative; background-color: var(--dirty-white); margin: 0 0 8px 0;}
-.accordion-item .content { display: none; padding:12px 72px 14px 24px; line-height: 1.5; color: var(--grey);}
+.accordion-item .content { display: none; padding:13px 72px 26px 24px; line-height: 1.55; color: var(--grey);}
 .accordion-main .accordion:last-child .accordion-item{margin-bottom: 0;}
 
 .accordion-item.active .accordion-heading::after { content: "\f068"; }
 .accordion-item .accordion-heading::after { content: "\2b"; width: 48px; font-family: 'Font Awesome 6 Sharp'; font-style: normal; font-weight: normal; font-size: 19px; line-height:48px; height: 48px; color:var(--optionaltxt); right: 0; top: -1px; position: absolute; display: inline-block; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; bottom: 0; display: flex; justify-content: center; align-items: center;}
 .accordion-item .accordion-heading:before {content: ""; background: var(--lime-500); width: 48px; height: 48px; right: 0; top: 0; display: block; position: absolute;}
-.accordion-item .accordion-heading { display: block; line-height: 1.44; font-size: 1.125rem; color: var(--heading); text-decoration: none; font-weight: 500; padding:14px 72px 16px 24px;}
+.accordion-item .accordion-heading { display: block; line-height: 1.44; font-size: 1.125rem; color: var(--heading); text-decoration: none; font-weight: 500; min-height: 48px; display: flex; align-items: center; padding: 2px 72px 2px 24px;}
 
 
 /*-- media starts here --*/

@@ -13,9 +13,7 @@
 
 
 .faq-rt {width:64.15094339622641%; margin-left: auto; flex-grow: 1;}
-
 .faq-rt .accordion-item .accordion-heading {font-size: 1rem; line-height: 1.38; padding: 2px 72px 2px 24px; min-height: 48px; display: flex; align-items: center;}
-.faq-rt .accordion-item .content {line-height: 1.55; padding: 12px 72px 18px 24px;}
 
 
 /*-- media starts here --*/
@@ -32,16 +30,12 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width:768px){
-    .faq-block {padding: 65px 0 75px 0;}
-    .faq-block:before {width: calc(100% - 40px);}
-    .faq-cta .button {width: auto;}
-    .faq-rt {margin: 40px 0 0 0;}
-    
+    .faq-block {padding: 65px 0 75px 0;}    
+    .faq-main {gap:40px;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .faq-block {padding: 48px 0 39px 0;}
-    .faq-block:before {width: calc(100% - 32px);}
     .faq-lt .have-questions {margin: 0 0 47px 0;}
     .faq-lt .have-questions h2 {font-size: 1.75rem; margin-bottom: 23px;}
     .faq-lt .faq-cta p {margin-bottom: 23px;}
