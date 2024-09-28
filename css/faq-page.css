@@ -10,6 +10,8 @@
 .faq-row{gap: 48px 24px; margin-bottom: 48px;}
 .faq-block{flex: 0 0 calc(33.33% - 16px); padding: 32px; border: 1px solid var(--green-500); color: var(--white);}
 .faq-block h4{color: var(--white); font-family:"DM Sans", sans-serif; font-weight: 600;}
+.faq-block h4 a{color: var(--white);}
+.faq-block h4 a:hover{color: var(--lime-500);}
 .faq-block p{margin-bottom: 60px;}
 
 
