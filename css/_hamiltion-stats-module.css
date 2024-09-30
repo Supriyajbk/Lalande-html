@@ -34,15 +34,18 @@
     .hamiltion-stats-module {padding: 40px 0 31px;}
     .hamiltion-stats-bottom .stats-main{padding: 20px 0;}
     .hamiltion-stats-bottom .stats-row{display: block;}
+    .hamiltion-stats-bottom .stats-row ul.slick-dots {padding-top: 9px;}
     .hamiltion-stats-bottom .stats-list::after {  left: 17px; top: 0; display: block; height: 1px; width: calc(100% - 33px);}
-    .hamiltion-stats-bottom .stats-list:first-child:before{display: none;}
-    .hamiltion-stats-bottom .stats-list{padding: 24px 14px; width: 100%; margin-bottom: 0;}
-    .hamiltion-stats-bottom .stats-list .number {font-size: 2.25rem; line-height: 1.33; margin-bottom: 8px;}
-    .hamiltion-stats-bottom .stats-list .h4 {margin-bottom: 10px;}
+    .hamiltion-stats-bottom .stats-list::before{display: none;}
+    .hamiltion-stats-bottom .stats-list{padding:24px 16px; width: 100%; margin-top: 9px;}
+    .hamiltion-stats-bottom .stats-list .readmore {margin-top: 0;}
+    .hamiltion-stats-bottom .stats-list .number {font-size: 2.25rem; line-height: 1.33; margin-bottom: 10px;}
+    .hamiltion-stats-bottom .stats-list .h4 {margin-bottom: 10px; font-size: 1.25rem; letter-spacing: -0.4px;}
 
-    .hamiltion-stats-top {padding: 24px 16px 24px;}
+    .hamiltion-stats-top {padding: 24px 16px 25px;}
     .hamiltion-stats-top-inner h2 {font-size: 2rem; line-height: 1.19;}
     .hamiltion-stats-top-inner h2 span {display: inline;}
+    .hamiltion-stats-top-inner .logo-text {display: none;}
 
 
 
