@@ -437,7 +437,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 
 
-.readmore {position: relative; display: inline-block; font-size:1rem; padding:0 13px 0 48px; color: var(--heading); font-weight: normal; line-height: 30px; z-index: 1;}
+.readmore {position: relative; display: inline-block; font-size:1rem; padding:0 13px 0 48px; color: var(--heading); font-weight: normal; line-height: 31px; z-index: 1;}
 .readmore.white {color: var(--white);}
 .readmore:before {left: 0px; content:""; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; width: 32px; height: 32px; justify-content: center; background: url("images/chevron-right.svg") center no-repeat; transition: all 0.35s ease-in-out;}
 .readmore:after {content: ""; background: var(--lime-500); width: 32px; height: 32px; display: block; position: absolute; left: 0; top: 0; z-index: -1; transition: all 0.35s ease;}
@@ -503,13 +503,12 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 }
 
 @media only screen and (max-width:767px) and (min-width:200px) {
-    blockquote {width: calc(100% + 32px); position: relative; left: -16px; padding: 64px 32px 65px 32px;}
+    blockquote {width: calc(100% + 32px); position: relative; left: -16px; padding: 64px 32px 64px 32px; margin:39px 0 12px;}
     .container, .container-lg {padding:0 16px; max-width:100%;}
     /* #mainContent {padding: 64px 0 0 0;} */
     .breadcrumb, .breadcrumb ul {margin: 0 0 40px 0!important;}
 
-    .hide-in-mobile {display:none;}
-    
+    .hide-in-mobile {display:none;}    
 
     .video-thumbnail iframe{min-height: 197px!important;}
 
@@ -543,11 +542,6 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .heading-rt {justify-content: flex-start;}
 
     
-    
-    .fullimg {max-height: 500px;}
-    .share-text {font-size: 0.94rem; margin-right: 12px;}
-    
-    
     .category-main.no-post-found {text-align: center;}
 
 /*    h1 span::after, h2 span::after, h3 span::after, h4 span::after, h5 span::after, h6 span::after, .h1 span::after, .h2 span::after, .h3 span::after, .h4 span::after, .h5 span::after, .h6 span::after {bottom: -3px;}*/
@@ -555,6 +549,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     body .selectBox-dropdown .selectBox-arrow {right: 23px;}
 
     .cat-wrap{margin: 0 0 3px 0;}
+    table {margin: 50px 0 10px;}
 }
 
 @media only screen and (max-width:576px) {  
@@ -569,8 +564,8 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 }
 
 @media only screen and (max-width:480px) {   
-    img.alignnone, img.alignleft, img.aligncenter {margin:43px 0 39px 0; width:100%}
-    img.alignright {margin: 39px 0 39px 0; width: 100%;}
+    img.alignnone, img.alignleft, img.aligncenter {margin:39px 0 36px 0; width:100%}
+    img.alignright {margin:14px 0 36px 0; width: 100%;}
     
     
 

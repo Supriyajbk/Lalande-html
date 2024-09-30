@@ -70,7 +70,12 @@
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .split-banner-main .split-banner-text h1 {margin-bottom: 24px;}
-    .general-default-article-section {padding:40px 0 17px 0;}
+    .general-default-article-section {padding:40px 0 20px 0;}
+    .general-default-article-section .default-inner h1 {line-height: 1.2; margin-bottom: 19px;}
     .general-default-article-section .default-inner::before, .general-default-article-section .default-inner::after {display: none;}
+    .general-default-article-section .default-inner > p:first-of-type + .button {margin-bottom: 64px;}
+    .general-default-article-section .default-inner ul {margin: -4px 0 28px 24px;}
+    .general-default-article-section .default-inner p:last-child {margin-bottom: 18px;}
+    .sidebar {margin:34px 0 0 0;}
 
 }

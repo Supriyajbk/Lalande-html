@@ -13,8 +13,11 @@
 
 /*-- media starts here --*/
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .accordion-item .content {padding: 13px 72px 26px 16px}
+    .accordion-item .accordion-heading {line-height: 1.22; padding: 8px 72px 8px 16px;}
+    .accordion-item .content {padding: 18px 72px 25px 16px;}
     
+/*
     .accordion-item.active .accordion-heading::before {bottom: inherit; top: 8px;}
     .accordion-item.active .accordion-heading::after {bottom: inherit; top: 8px;}
+*/
 }
