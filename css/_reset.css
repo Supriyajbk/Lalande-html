@@ -174,13 +174,12 @@ img.alignnone {margin:17px 0 15px; display: block; clear: both;}
 
 
 
-@media only screen and (max-width: 719px) and (min-width: 200px) {
+@media only screen and (max-width: 767px) and (min-width: 200px) {
     h1 {font-size: 2.5rem; line-height: 1.2; margin-bottom: 40px;}
-    h2 {font-size: 2rem; line-height: 1.25; margin-bottom: 20px;}
+    h2 {font-size: 2.25rem; line-height: 1.33; margin-bottom: 20px;}
     h3 {margin-bottom: 20px;}
     h4 {margin-bottom: 20px;}
     
-    table {font-size: 1rem;}
     td {padding: 21px 8px 21px;}
 
     .search-form .form-field{margin-bottom: 16px;}

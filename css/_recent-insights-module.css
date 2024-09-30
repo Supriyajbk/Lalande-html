@@ -14,3 +14,11 @@
 /* Hover */
 .recent-insight-grid a:hover .h4{color: var(--lime-500);}
 .recent-insight-grid a:hover .recent-insight-thumb {transform: scale(1.1);}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+  .recent-insights-module {padding: 30px 0 31px;}
+  .recent-insight-grid {width: 300px; min-height: 542px!important; margin-right: 16px; display: flex !important; flex-wrap: wrap;}
+    .recent-insight-grid a {margin-top: auto;}
+    .recent-insights-wrap .heading-rt {display: none;}
+    
+}

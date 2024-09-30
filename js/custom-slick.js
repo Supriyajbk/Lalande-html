@@ -56,6 +56,33 @@ jQuery(window).on('resize load', function () {
   }
 });
 
+/* Insights Slider */
+   if (jQuery(window).width() <= 767) {
+    jQuery(".recent-insights-main").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: true,
+      swipeToSlide: true,
+      infinite: false,
+      speed: 1000,
+      dots: true,
+      arrows: false,
+      variableWidth: true,
+    })
+  }
 
+    /* hamiltion-stats-module Slider */
+   if (jQuery(window).width() <= 767) {
+    jQuery(".hamiltion-stats-bottom .stats-row").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: true,
+      swipeToSlide: true,
+      infinite: false,
+      speed: 1000,
+      dots: true,
+      arrows: false,
+    })
+  }
 
 });

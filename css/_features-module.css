@@ -38,3 +38,22 @@
     .features-main .features-grid:nth-child(3n+1):before {display: none;}
     .features-main .features-grid::before {height: calc(100% - 110px); top: 17px;}
 }
+@media only screen and (max-width:767px) and (min-width:200px){
+    .features-module {padding: 40px 0 22px;}
+    .intro-lt {width: 100%; margin: 0;}
+    .intro-lt .button {width: 100%;}
+    .intro-lt .btn-wrap {margin: 0 0 24px 0;}
+    .intro:before, .intro:after {display: none;}
+    .intro-rt {width: 100%;}
+    
+    
+    .features-main {width: calc(100% + 32px); left: -16px; position: relative; margin: 37px 0 0 0;}
+    .features-main .features-grid {padding: 16px; width: 50%; margin: 1px 0 0 0;}
+    .features-main .features-grid:nth-child(2n+1):before {display: none;}
+    .features-main .features-grid::before {height: calc(100% - 38px); top: 22px;}
+    .features-main .features-grid .h4 {font-size: 1.25rem; line-height: 1.4; letter-spacing: -0.6px; margin-bottom: 14px;}
+    .features-main .features-grid p {display: none;}
+    .features-main .features-grid .readmore {font-size: 0;padding: 0 16px 0 16px;}
+    .features-main .features-grid .readmore:hover::after {width: 32px;}
+    .features-main .features-grid .readmore:hover:before {background-position: center right;}
+}
