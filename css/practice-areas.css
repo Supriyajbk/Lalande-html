@@ -1,0 +1,29 @@
+@import url("_split-banner.css");
+@import url("_features-module.css");
+@import url("_hamiltion-stats-module.css");
+@import url("_form-section.css");
+
+.split-banner-section, .split-banner-main {min-height: 398px;}
+
+.features-main .features-grid {width: 33.333%; margin: 0;}
+.features-main .features-grid .h4 {margin-bottom: 23px;}
+
+/*-- media css starts here --*/
+
+@media only screen and (min-width: 1024px) {
+    .features-main:only-child .features-grid:nth-child(-n+3) {margin-top: 0;}    
+    .features-main .features-grid:nth-child(4n+1):before {display: block;}
+    .features-main .features-grid:nth-child(3n+1):before {display: none;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+ 
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+   
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    
+}
