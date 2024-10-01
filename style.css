@@ -196,7 +196,7 @@ img.mobile {display:none;}
 .video-thumbnail.video_post .play-btn-main{top: 50%; left: 50%; position: absolute; transform: translate(-50%, -50%);}
 .video-thumbnail img {width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%;}
 .play-btn-main {top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; position: absolute; z-index: 1;}
-.play-btn {width:112px; height: 112px; border: solid 8px rgb(191, 208, 0, 0.8); background-color: rgb(89, 44, 95, 0.8); border-radius: 50%; position: relative; transition: 0.2s all ease-in-out;}
+.play-btn {width:112px; height: 112px; background-color: var(--white); border-radius: 50%; position: relative; transition: 0.2s all ease-in-out;}
 .play-btn:hover {width:120px; height: 120px;}
 .play-btn img {width: 30px; height: 35px; bottom: 1px; left: 3px; position: relative;}
 
