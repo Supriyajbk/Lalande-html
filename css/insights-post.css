@@ -1,5 +1,6 @@
 @import url("../css/_default-banner.css");
 @import url("../css/default-page.css");
+@import url("../css/_faq-block.css");
 
 
 /* .default-inner p:nth-child(4) span{font-size: 1.125rem;}
@@ -49,3 +50,12 @@ blockquote{margin: 48px 0;}
 .author-block-text{background-color: var(--green-900);  padding: 48px 24px 24px;}
 .author-block-text h4{color: var(--white); margin-bottom: 24px; display: block; line-height: 1.17; font-weight: 500; margin-top: 12px;}
 .author-block-text p{font-size: 1rem; line-height: 1.38; color: var(--light-grey); margin-bottom: 24px;}
+
+.faq-block{padding: 0 0 75px;}
+
+.recent-insights-module {background: none; padding: 0;}
+.recent-insights-main{display: block;}
+.recent-insights-wrap .heading h2{color: var(--heading)}
+.recent-insight-grid {width: 100%; margin-bottom: 20px; display: flex;}
+.recent-insight-grid a{margin-top: auto;}
+
