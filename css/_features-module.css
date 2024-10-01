@@ -19,11 +19,25 @@
 .features-main .features-grid .feature-icon img {width:auto; height:24px;}
 .features-main .features-grid .h4 {font-family: "DM Sans", sans-serif; font-weight: 500; line-height: 1.4; letter-spacing: -0.78px; font-size: 1.625rem; margin-bottom: 15px;}
 .features-main .features-grid  p {margin-bottom: 17px;}
-.features-main .features-grid li {margin-bottom: 5px;}
-.features-main .features-grid li::before {top: 2px;}
-.features-main .features-grid li a {color: var(--grey);}
-.features-main .features-grid li a:hover {color: var(--lime-500);}
+.features-main .features-grid ul li {margin-bottom: 5px;}
+.features-main .features-grid ul li::before {top: 2px;}
+.features-main .features-grid ul li a {color: var(--grey);}
+.features-main .features-grid ul li a:hover {color: var(--lime-500);}
 .features-main .features-grid .readmore {margin-top: auto;}
+
+.features-main .features-grid.signup-grid {background: var(--green-700); text-align: center; padding: 40px 32px; align-items: center;}
+.features-main .features-grid.signup-grid:before {display: none;}
+.features-main .features-grid.signup-grid .result-icon{width:24px; margin:0 auto 8px;}
+.features-main .features-grid.signup-grid .h1{ color: var(--white); margin: 0 auto 24px; max-width: 300px; letter-spacing: normal; line-height: 1.17; font-size: 3rem;}
+.features-main .features-grid.signup-grid p{font-size: 1.125rem; line-height: 1.5; color: var(--light-grey); margin-bottom: 37px;}
+.features-main .features-grid.signup-grid .consult-btn{font-size: 1.125rem}
+.features-main .features-grid.signup-grid .button{width: 100%;}
+.features-main .features-grid.signup-grid .btn-wrap{gap: 8px; margin:40px 0 0 0; padding: 0 9px;}
+.features-main .features-grid.signup-grid-wrap{ padding: 40px 30px; color: var(--white); background-color: var(--green-700); text-align: center;  }
+.features-main .features-grid.signup-grid p {margin: 0; display: block;}
+
+.features-main .features-grid.signup-grid .btn-wrap .consult-btn:after, 
+.features-main .features-grid.signup-grid .btn-wrap .consult-btn:before{background: var(--green-900)!important; color: var(--white);}
 
 /*-- media starts here --*/
 
@@ -59,4 +73,9 @@
     .features-main .features-grid .readmore {font-size: 0;padding: 0 16px 0 16px;}
     .features-main .features-grid .readmore:hover::after {width: 32px;}
     .features-main .features-grid .readmore:hover:before {background-position: center right;}
+    .features-main .features-grid ul {margin: 0 0 18px 24px;}
+    
+    .features-main .features-grid.signup-grid {margin: 17px 0 -22px 0; padding: 39px 15px 40px;}
+    .features-main .features-grid.signup-grid p {padding: 0 5px;}
+    .features-main .features-grid.signup-grid .btn-wrap {padding: 0; margin: 39px 0 0 0;}
 }

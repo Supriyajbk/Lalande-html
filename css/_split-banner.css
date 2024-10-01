@@ -95,7 +95,7 @@ flex-wrap: wrap; align-items: center; z-index: 1; flex-grow: 1;}
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .split-banner-main .split-banner-thumb .contact-img {height: inherit;}
     .split-banner-main .split-banner-text { padding: 40px 16px 40px 16px; }
-    .split-banner-main .split-banner-text h1 { font-size: 2.5rem; line-height: 1.3; letter-spacing: -1.2px; margin-bottom: 14px; }
+    .split-banner-main .split-banner-text h1 { font-size: 2.5rem; line-height: 1.3; letter-spacing: -1.2px; margin-bottom: 24px; }
     .split-banner-main .split-banner-text .optional-text {margin-bottom: 23px;}
     .split-banner-text .button{width: 100%;}
     
