@@ -222,12 +222,12 @@ body .mfp-close:after {display: none;}
 .cat-wrap ul li:hover a{color: var(--heading);}
 
 /* Breadcrumb */
-.breadcrumb {clear: both; width: 100%; margin: 0 0 64px 0;}
+.breadcrumb {clear: both; width: 100%; margin: 0 0 40px 0;}
 .breadcrumb ul {margin: 0; font-size: 0;}
-.breadcrumb ul li {display: inline-block; font-size:1.125rem; color: var(--foreground); margin: 0;}
-.breadcrumb ul li:before {left: inherit; top: inherit; content: "/"; position: relative; margin:-2px 12.5px 0 12.5px; display: inline-block; vertical-align: middle; color: var(--heading); width: inherit; height: inherit; background: none;}
+.breadcrumb ul li {display: inline-block; font-size:1.125rem; color: var(--heading); margin: 0; text-transform: capitalize;}
+.breadcrumb ul li:before {left: inherit; top: inherit; content: "\f105"; position: relative; margin: 1px 18.5px 0 18.5px; display: inline-block; vertical-align: middle; color: var(--grey); width: inherit; height: inherit; background: none; font-family: "Font Awesome 6 Pro";}
 .breadcrumb ul li:first-child:before {display: none;}
-.breadcrumb ul li a {text-decoration: none; color:var(--optionaltxt); font-weight: normal;}
+.breadcrumb ul li a {text-decoration: none; color:var(--green-300); font-weight: 600;}
 .breadcrumb ul li:first-child i {font-size: 1rem;}
 .breadcrumb ul li a:hover {color: var(--heading);}
 
