@@ -79,7 +79,14 @@
       <div class="default-banner-main flex">
         <div class="default-banner-text"> 
           <h1>Sample Insights Post <span>Title</span></h1>
-         
+          <div class="default-banner-category flex">
+            <ul class="category-links">
+              <li><a href="">Insight category</a></li>
+            </ul>
+            <div class="category-text">
+              <span>Published MM/DD/YYYY</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -92,11 +99,11 @@
         <div class="default-main flex">
           <div class="default-inner">
 
-            <div class="Breadcrumbs">
-                <ul class="breadcrumb flex">
-                    <li><a href="">Home</a></li>
+            <div class="breadcrumb">
+                <ul>
+                    <li><a href=""><img src="images/home-line.svg"></a></li>
                     <li><a href="">category</a></li>
-                    <li><a href="">Current post title</a></li>
+                    <li>Current post title</li>
                 </ul>
             </div>
 
@@ -141,19 +148,21 @@
               <li>Facilisi in felis gravida scelerisque in luctus morbi.</li>
             </ol>
 
-
+            <section class="concise-section pos-relative">
+              <div class="container">
+                <div class="concise-bg  pos-absolute">
+                  <picture class="object-fit">
+                    <source srcset="images/concise-bg@2x.jpg" media="(min-width: 768px)">
+                    <img src="images/concise-vector-mobile@2x.svg" alt="concise-vector">
+                  </picture>
+                </div>
             <div class="concise-main  flex pos-relative">
                 <div class="concise-info pos-relative">
-                  <div class="concise-bg pos-absolute">
-                    <picture class="object-fit">
-                      <source srcset="images/concise-bg@2x.jpg" media="(min-width: 768px)">
-                      <img src="images/concise-vector-mobile@2x.svg" alt="concise-vector">
-                    </picture>
-                  </div>
+                  
                   <div class="concise-txt">
                     <span class="optional-text">Preheader</span>
                     <h4>A concise headline fits here driving conversions.</h4>
-                    <a href="" class="button">button</a>
+                    <a href="" class="button">Button</a>
                   </div>
                 </div>
                 <div class="concise-thumb">
@@ -162,8 +171,20 @@
                   </figure>
                 </div>
                 
-              </div>
+                <!-- if no right thumb add class no_img to concise-info-->
 
+              </div>
+              </div>
+              </section>
+
+              <h3>Short subhead if necessary</h3>
+              <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a. Cras dictumst sit etiam augue pellentesque. Sem sit mauris tortor magna. Diam luctus quam sit in montes. Nibh egestas odio egestas turpis arcu. Venenatis viverra mauris scelerisque pellentesque sit in. Suspendisse sagittis convallis felis a quam donec et in. At augue pellentesque adipiscing ornare adipiscing mauris amet eu interdum. Sit tempus sollicitudin vel eleifend nulla.</p>
+              <p>Rutrum volutpat nec eu augue habitasse. Tristique non tempus fermentum vitae imperdiet lectus amet. Lacus tellus sed sit posuere fermentum facilisis. Tellus leo cras placerat sit ipsum et vitae quisque risus. Quam ultricies risus massa massa non pharetra cursus mauris.</p>
+
+              <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a. Cras dictumst sit etiam augue pellentesque. Sem sit mauris tortor magna. Diam luctus quam sit in montes. Nibh egestas odio egestas turpis arcu. Venenatis viverra mauris scelerisque pellentesque sit in. Suspendisse sagittis convallis felis a quam donec et in. At augue pellentesque adipiscing ornare adipiscing mauris amet eu interdum. Sit tempus sollicitudin vel eleifend nulla.</p>
+            <p>Rutrum volutpat nec eu augue habitasse. Tristique non tempus fermentum vitae imperdiet lectus amet. Lacus tellus sed sit posuere fermentum facilisis. Tellus leo cras placerat sit ipsum et vitae quisque risus. Quam ultricies risus massa massa non pharetra cursus mauris.</p>
+            
+            
             <section class="accordion-module">
                 <div class="accordion-main">
                   <div class="accordion">
@@ -210,26 +231,47 @@
             </section>
             <!-- end of accordion module --> 
 
+            <h3>Short subhead if necessary</h3>
+            <p>Diam ut hac amet fringilla tortor massa. Scelerisque leo dui fringilla et non gravida consequat amet a. Cras dictumst sit etiam augue pellentesque. Sem sit mauris tortor magna. Diam luctus quam sit in montes. Nibh egestas odio egestas turpis arcu. Venenatis viverra mauris scelerisque pellentesque sit in. Suspendisse sagittis convallis felis a quam donec et in. At augue pellentesque adipiscing ornare adipiscing mauris amet eu interdum. Sit tempus sollicitudin vel eleifend nulla.</p>
+            <p>Rutrum volutpat nec eu augue habitasse. Tristique non tempus fermentum vitae imperdiet lectus amet. Lacus tellus sed sit posuere fermentum facilisis. Tellus leo cras placerat sit ipsum et vitae quisque risus. Quam ultricies risus massa massa non pharetra cursus mauris.</p>
 
 
+            <div class="green-block-main flex">
+              <div class="lt-text">Did you find this article helpful?</div>
+              <a href="" class="button">Yes show me more!</a>
+            </div>
 
 
 
           </div>
           <!-- end of default-inner -->
           <aside class="sidebar">
-            <div class="side-bucket">
-              <div class="menu-bucket">
-                <h5>Related Topics</h5>
-                <ul>
-                  <li class="active"><a href="#">Optional sidebar navigation link</a></li>
-                  <li><a href="#">Optional sidebar navigation link</a></li>
-                  <li><a href="#">Optional sidebar navigation link</a></li>
-                  <li><a href="#">Optional sidebar navigation link</a></li>
-                  <li><a href="#">Optional sidebar navigation link</a></li>
-                </ul>
+            <section class="author-block pos-relative">
+              <div class="container">
+                <div class="author-block-main">
+                  <div class="author-block-thumb">
+                    <figure class="object-fit">
+                    <img src="images/insights-post-author@2x.jpg" alt="insights-post-author" title="insights-post-author">
+                    </figure>
+                  </div>
+                  <div class="author-block-text">
+                    <h4>About the Author</h4>
+                    <p>First Lastname it netus elit convallis nibh donec in feugiat libero euismod. Risus egestas eu in sit ut. Tortor in vitae libero magnis cursus justo. It netus elit convallis nibh donec in feugiat libero euismod. Risus egestas eu in sit ut. Tortor in vitae libero magnis cursus.</p>
+                    <span class="readmore white">Load more testionials</span>
+                  </div>
+                </div>
               </div>
+            </section>
+
+            <div class="author-social-icons">
+
             </div>
+
+            <div class="faq-cta"> <span class="optional-text">Need more answers?</span>
+              <h3>A short CTA headline appears right here.</h3>
+              <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus null.</p>
+              <a href="#" class="">Contact Us</a> </div>
+
           </aside>
         </div>
       </div>

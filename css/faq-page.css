@@ -8,11 +8,11 @@
 .faq-head{margin: 0 auto 40px; text-align: center;}
 .faq-head h3{color: var(--white); margin-bottom: 0;}
 .faq-row{gap: 48px 24px; margin-bottom: 48px;}
-.faq-block{flex: 0 0 calc(33.33% - 16px); padding: 32px; border: 1px solid var(--green-500); color: var(--white);}
-.faq-block h4{color: var(--white); font-family:"DM Sans", sans-serif; font-weight: 600;}
-.faq-block h4 a{color: var(--white);}
-.faq-block h4 a:hover{color: var(--lime-500);}
-.faq-block p{margin-bottom: 60px;}
+.faq-block-list{flex: 0 0 calc(33.33% - 16px); padding: 32px; border: 1px solid var(--green-500); color: var(--white);}
+.faq-block-list h4{color: var(--white); font-family:"DM Sans", sans-serif; font-weight: 600;}
+.faq-block-list h4 a{color: var(--white);}
+.faq-block-list h4 a:hover{color: var(--lime-500);}
+.faq-block-list p{margin-bottom: 60px;}
 
 
 @media only screen and (min-width: 1024px){
@@ -22,7 +22,7 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-.faq-block {padding: 20px; flex: 0 0 calc(50% - 16px);}
+.faq-block-list {padding: 20px; flex: 0 0 calc(50% - 16px);}
 
 }
 
@@ -30,9 +30,9 @@
     .hero-banner-text{margin-bottom: 30px;}
 
     .faq-row{display: block;}
-    .faq-block h4{margin-bottom: 14px;}
-    .faq-block p{margin-bottom: 15px;}
-    .faq-block{margin-bottom: 24px;}
+    .faq-block-list h4{margin-bottom: 14px;}
+    .faq-block-list p{margin-bottom: 15px;}
+    .faq-block-list{margin-bottom: 24px;}
 
     .faq-row .mini-cta-module {width: calc(100% + 32px); left: -16px; margin: 0 0 24px 0;}
 
