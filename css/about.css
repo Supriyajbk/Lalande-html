@@ -1,9 +1,30 @@
 @import url("_split-banner.css");
 @import url("_content-intro-module.css");
+@import url("_accordion-module.css");
 @import url("_hamiltion-stats-module.css");
 @import url("_form-section.css");
 
 .split-banner-section, .split-banner-main {min-height: 398px;}
+.about-container {clear: both; width: 100%; position: relative;}
+.about-thumb {width: 100%;}
+.lawyer-logo {bottom: -51px; z-index: 2; left: 90px;}
+
+
+.about-content {clear: both; width: 100%; position: relative; padding: 80px 0;}
+.about-content:before {content: ""; height: 255px; width:255px; position: absolute; background: var(--dirty-white); left:0; z-index: -1; top:0; display: block;}
+.about-content:after {content: ""; height: 255px; width:1000%; position: absolute; background: var(--dirty-white); left: -1000%; z-index: -1; top:0; display: block;}
+.about-content .container-md {max-width: 1064px;}
+.about-content h3 {padding-top: 25px;}
+.about-content ul {margin-top: -4px;}
+.about-content .accordion-module {margin-top: 40px;}
+.about-content .accordion-item .accordion-heading {font-weight: 600;}
+
+.about-content .single-testimonial {clear: both; width: 100%; position: relative; margin-top: 38px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+.about-content .single-test-lt {width: 56.390977443609025%; flex-grow: 1;}
+.about-content .single-test-lt .stars {margin-bottom: 20px;}
+.about-content .single-test-lt p {font-size: 1.5rem; line-height: 1.42; margin-bottom: 16px;}
+.about-content .single-test-lt .author-name {display: block; font-size: 1.5rem; font-family:"DM Serif Text", sans-serif; color: var(--green-900);}
+.about-content .single-test-rt {margin-left: 10.526315789473683%; width: calc(100% - 66.9172932330827%);}
 
 /*-- media css starts here --*/
 
@@ -11,7 +32,8 @@
     
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
-   
+ .lawyer-logo {left: 20px;}
+
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
