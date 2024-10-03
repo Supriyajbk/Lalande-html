@@ -23,28 +23,28 @@ blockquote{margin: 48px 0;}
 .general-default-article-section .default-inner h3{padding-top: 0;}
 .general-default-article-section .default-inner::before {top: -102px;}
 .general-default-article-section .default-inner::after {top: -102px}
-.default-inner { width: 61.578%;}
-.general-default-inner .sidebar { width: calc(100% - 71.2%);}
+
 .general-default-article-section .default-inner > p:first-of-type {color: var(--heading);}
 
 .concise-section{background-color: var(--green-900);}
-.concise-bg{bottom: 0; top: 0; width: 100%; height: 100%; opacity: 0.4;}
+.concise-bg{bottom: 0; top: 0;  height: 100%; opacity: 0.4; width: 100%; left: 0;}
 .concise-bg:before{background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.00) 0%, #051719 100%); content: ""; display: block; width: 100%; height: 100%; left: 0; right: 0; margin: auto; position: absolute;}
 .concise-main{  margin: 50px 0; align-items: center; min-height: 265px;} 
-.concise-info{max-width: 571px; }
+
 .concise-info.no_img { max-width: inherit;  width: 100%; }
 .concise-txt{ padding: 40px;}
 .concise-txt span{margin: 0 0 8px 0;}
 .concise-txt h4{font-size: 2rem; color: var(--white); font-family: DMSerifText;}
 .concise-txt .button{padding: 19px 45px 20px;}
-.concise-txt .button:after{content: "\f061"; font-size: 0.875rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: static;  margin: -3px 0 0 13px; vertical-align: middle; line-height: 12px; background: none; }
+.concise-txt .button:after{content: "\f061"; font-size: 1.125rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: static;  margin: -3px 0 0 13px; vertical-align: middle; line-height: 12px; background: none; }
 .concise-thumb { width: 265px; flex: 1; position: absolute; right: 0; left: auto; display: block; content: ""; height: 100%;}
 
 .green-block-main  .button::before, .green-block-main .button::after{background-color: var(--green-900);}
 
 .green-block-main{background-color: var(--green-700); padding: 32px; justify-content: space-between; align-items: center;}
-.lt-text{color: var(--white); font-size: 2rem;}
+.lt-text{color: var(--white); font-size: 2rem; margin-right: 20px;}
 
+.author-block{margin-bottom: 40px;}
 .author-block-thumb{margin-bottom: -50px;}
 .author-block-thumb img{margin: 0 auto; border-radius: 80px; display: block; width: 100px;}
 .author-block-text{background-color: var(--green-900);  padding: 48px 24px 24px;}
@@ -54,8 +54,69 @@ blockquote{margin: 48px 0;}
 .faq-block{padding: 0 0 75px;}
 
 .recent-insights-module {background: none; padding: 0;}
-.recent-insights-main{display: block;}
+
 .recent-insights-wrap .heading h2{color: var(--heading)}
-.recent-insight-grid {width: 100%; margin-bottom: 20px; display: flex;}
+
 .recent-insight-grid a{margin-top: auto;}
 
+
+
+@media only screen and (min-width: 1024px){
+.default-inner { width: 61.578%;}
+.general-default-inner .sidebar { width: calc(100% - 71.2%);}
+
+.recent-insights-main{display: block;}
+.recent-insight-grid {width: 100%; margin-bottom: 20px; display: flex;}
+
+}
+
+@media only screen and (min-width: 1300px){
+    .concise-info{max-width: 571px; }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .concise-info{max-width: 400px; }
+
+    .lt-text {max-width: 350px;}
+
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .concise-info{max-width: 400px; }
+   
+    .general-default-inner{display: block;}
+    .general-default-inner .default-main .sidebar{max-width: 100%;}
+
+    
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .default-banner-main .default-banner-text { padding: 40px 0 }
+    .default-banner-text h1{margin-bottom: 28px;}
+    .default-banner-category{display: block;}
+
+    .general-default-article-section{padding: 40px 0;}
+    .video-wrap {
+        margin: 52px 0 18px 0;}
+    
+    .concise-main{display: block;}
+    .concise-thumb{width: 100%; position: relative;}
+
+    .concise-txt { padding: 32px 16px; }
+    .concise-txt h4{font-size: 1.75rem;}
+    .concise-txt .button{width: 100%; font-size: 1.125rem;}
+    .concise-bg img{height: 250px;}
+
+    .lt-text {margin-bottom: 20px; line-height: 1.25;}
+    .green-block-main .button{width: 100%;}
+    .sidebar {
+        margin: 20px 0 0 0;
+      }
+    .faq-block{padding: 0 0 40px;}
+
+}

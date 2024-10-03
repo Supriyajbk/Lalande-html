@@ -1,6 +1,8 @@
 @import url("../css/_hero-banner-section.css");
 @import url("../css/_mini-cta-module.css");
 @import url("../css/_browse-section.css");
+@import url("../css/_form-section.css");
+
 
 
 .faq-section{width: 100%; clear: both; overflow: hidden; background: var(--green-900);}
