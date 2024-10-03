@@ -73,12 +73,12 @@
     <div class="banner-bg">
       <picture class="object-fit">
         <source srcset="images/insights-post-banner@2x.jpg" media="(min-width:768px)">
-        <img src="images/insights-post-banner@2x.jpg" alt="home-banner-mobile"> </picture>
+        <img src="images/insights-post-banner-mobile@2x.jpg" alt="insights-banner-mobile" title="insights-banner-mobile"> </picture>
     </div>
     <div class="container">
       <div class="default-banner-main flex">
         <div class="default-banner-text"> 
-          <h1>Sample Insights Post <span>Title</span></h1>
+          <h1>Sample Insights <span>Post Title</span></h1>
           <div class="default-banner-category flex">
             <ul class="category-links">
               <li><a href="">Insight category</a></li>
@@ -124,14 +124,20 @@
             </ul>
 
             <div class="video-wrap pos-relative">
-                <div class="video-thumbnail">
-                    <picture class="object-fit">
-                        <source srcset="images/insights-post-main-thumb-one@2x.jpg" media="(min-width: 768px)">
-                        <img src="images/insights-post-main-thumb-one@2x.jpg"  alt="" title="">
-                        <div class="play-btn-main flex flex-center"> <a class="play-btn flex flex-center" href="#">  </a> </div>
-                    </picture>
-                    <figcaption><p>Vel tempus at habitasse auctor urna nisi tristique id. Ipsum arcu sociis sollicitudin vel et nunc ullamcorper. Quam vel varius mattis leo consectetur eget quis id. Placerat sollicitudin dictum morbi purus. A pellentesque nisi mauris aliquam. Molestie ipsum in.</p></figcaption>
-                </div>
+              <div class="video-thumbnail">
+                  <div class="video-thumnail-overlay"></div>
+                    <figure class="object-fit">
+                        <img src="images/insights-post-main-thumb-one@2x.jpg"  alt="insights-post-main-thumb-one" title="insights-post-main-thumb-one">
+                        <div class="play-btn-main flex flex-center">
+                           <a class="play-btn flex flex-center" href="#">
+                          <figure class="object-fit">
+                            <img src="images/play-icon.svg" alt="play-icon" title="play-icon">
+                          </figure>  
+                          </a> 
+                          </div>
+                    </figure>
+                  </div>
+                  <figcaption><p>Vel tempus at habitasse auctor urna nisi tristique id. Ipsum arcu sociis sollicitudin vel et nunc ullamcorper. Quam vel varius mattis leo consectetur eget quis id. Placerat sollicitudin dictum morbi purus. A pellentesque nisi mauris aliquam. Molestie ipsum in.</p></figcaption>
             </div>
 
             <blockquote>
@@ -149,11 +155,11 @@
             </ol>
 
             <section class="concise-section pos-relative">
-              <div class="container">
+            
                 <div class="concise-bg  pos-absolute">
                   <picture class="object-fit">
                     <source srcset="images/concise-bg@2x.jpg" media="(min-width: 768px)">
-                    <img src="images/concise-vector-mobile@2x.svg" alt="concise-vector">
+                    <img src="images/concise-bg@2x.jpg" alt="concise-vector">
                   </picture>
                 </div>
             <div class="concise-main  flex pos-relative">
@@ -161,7 +167,7 @@
                   
                   <div class="concise-txt">
                     <span class="optional-text">Preheader</span>
-                    <h4>A concise headline fits here driving conversions.</h4>
+                    <h4>A <span>concise headline</span> fits here driving conversions.</h4>
                     <a href="" class="button">Button</a>
                   </div>
                 </div>
@@ -174,7 +180,7 @@
                 <!-- if no right thumb add class no_img to concise-info-->
 
               </div>
-              </div>
+             
               </section>
 
               <h3>Short subhead if necessary</h3>
