@@ -43,9 +43,11 @@
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .lawyer-logo {left: inherit; right: 11px;}
-    .about-content {padding: 41px 0;}
+    .about-content {padding: 41px 0 40px;}
     .about-content h3 {padding-top: 0; margin-top: -3px;}
     .about-content .single-testimonial {margin-top: 61px;}
     .about-content .single-test-lt .stars {margin-bottom: 22px;}
     .about-content .single-test-lt {width: 100%;}
+    .about-content .single-test-rt {width: 100%; margin: 57px 0 0 0;}
+    .about-content .accordion-module {margin-top: 20px;}
 }

@@ -13,8 +13,8 @@
 .general-default-article-section .default-inner {position: relative;}
 .general-default-article-section .default-inner:before {content: ""; height: 255px; width:255px; position: absolute; background: var(--dirty-white); left: -80px; z-index: -1; top: -79px; display: block;}
 .general-default-article-section .default-inner:after {content: ""; height: 255px; width:1000%; position: absolute; background: var(--dirty-white); left: -1000%; z-index: -1; top: -79px; display: block;}
-.general-default-article-section .default-inner > p:first-of-type {font-size: 1.5rem; line-height: 1.33; color: var(--grey); margin: 0 0 24px 0; display: block;}
-.general-default-article-section .default-inner > p:first-of-type + .button {margin-bottom:23px;}
+.general-default-article-section .default-inner .optional-intro p {font-size: 1.5rem; line-height: 1.33; color: var(--grey); margin: 0 0 24px 0; display: block;}
+.general-default-article-section .default-inner .optional-intro .button {margin-bottom:23px;}
 .general-default-article-section .default-inner h1 {line-height: 1.17;}
 .general-default-article-section .default-inner h2 {padding-top: 25px;}
 .general-default-article-section .default-inner h3 {padding-top: 25px;}
@@ -73,7 +73,7 @@
     .general-default-article-section {padding:40px 0 20px 0;}
     .general-default-article-section .default-inner h1 {line-height: 1.2; margin-bottom: 19px;}
     .general-default-article-section .default-inner::before, .general-default-article-section .default-inner::after {display: none;}
-    .general-default-article-section .default-inner > p:first-of-type + .button {margin-bottom: 64px;}
+    .general-default-article-section .default-inner .optional-intro .button {margin-bottom: 64px;}
     .general-default-article-section .default-inner ul {margin: -4px 0 28px 24px;}
     .general-default-article-section .default-inner p:last-child {margin-bottom: 18px;}
     .sidebar {margin:34px 0 0 0;}

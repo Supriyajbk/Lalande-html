@@ -5,7 +5,7 @@
 .accordion-main .accordion:last-child .accordion-item{margin-bottom: 0;}
 
 .accordion-item.active .accordion-heading::after { content: "\f068"; bottom: inherit; top: 0;}
-.accordion-item .accordion-heading::after { content: "\2b"; width: 48px; font-family: 'Font Awesome 6 Sharp'; font-style: normal; font-weight: normal; font-size: 19px; line-height:48px; height: 48px; color:var(--optionaltxt); right: 0; top: -1px; position: absolute; display: inline-block; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; bottom: 0; display: flex; justify-content: center; align-items: center; bottom: 0; margin: auto;}
+.accordion-item .accordion-heading::after { content: "\2b"; width: 48px; font-family: 'Font Awesome 6 Sharp'; font-style: normal; font-weight: normal; font-size: 19px; line-height:48px; height: 48px; color:var(--heading); right: 0; top: -1px; position: absolute; display: inline-block; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; bottom: 0; display: flex; justify-content: center; align-items: center; bottom: 0; margin: auto;}
 .accordion-item .accordion-heading:before {content: ""; background: var(--lime-500); width: 48px; height: 48px; right: 0; top: 0; display: block; position: absolute; bottom: 0; margin: auto;}
 .accordion-item.active .accordion-heading::before {bottom: inherit;}
 .accordion-item .accordion-heading { display: block; line-height: 1.44; font-size: 1.125rem; color: var(--heading); text-decoration: none; font-weight: 500; min-height: 48px; display: flex; align-items: center; padding: 2px 72px 2px 24px;}
