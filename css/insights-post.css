@@ -33,16 +33,17 @@ blockquote{margin: 48px 0;}
 
 .concise-info.no_img { max-width: inherit;  width: 100%; }
 .concise-txt{ padding: 40px;}
-.concise-txt span{margin: 0 0 8px 0;}
+.concise-txt .optional-text{margin: 0 0 8px 0;}
 .concise-txt h4{font-size: 2rem; color: var(--white); font-family: DMSerifText;}
-.concise-txt .button{padding: 19px 45px 20px;}
+.concise-txt .button{padding: 18px 45px 19px;}
 .concise-txt .button:after{content: "\f061"; font-size: 1.125rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: static;  margin: -3px 0 0 13px; vertical-align: middle; line-height: 12px; background: none; }
 .concise-thumb { width: 265px; flex: 1; position: absolute; right: 0; left: auto; display: block; content: ""; height: 100%;}
 
 .green-block-main  .button::before, .green-block-main .button::after{background-color: var(--green-900);}
 
 .green-block-main{background-color: var(--green-700); padding: 32px; justify-content: space-between; align-items: center;}
-.lt-text{color: var(--white); font-size: 2rem; margin-right: 20px;}
+.lt-text h4{color: var(--white); font-size: 2rem; margin-right: 20px; line-height: 1.25; margin-bottom: 0;}
+.lt-text{flex-grow: 1;}
 
 .author-block{margin-bottom: 40px;}
 .author-block-thumb{margin-bottom: -50px;}
@@ -50,6 +51,7 @@ blockquote{margin: 48px 0;}
 .author-block-text{background-color: var(--green-900);  padding: 48px 24px 24px;}
 .author-block-text h4{color: var(--white); margin-bottom: 24px; display: block; line-height: 1.17; font-weight: 500; margin-top: 12px;}
 .author-block-text p{font-size: 1rem; line-height: 1.38; color: var(--light-grey); margin-bottom: 24px;}
+.author-block-text .readmore{cursor: pointer;}
 
 .faq-block{padding: 0 0 75px;}
 
@@ -82,7 +84,7 @@ blockquote{margin: 48px 0;}
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .concise-info{max-width: 400px; }
 
-    .lt-text {max-width: 350px;}
+    .lt-text{width: 350px;}
 
 
 }
@@ -92,6 +94,7 @@ blockquote{margin: 48px 0;}
     .general-default-inner{display: block;}
     .general-default-inner .default-main .sidebar{max-width: 100%;}
 
+    .lt-text{width: 400px;}
     
 }
 
@@ -101,9 +104,9 @@ blockquote{margin: 48px 0;}
     .default-banner-category{display: block;}
 
     .general-default-article-section{padding: 40px 0;}
-    .video-wrap {
-        margin: 52px 0 18px 0;}
+    .video-wrap { margin: 52px 0 18px 0;}
     
+    .concise-section{ width: calc(100% + 32px); left: -16px;}
     .concise-main{display: block;}
     .concise-thumb{width: 100%; position: relative;}
 
@@ -112,7 +115,7 @@ blockquote{margin: 48px 0;}
     .concise-txt .button{width: 100%; font-size: 1.125rem;}
     .concise-bg img{height: 250px;}
 
-    .lt-text {margin-bottom: 20px; line-height: 1.25;}
+    .lt-text  h4{margin-bottom: 20px; line-height: 1.25;}
     .green-block-main .button{width: 100%;}
     .sidebar {
         margin: 20px 0 0 0;

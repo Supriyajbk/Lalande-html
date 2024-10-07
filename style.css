@@ -197,7 +197,7 @@ img.mobile {display:none;}
 .video-thumbnail img {width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%;}
 .play-btn-main {top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; position: absolute; z-index: 1;}
 .play-btn {width: 64px; height: 64px;  border-radius: 50%; position: relative; transition: 0.2s all ease-in-out;}
-.play-btn:hover {width:64px; height: 64px;}
+.play-btn:hover {width: 64px; height: 64px; transform: scale(1.1);}
 .play-btn img {width: 64px; height: 64px; bottom: 1px; left: 3px; position: relative;}
 .video-thumbnail picture{position: relative;}
 
@@ -223,6 +223,8 @@ body .mfp-close:after {display: none;}
 .cat-wrap ul li a:after{ content: ""; display: block; background: var(--green); width: 100%; height: 1px; bottom: -1px; left: 0; position: absolute; transition: all 0.3s ease-in-out; z-index: -1;}
 .cat-wrap ul li:hover { background: var(--lime-500); transition: 0.5s ease-in-out; color: var(--heading)}
 .cat-wrap ul li:hover a{color: var(--heading);}
+
+
 
 /* Breadcrumb */
 .breadcrumb {clear: both; width: 100%; margin: 0 0 40px 0;}
@@ -448,6 +450,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 .readmore:hover:after {width:100%;}
 
 .stats-more {position: relative; z-index: 1; width: 100%; text-align: center;}
+.stats-more span.readmore{cursor: pointer;}
 /* .stats-more .readmore{color: var(--white);} */
 
 .fullimg {clear: both; width: 100%;}

@@ -2,6 +2,12 @@
 @import url("../css/_browse-section.css");
 @import url("../css/_mini-cta-module.css");
 @import url("../css/_insights-module.css");
+@import url("../css/_form-section.css");
+
+
+.insights-grid:has(a) .cat-wrap ul li {display: inline-block; color: var(--white); font-size: 0.75rem; font-weight: bold; line-height: 1; text-decoration: none; position: relative;  z-index: 1; margin: 0;}
+.insights-grid:has(a) .cat-wrap ul li:hover{color:  var(--heading);}
+
 
 
 .featured-insights-section{background-color: var(--green-900);}
