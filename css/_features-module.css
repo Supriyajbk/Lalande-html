@@ -9,6 +9,7 @@
 .intro-lt h2 {font-size: 2.25rem; margin-bottom: 32px; line-height: 1.1;}
 .intro-lt h2 span:after {bottom: 0; height: 3px;}
 .intro-lt .button {font-weight: bold; letter-spacing: -0.28px; padding: 16px 23px 16px 24px;}
+.intro-lt .readmore {font-size: 0.875rem; letter-spacing: -0.28px; line-height: 32px;}
 .intro-rt {font-size: 1.125rem; line-height: 1.5; color: var(--grey); flex-grow: 1; width:calc(100% - 434px);}
 
 /* Features */
@@ -38,6 +39,10 @@
 
 .features-main .features-grid.signup-grid .btn-wrap .consult-btn:after, 
 .features-main .features-grid.signup-grid .btn-wrap .consult-btn:before{background: var(--green-900)!important; color: var(--white);}
+
+.features-module.pi .intro-lt {margin-right: 20px;}
+.features-module.pi .intro-rt {width: calc(100% - 385px);}
+
 
 /*-- media starts here --*/
 
