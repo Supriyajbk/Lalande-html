@@ -40,7 +40,8 @@
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
   .insights-module {padding: 30px 0 31px;}
-  .insights-grid {width: 300px; min-height: 542px!important; margin-right: 16px; display: flex !important; flex-wrap: wrap;}
+  .insights-main{display: block;}
+  .insights-grid {width: 100%; min-height: 542px!important; margin-bottom: 20px; display: flex !important; flex-wrap: wrap;}
     .insights-grid a {margin-top: auto;}
     .insights-wrap .heading-rt {display: none;}
     

@@ -18,11 +18,11 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .hero-bg{padding: 64px 0 0;}
+    /* .hero-bg{padding: 64px 0 0;} */
     .hero-banner-main { padding: 40px 0 40px;}
     .hero-banner-main .stars{margin-bottom: 10px;}
     .hero-banner-main .button{width: 100%;}
-
+    .hero-banner-text p{max-width: 311px; margin: 0 auto 32px;}
 
 
 
