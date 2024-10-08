@@ -1,0 +1,39 @@
+.single-lawyer {clear: both; width: 100%; background: var(--green-900); position: relative; z-index: 1; color: var(--white); padding: 80px 0;}
+.single-lawyer .logo-text {bottom: -10px; opacity: 1;}
+.single-lawyer .single-lawyer-wrap {clear: both; width: 100%; position: relative; z-index: 1; max-width: 1160px; margin: 0 auto; padding: 0 50px;}
+
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt {width: 47.16981132075472%; flex-grow: 1; color: var(--light-grey); line-height: 1.5;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt .optional-text {font-size: 1.25rem; font-family: "DM Serif Text", sans-serif; margin: 0 0 -1px 0;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt h2 {color: var(--white); line-height: 1; margin-bottom: 24px;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt .sl-txt {display: block; font-size: 1.125rem; line-height: 1.33; margin-bottom: 23px; color: var(--white); max-width: 400px;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt .sl-txt span {position: relative; display: inline-block;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt .sl-txt span:after {background: var(--lime-500); display: inline-block; height: 2px; width: 100%; content: "";
+  position: absolute; bottom:-2px; left: 0; z-index: -1;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt .arrow-btn {font-size: 1rem; min-width: 196px; font-weight: 500; padding:16px 26px 18px 22px;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt .arrow-btn i {font-size: 20px; margin: 0 0 0 17px; line-height: normal; position: relative; top: 2px;}
+
+.single-lawyer .single-lawyer-wrap .single-lawyer-rt {width:calc(100% - 48.113207547169814%);flex-grow: 1; margin-left: 0.9433962264150944%;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-thumb {max-width: 456px; margin-left: auto; position: relative;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-thumb .lawyer-logo {top: 0; bottom: 0; margin:auto; width: 100px; height: 101.19px; display: block; right: -50px;}
+
+
+
+
+@media only screen and (max-width: 1199px){
+    .single-lawyer .single-lawyer-wrap {padding: 0 50px 0 0;}
+    .single-lawyer .single-lawyer-wrap .single-lawyer-lt .arrow-btn {min-width: inherit;}
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+
+
+
+}
