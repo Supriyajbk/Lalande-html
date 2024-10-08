@@ -493,6 +493,9 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     
     /* .space-top #mainContent { padding: 76px 0 0; } */
 
+    .frm_half {width:calc(50% - 10px); float: left; clear: none!important;}
+    .frm_first {margin-right: 20px;}
+
 }
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
