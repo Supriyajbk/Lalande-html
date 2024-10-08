@@ -11,7 +11,7 @@
 .insights-grid .insights-content .recent-date {display: block; font-size: 0.75rem; font-weight: bold; font-family: "DM Sans", sans-serif; line-height: 1.67; color: var(--white-lime); margin: 0 0 12px 0;}
 .insights-grid .insights-content .h4 {color: var(--white); font-family: "DM Sans", sans-serif; font-weight: 500; margin: 0; transition: all .3s ease-in-out;}
 
-.insights-grid h3{font-family: "DM Serif Text", sans-serif;}
+.insights-grid h3{font-family: "DM Serif Text", sans-serif; color: var(--white);}
 .insights-grid p{font-size: 1rem; color: var(--white); line-height: 1.5;}
 .insights-grid:nth-child(4){display: block; flex: 100%;}
 
