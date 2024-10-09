@@ -105,7 +105,7 @@
 
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
-    .main_header .header {padding: 18px 0 14px; min-height: 64px;}
+    .main_header .header {padding: 18px 0 14px; min-height: 80px;}
 
     .main_header .logo {width: 135px;}
     .main_header .header-btm {position: relative; display: flex; clear: both; align-items: flex-start; justify-content: flex-start; gap:0; margin: 0;}

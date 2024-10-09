@@ -149,9 +149,14 @@ body {font-family:"DM Sans", sans-serif; color:var(--body-text); font-size:1rem;
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {color:var(--heading); text-decoration: none;}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover {color:var(--lime-500);}
-h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, .h1 span, .h2 span, .h3 span, .h4 span, .h5 span, .h6 span {position: relative; display: inline-block; z-index: 1;}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, .h1 span, .h2 span, .h3 span, .h4 span, .h5 span, .h6 span {position: relative; display: inline; z-index: 1; background: -webkit-linear-gradient(to bottom, transparent 95%, var(--lime-500) 90%, var(--lime-500) 100%); background: linear-gradient(to bottom, transparent 95%, var(--lime-500) 90%, var(--lime-500) 100%); background-position: center -6px;}
+h2 span {background: -webkit-linear-gradient(to bottom, transparent 94%, var(--lime-500) 90%, var(--lime-500) 100%); background: linear-gradient(to bottom, transparent 94%, var(--lime-500) 90%, var(--lime-500) 100%); background-position: center -5px;}
+
+
+/*
 h1 span:after, h2 span:after, h3 span:after, h4 span:after, h5 span:after, h6 span:after, .h1 span:after, .h2 span:after, .h3 span:after, .h4 span:after, .h5 span:after, .h6 span:after {background:var(--lime-500); display: inline-block; height: 2px; width: 100%; content: ""; position: absolute; bottom: 5px; left: 0; z-index: -1;}
 h2 span:after{bottom: 2px;}
+*/
 
 .h1, .h2, .h3, .h4, .h5, .h6 {display: block; font-family:"DM Serif Text", sans-serif; color: var(--heading);}
 .h1 {font-size: 3rem; line-height: 1.3; margin-bottom: 24px; letter-spacing: -1.44px;}
@@ -521,7 +526,8 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
     .video-thumbnail iframe{min-height: 197px!important;}
 
-    .cat-wrap ul li {margin-right: 6px;}
+    
+    
     body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close {right: 0px;}
     body .mfp-container { padding-left: 20px; padding-right: 20px; }
 
@@ -558,7 +564,10 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     body .selectBox-dropdown .selectBox-arrow {right: 23px;}
 
     .cat-wrap{margin: 0 0 3px 0;}
+    .cat-wrap ul li {margin-right: 6px;}
     table {margin: 50px 0 10px;}
+    
+    .slick-arrow {width: 40px; height: 40px;}
 }
 
 @media only screen and (max-width:576px) {  
