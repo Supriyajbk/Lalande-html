@@ -30,6 +30,11 @@
 }
 
 @media only screen and (max-width:767px) and (min-width:200px){
-    .content-img-module {padding:21px 0 17px;}
+    .content-img-module {padding:21px 0 80px;}
+    .content-img-lt {margin: 0 0 24px 0;}
+    .content-img-rt h2 {margin-bottom: 22px;}
     .content-img-rt .button {width: 100%;}
+    .content-img-rt .btn-wrap {gap: 16px;}
+        .sec-wrapper .simple-features-module + .content-img-module {padding-top: 46px;}
+
 }

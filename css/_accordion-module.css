@@ -13,11 +13,12 @@
 
 /*-- media starts here --*/
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .accordion-item .accordion-heading {line-height: 1.22; padding: 8px 72px 8px 16px;}
-    .accordion-item .content {padding: 18px 72px 25px 16px;}
+    .accordion-module {padding: 0 0 40px 0;}
+    .accordion-item .accordion-heading {line-height: 1.22; padding: 8px 72px 8px 16px; min-height: 64px;}
+    .accordion-item .content {padding: 16px 72px 25px 16px;}
     
-/*
+
     .accordion-item.active .accordion-heading::before {bottom: inherit; top: 8px;}
     .accordion-item.active .accordion-heading::after {bottom: inherit; top: 8px;}
-*/
+
 }

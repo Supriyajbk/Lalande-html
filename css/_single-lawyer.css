@@ -6,9 +6,9 @@
 .single-lawyer .single-lawyer-wrap .single-lawyer-lt .optional-text {font-size: 1.25rem; font-family: "DM Serif Text", sans-serif; margin: 0 0 -1px 0;}
 .single-lawyer .single-lawyer-wrap .single-lawyer-lt h2 {color: var(--white); line-height: 1; margin-bottom: 24px;}
 .single-lawyer .single-lawyer-wrap .single-lawyer-lt .sl-txt {display: block; font-size: 1.125rem; line-height: 1.33; margin-bottom: 23px; color: var(--white); max-width: 400px;}
-.single-lawyer .single-lawyer-wrap .single-lawyer-lt .sl-txt span {position: relative; display: inline-block;}
-.single-lawyer .single-lawyer-wrap .single-lawyer-lt .sl-txt span:after {background: var(--lime-500); display: inline-block; height: 2px; width: 100%; content: "";
-  position: absolute; bottom:-2px; left: 0; z-index: -1;}
+.single-lawyer .single-lawyer-wrap .single-lawyer-lt .sl-txt span {position: relative; display: inline-block; background: -webkit-linear-gradient(to bottom, transparent 94%, var(--lime-500) 90%, var(--lime-500) 100%); background: linear-gradient(to bottom, transparent 94%, var(--lime-500) 90%, var(--lime-500) 100%);
+  background-position: center bottom;}
+
 .single-lawyer .single-lawyer-wrap .single-lawyer-lt .arrow-btn {font-size: 1rem; min-width: 196px; font-weight: 500; padding:16px 26px 18px 22px;}
 .single-lawyer .single-lawyer-wrap .single-lawyer-lt .arrow-btn i {font-size: 20px; margin: 0 0 0 17px; line-height: normal; position: relative; top: 2px;}
 
@@ -35,6 +35,15 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .single-lawyer .logo-text {display: none;}
+    .single-lawyer {padding: 40px 0;}
+    .single-lawyer .single-lawyer-wrap .single-lawyer-lt .btn-wrap {gap:16px;}
+    .single-lawyer .single-lawyer-wrap .single-lawyer-lt .btn-wrap .button {width: 100%;}
+    .single-lawyer .single-lawyer-wrap .single-lawyer-lt .sl-txt {margin-bottom: 24px;}
+    .single-lawyer .single-lawyer-wrap .single-lawyer-lt h2 {margin-bottom: 25px;}
+    .single-lawyer .single-lawyer-wrap .single-lawyer-lt .optional-text {margin: 0;}
+        .single-lawyer .single-lawyer-wrap .single-lawyer-thumb {margin:0 auto 20px 0;}
+    .single-lawyer .single-lawyer-wrap .single-lawyer-thumb .lawyer-logo {top: -40px; bottom: inherit; right: 0;}
 
 
 

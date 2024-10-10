@@ -41,7 +41,12 @@ jQuery(document).ready(function () {
         autoplaySpeed: 1000,
         prevArrow: '<span class="slick-arrow prev-arrow fa-regular fa-angle-left flex flex-center"></span>',
         nextArrow: '<span class="slick-arrow next-arrow fa-regular fa-angle-right flex flex-center"></span>',
-          responsive:[{breakpoint:480,settings:{variableWidth: false}},]
+        responsive: [{
+          breakpoint: 480,
+          settings: {
+            variableWidth: false
+          }
+        }]
       });
     }
   }

@@ -9,7 +9,7 @@
 .intro-lt h2 {font-size: 2.25rem; margin-bottom: 32px; line-height: 1.1;}
 .intro-lt h2 span:after {bottom: 0; height: 3px;}
 .intro-lt .button {font-weight: bold; letter-spacing: -0.28px; padding: 16px 23px 16px 24px;}
-.intro-lt .readmore {font-size: 0.875rem; letter-spacing: -0.28px; line-height: 32px;}
+.intro-lt .readmore {font-size: 0.875rem; letter-spacing: -0.28px;}
 .intro-rt {font-size: 1.125rem; line-height: 1.5; color: var(--grey); flex-grow: 1; width:calc(100% - 434px);}
 
 /* Features */
@@ -73,22 +73,17 @@
 }
 
 @media only screen and (max-width:767px) and (min-width:200px){
-    .features-module {padding: 40px 0 21px;}
+    .features-module {padding: 40px 0 20px;}
     
     .intro-lt .button {width: 100%;}
-    
-    
-    
-    
-    
-    .features-main {width: calc(100% + 32px); left: -16px; position: relative; margin: 37px 0 0 0;}
-    .features-main .features-grid {padding: 16px; margin: 1px 0 0 0;}
+    .features-main {width: calc(100% + 32px); left: -16px; position: relative; margin: 38px 0 0 0;}
+    .features-main .features-grid {padding: 16px; margin:0;}
     .features-main .features-grid::before {height: calc(100% - 41px); top: 22px;}
-    .features-main .features-grid .h4 {font-size: 1.25rem; line-height: 1.4; letter-spacing: -0.6px; margin-bottom: 16px;}
+    .features-main .features-grid .h4 {font-size: 1.25rem; line-height: 1.4; letter-spacing: -0.6px; margin-bottom:16px;}
     .features-main .features-grid p {display: none;}
-    .features-main .features-grid .readmore {font-size: 0;padding: 0 16px 0 16px;}
+    .features-main .features-grid .readmore {text-indent: -9999999px;}
     .features-main .features-grid .readmore:hover::after {width: 32px;}
-    .features-main .features-grid .readmore:hover:before {background-position: center right;}
+    .features-main .features-grid .readmore:hover:before {background-position: center right; width: 32px; height: 32px;}
     .features-main .features-grid ul {margin: 0 0 18px 24px;}
     
     .features-main .features-grid.signup-grid {margin: 17px 0 -22px 0; padding: 39px 15px 40px;}

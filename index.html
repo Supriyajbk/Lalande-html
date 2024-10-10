@@ -26,7 +26,7 @@
       <div class="toggle_button flex flex-center"><span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span></div>
       <div class="header_right mobile_menu flex">
         <div class="header-btm">
-          <nav class="navigation mobile_menu">
+          <nav class="navigation mobile_main_menu">
             <ul class="main_menu">
               <li><a href="#">Expertise</a> </li>
               <li class="menu-item-has-children flex-menu"><a href="#">Practice Areas</a>
@@ -35,12 +35,14 @@
                   <li><a href="#">Brunch</a></li>
                   <li><a href="#">Lunch</a></li>
                   <li><a href="#">Dinner</a></li>
-                  <li><a href="#">Mains</a></li>
+                  <li class="menu-item-has-children flex-menu"><a href="#">Practice Areas</a>
+                      <ul class="sub-menu">
                   <li><a href="#">Sides</a></li>
                   <li><a href="#">Snacks</a></li>
                   <li><a href="#">Desserts</a></li>
                   <li><a href="#">Appetizers</a></li>
                   <li><a href="#">Drinks</a></li>
+                      </ul></li>
                 </ul>
               </li>
               <li><a href="#">Insights</a> </li>
@@ -560,7 +562,9 @@
         <!-- end of single lawyer lt -->
         <div class="single-lawyer-rt">
           <div class="single-lawyer-thumb">
-            <figure class="object-fit"> <img src="images/single-lawyer@2x.jpg" alt="Lawyer Thumb" title="Lawyer Thumb"> </figure>
+            <picture class="object-fit">
+              <source srcset="images/single-lawyer@2x.jpg" media="(min-width:768px)">
+              <img src="images/single-lawyer-mobile@2x.jpg" alt="Lawyer Thumb" title="Lawyer Thumb"> </picture>
             <div class="lawyer-logo pos-absolute">
               <figure class="object-fit"> <img src="images/lawyer-logo.svg" alt="Lawyer Icon" title="Lawyer Icon"> </figure>
             </div>
@@ -573,60 +577,60 @@
   </section>
   <!-- end of single lawyer -->
   
- 
-  
   <section class="sec-wrapper pos-relative">
-       <section class="simple-features-module">
-    <div class="container">
-      <div class="sfm-wrap">
-        <div class="sfm-head">
-          <div class="stars">
-            <figure class="object-fit"><img src="images/stars.svg" alt="stars" title="stars"></figure>
+    <section class="simple-features-module">
+      <div class="container">
+        <div class="sfm-wrap">
+          <div class="sfm-head">
+            <div class="stars">
+              <figure class="object-fit"><img src="images/stars.svg" alt="stars" title="stars"></figure>
+            </div>
+            <h2>Among the <span>Hamilton Best</span> Personal Injury Lawyers</h2>
+            <p>Why choose our Hamilton Personal Injury Law Firm?</p>
           </div>
-          <h2>Among the <span>Hamilton Best</span> Personal Injury Lawyers</h2>
-          <p>Why choose our Hamilton Personal Injury Law Firm?</p>
+          <div class="simple-features-main">
+            <div class="simple-features-grid">
+              <div class="simple-feature-icon"><img src="images/marker.svg" alt="Marker" title="Marker" /></div>
+              <!-- end of feature icon -->
+              <div class="h4">We are <strong>Local</strong></div>
+              <p>Unlike other our-of-town firms who pretend to be in Hamilton, we are here and have been here since 2003.</p>
+            </div>
+            <!-- end of simple-features grid -->
+            <div class="simple-features-grid">
+              <div class="simple-feature-icon"><img src="images/gavel.svg" alt="Gavel" title="Gavel" /></div>
+              <!-- end of simple-feature icon -->
+              <div class="h4"><strong>Real Trial</strong> Lawyers</div>
+              <p>Matt Lalande has tried numerous jury and bench trials since 2003.  We will put your case to any Judge or Jury in the Province.</p>
+            </div>
+            <!-- end of simple-features grid -->
+            <div class="simple-features-grid">
+              <div class="simple-feature-icon"><img src="images/heart.svg" alt="Heart" title="Heart" /></div>
+              <!-- end of feature icon -->
+              <div class="h4"><strong>Free Consultations</strong></div>
+              <p>With our Hamilton Personal Injury Lawyers, you never pay consultation fees upfront, ever. Talking to us is Free.</p>
+            </div>
+            <!-- end of simple-features grid -->
+            <div class="simple-features-grid">
+              <div class="simple-feature-icon"><img src="images/fee.svg" alt="Fee" title="Fee" /></div>
+              <!-- end of simple-feature icon -->
+              <div class="h4">The <strong>Fee is Free.</strong></div>
+              <p>With our Hamilton Personal Injury Lawyers, you don’t pay us unless we win.</p>
+            </div>
+            <!-- end of simple-features grid --> 
+            
+          </div>
+          <!-- end of features main --> 
         </div>
-        <div class="simple-features-main">
-          <div class="simple-features-grid">
-            <div class="simple-feature-icon"><img src="images/marker.svg" alt="Marker" title="Marker" /></div>
-            <!-- end of feature icon -->
-            <div class="h4">We are <strong>Local</strong></div>
-            <p>Unlike other our-of-town firms who pretend to be in Hamilton, we are here and have been here since 2003.</p>
-          </div>
-          <!-- end of simple-features grid -->
-          <div class="simple-features-grid">
-            <div class="simple-feature-icon"><img src="images/gavel.svg" alt="Gavel" title="Gavel" /></div>
-            <!-- end of simple-feature icon -->
-            <div class="h4"><strong>Real Trial</strong> Lawyers</div>
-            <p>Matt Lalande has tried numerous jury and bench trials since 2003.  We will put your case to any Judge or Jury in the Province.</p>
-          </div>
-          <!-- end of simple-features grid -->
-          <div class="simple-features-grid">
-            <div class="simple-feature-icon"><img src="images/heart.svg" alt="Heart" title="Heart" /></div>
-            <!-- end of feature icon -->
-            <div class="h4"><strong>Free Consultations</strong></div>
-            <p>With our Hamilton Personal Injury Lawyers, you never pay consultation fees upfront, ever. Talking to us is Free.</p>
-          </div>
-          <!-- end of simple-features grid -->
-          <div class="simple-features-grid">
-            <div class="simple-feature-icon"><img src="images/fee.svg" alt="Fee" title="Fee" /></div>
-            <!-- end of simple-feature icon -->
-            <div class="h4">The <strong>Fee is Free.</strong></div>
-            <p>With our Hamilton Personal Injury Lawyers, you don’t pay us unless we win.</p>
-          </div>
-          <!-- end of simple-features grid --> 
-          
-        </div>
-        <!-- end of features main --> 
       </div>
-    </div>
-  </section>
-  <!-- end of features  module -->
+    </section>
+    <!-- end of features  module -->
     <section class="content-img-module">
       <div class="container">
         <div class="content-img flex">
           <div class="content-img-lt">
-            <figure class="object-fit"> <img src="images/practice-thumb@2xjpg.jpg" alt="Intro Thumb" title="Intro Thumb"/></figure>
+            <picture class="object-fit">
+              <source srcset="images/practice-thumb@2x.jpg" media="(min-width:768px)">
+              <img src="images/practice-thumb-mobile@2x.jpg" alt="Intro Thumb" title="Intro Thumb"/></picture>
           </div>
           <!-- end of content-img lt -->
           <div class="content-img-rt">
@@ -957,13 +961,14 @@
     <!-- end of faq block --> 
   </section>
   <!-- end of sec wrapper -->
-  <section class="recent-insights-module">
-    <div class="background-bg">
+    <section class="sec-wrap">
+        <div class="background-bg">
       <picture class="object-fit">
-        <source srcset="images/insight-wrap-bg@2x.jpg" media="(min-width: 768px)">
-        <img src="images/form-bg@2x.jpg" alt="Recent Insights Background" title="Recent Insights Background"> </picture>
+        <source srcset="images/home-insights@2x.jpg" media="(min-width: 768px)">
+        <img src="images/insight-wrap-bg-mobile@2x.jpg" alt="Recent Insights Background" title="Recent Insights Background"> </picture>
     </div>
     <!-- end bg -->
+  <section class="recent-insights-module">
     <div class="container">
       <div class="container-md recent-insights-wrap">
         <div class="heading">
@@ -1087,6 +1092,7 @@
     <!-- end of contact main -->
     </div>
   </section>
+        </section><!-- end of sec wrap -->
   <section class="faq-block">
     <div class="container">
       <div class="container-md">
@@ -1333,7 +1339,7 @@
               </div>
               <!-- end of accordion --> 
             </div>
-              <div class="faq-cta hide-in-desktop hide-in-tablet"> <span class="optional-text">Need more answers?</span>
+            <div class="faq-cta hide-in-desktop hide-in-tablet"> <span class="optional-text">Need more answers?</span>
               <h3>A short CTA headline appears right here.</h3>
               <p>Mollis arcu viverra platea iaculis nisl. Faucibus sed volutpat nulla nec sed ipsum. Sit nulla faucibus ultrices sit nunc. Amet lectus null.</p>
               <a href="#" class="button">Contact Us</a> </div>
@@ -1353,7 +1359,7 @@
   <div class="background-bg">
     <picture class="object-fit">
       <source srcset="images/footer-bg@2x.jpg" media="(min-width: 768px)">
-      <img src="images/footer-bg@2x.jpg" alt="Footer Background Image" title="Footer Background Image"> </picture>
+      <img src="images/footer-mobile@2x.jpg" alt="Footer Background Image" title="Footer Background Image"> </picture>
   </div>
   <div class="container">
     <div class="footer">
