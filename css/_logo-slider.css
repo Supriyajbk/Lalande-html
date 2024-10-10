@@ -9,10 +9,14 @@
     .logo-slider {padding: 0 100px;}
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 720px) {
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
     .logo-slider {padding: 0 48px;}
     .logo-img {width: 122px;}
 }
 
-@media only screen and (max-width: 719px) and (min-width: 200px) {   
+@media only screen and (max-width: 767px) and (min-width: 200px) {   
+    .logo-slider-module {padding: 20px 0;}
+    .logo-slider {padding: 0 40px;}
+    .logo-img {width: 174px; margin: 0 10px;}
+    .logo-img img {width: auto; margin: 0 auto;}
 }

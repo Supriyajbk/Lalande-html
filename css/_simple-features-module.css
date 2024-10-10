@@ -1,6 +1,6 @@
-.simple-features-module {clear: both; width: 100%; padding:75px 0 65px 0; background: var(--white); position: relative; z-index: 1;}
-.simple-features-module .sfm-wrap:before {content: ""; height: 255px; width:440px; position: absolute; background: var(--dirty-white); right:0; z-index: -1; top:0; display: block;}
-.simple-features-module .sfm-wrap:after {content: ""; height: 255px; width:1000%; position: absolute; background: var(--dirty-white); right: -1000%; z-index: -1; top:0; display: block;}
+.simple-features-module {clear: both; width: 100%; padding:0 0 65px 0; background: var(--white); position: relative; z-index: 1;}
+.simple-features-module .sfm-wrap:before {content: ""; height: 255px; width:440px; position: absolute; background: var(--dirty-white); right:0; z-index: -1; top:-80px; display: block;}
+.simple-features-module .sfm-wrap:after {content: ""; height: 255px; width:1000%; position: absolute; background: var(--dirty-white); right: -1000%; z-index: -1; top:-80px; display: block;}
 .simple-features-module .sfm-head {text-align: center; max-width: 560px; margin: 0 auto;}
 .simple-features-module .sfm-head .stars {margin-bottom: 18px;}
 .simple-features-module .sfm-head h2 {margin-bottom: 18px;}
@@ -12,27 +12,38 @@
 .simple-features-main .simple-features-grid .simple-feature-icon {width: 100%; clear: both; margin:0 0 63px 0;}
 .simple-features-main .simple-features-grid .simple-feature-icon img {width:auto; height:24px;}
 .simple-features-main .simple-features-grid .h4 {font-family: "DM Sans", sans-serif; font-weight: 500; letter-spacing: -0.24px;margin-bottom: 15px;}
-.simple-features-main .simple-features-grid .h4 strong {position: relative; display: inline-block;}
-.simple-features-main .simple-features-grid .h4 strong:after {background: var(--lime-500); display: inline-block; height: 2px; width: 100%; content: ""; position: absolute; bottom:-2px; left: 0; z-index: -1;}
+.simple-features-main .simple-features-grid .h4 strong {position: relative; display: inline-block; background: -webkit-linear-gradient(to bottom, transparent 95%, var(--lime-500) 90%, var(--lime-500) 100%); background: linear-gradient(to bottom, transparent 95%, var(--lime-500) 90%, var(--lime-500) 100%); background-position: center 0;}
 
 .simple-features-main .simple-features-grid .readmore {margin-top: auto;}
 
 
 /*-- media starts here --*/
+@media only screen and (max-width: 1199px) and (min-width:1024px){     
+    .simple-features-main {width: calc(100% + 48px); position: relative; left: -24px;}
+    .simple-features-main .simple-features-grid .h4 {letter-spacing: -0.8px;}
+}
 
 @media only screen and (min-width: 1024px) {
     .simple-features-main .simple-features-grid:nth-child(4n+1):before {display: none;}
 }
+@media only screen and (max-width: 1023px) and (min-width:200px){  
+        .simple-features-module .sfm-wrap::before, .simple-features-module .sfm-wrap::after {display: none;}
+
+}
 @media only screen and (max-width: 1023px) and (min-width: 768px){      
     .simple-features-main {width: calc(100% + 40px); position: relative; left: -20px;}
-    .simple-features-main .simple-features-grid {width: 33.333%; padding: 20px;}
-    .simple-features-main .simple-features-grid:nth-child(3n+1):before {display: none;}
+    .simple-features-module .sfm-head {margin: 0 auto 40px auto;}    
+    .simple-features-main .simple-features-grid {width:50%; padding: 20px;}
+    .simple-features-main .simple-features-grid:nth-child(2n+1):before {display: none;}
 }
 @media only screen and (max-width:767px) and (min-width:200px){
-    .simple-features-module {padding: 40px 0 22px;}
-    
-    .simple-features-main {width: calc(100% + 32px); left: -16px; position: relative; margin: 37px 0 0 0;}
-    .simple-features-main .simple-features-grid {padding: 16px; width: 50%; margin: 1px 0 0 0;}
-    .simple-features-main .simple-features-grid:nth-child(2n+1):before {display: none;}
+    .simple-features-module {padding: 0 0 22px;}    
+    .simple-features-main {margin:8px 0 0 0;}
+    .simple-features-module .sfm-head h2 {font-size: 2.5rem; line-height: 1.2; margin-bottom: 19px;}
+    .simple-features-module .sfm-head p {line-height: 1.25;}
+    .simple-features-main .simple-features-grid {width:100%; padding:16px 0; margin: 15px 0 0 0;}
+    .simple-features-main .simple-features-grid .simple-feature-icon {margin: 0 0 15px 0;}
+    .simple-features-main .simple-features-grid::before {display: none;}
+   
     
 }

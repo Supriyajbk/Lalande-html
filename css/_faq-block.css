@@ -32,6 +32,7 @@
 @media only screen and (max-width: 1023px) and (min-width:768px){
     .faq-block {padding: 65px 0 75px 0;}    
     .faq-main {gap:40px;}
+    .faq-lt .have-questions {margin: 0 0 25px 0;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
@@ -39,7 +40,8 @@
     .faq-block {padding: 40px 0 40px 0;}
     .faq-lt .have-questions {margin: 0 0 24px 0;}
     
-    .faq-rt .accordion-item .accordion-heading {padding: 8px 72px 8px 16px;}
+    .faq-rt .accordion-item .accordion-heading {padding: 8px 72px 8px 16px; min-height: 64px;}
+    .faq-rt .accordion-item .content {padding-top: 0;}
     .faq-cta {margin: 24px 0 0 0;}
     .faq-cta h3 {font-size: 1.5rem; line-height: 1.17;}
     .faq-cta p {font-size: 0.938rem; line-height: 1.6; color: var(--grey); margin-bottom: 20px;}
