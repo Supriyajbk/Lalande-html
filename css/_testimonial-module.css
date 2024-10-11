@@ -1,0 +1,100 @@
+.testimonial-module {clear: both; position: relative; padding: 80px 0; background:var(--green-900); z-index: 1;}
+.testimonial-module h2 {color: var(--white); text-align: center;}
+.testimonial-module .testimonial-slider {align-items: center;}
+.testimonial-module .testimonial-slider .slider-for {width: 352px; height: 352px;}
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb {width:352px!important; height: 352px; left: 0!important; position: absolute!important; top: 0!important;}
+.testimonial-module .testimonial-slider .slider-for .slick-track {width: 352px!important; transform: none!important; height: 352px !important;}
+.testimonial-module .testimonial-slider .slider-nav {width: calc(100% - 398px); margin-right: auto;}
+.testimonial-module .testimonial-slider .slider-nav:before {content: ""; width: 143px; height: 106px; background: url('../images/testimonial-icon.svg') 0 0 no-repeat; display: block; position: absolute; top: 40px; left: -51px; opacity: 0.3; z-index: -1; background-size: 100% 100%;}
+
+
+.testimonial-content p {font-size: 1.5rem; line-height: 1.42; margin-bottom: 16px; color:var(--light-grey);}
+.testimonial-content .stars {margin-bottom: 23px;}
+.testimonial-content .author-name {display: block; font-size: 1.5rem; font-family:"DM Serif Text", sans-serif; color: var(--white);}
+.testimonial-module .testimonial-slider .testimonial-img img {box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.85);}
+
+
+
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb {
+  position: absolute;
+  left: 0 !important;
+  width: 352px !important;
+  height: 352px;
+  transition: top 0.6s ease, transform 0.6s ease, opacity 0.6s ease, z-index 0s!important; /* Smooth transitions */
+  top: 0 !important;
+}
+
+/* Farthest thumbnail in the background */
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb.slick-active.slick-current + .testimonial-thumb.slick-active + .testimonial-thumb.slick-active {
+  top: -26px !important;
+  transform: scale(0.8); /* Smaller thumbnail */
+  opacity: 1 !important;
+  z-index: 1 !important; /* Lowest z-index */
+  transition-delay: 0.6s !important; /* Delayed transition for smooth stacking */
+}
+
+/* Middle thumbnail */
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb.slick-active.slick-current + .testimonial-thumb.slick-active {
+  top: 6px !important;
+  transform: scale(0.93); /* Medium scale */
+  opacity: 1 !important;
+  z-index: 2 !important; /* Medium z-index */
+  transition-delay: 0.3s !important; /* Medium transition delay */
+}
+
+/* Active thumbnail (top of the stack) */
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb.slick-active.slick-current {
+  top: 27px !important;
+  transform: scale(1); /* Full-size thumbnail */
+  opacity: 1 !important;
+  z-index: 3 !important; /* Highest z-index */
+  transition-delay: 0s !important; /* No delay for active slide */
+}
+
+/* Ensure that all testimonial images take up 100% of the thumb area */
+.testimonial-module .testimonial-slider .testimonial-thumb {
+  width: 100%;
+}
+
+/* Ensure smooth transitions */
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb {
+    transition: top 0.6s ease, transform 0.6s ease, opacity 0.6s ease;
+}
+
+/* For the active slides */
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb.slick-active {
+    opacity: 1;
+    transform: scale(0.93); /* Slight scaling for active slides */
+    z-index: 2;
+}
+
+/* For the current active slide */
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb.slick-current {
+    opacity: 1;
+    transform: scale(1); /* Full size for the focused slide */
+    z-index: 3;
+}
+
+/* For inactive slides */
+.testimonial-module .testimonial-slider .slider-for .testimonial-thumb:not(.slick-active) {
+    opacity: 0.5; /* Reduced opacity for inactive slides */
+    transform: scale(0.8); /* Smaller scale for inactive slides */
+    z-index: 1;
+}
+/* Custom slick arrow */
+.custom_arrows_wc {display: flex; justify-content: center;	align-items: center; width: 100%;}
+.custom_arrow {cursor: pointer; margin:auto 0; top: 0; bottom: 0;}
+.custom_arrow_dir_right {margin-left: auto;}
+.custom_arrow_dir_left:after, .custom_arrow_dir_right:after {content: "\f104"; font-family: 'Font Awesome 6 Pro'; font-size: 1.25rem;display: flex; align-items: center; justify-content: center; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; left: 0; color: var(--heading); font-weight: 400;}
+.custom_arrow_dir_right:after {content: "\f105";}
+.custom_arrow_dir_left:hover:after, .custom_arrow_dir_right:hover:after {color:var(--white);}
+
+.custom_dots_list {display:flex; justify-content:center; align-items:center; flex-wrap:wrap; margin:0!important}
+.custom_dots_list li {text-indent:-99999px; width:8px; height:8px; min-width:0; padding:0; font-size:0; line-height:0; border:0 none; background:var(--lime-500); border-radius: 50%; cursor:pointer; margin:4.5px 9px 4.5px 0!important;}
+.custom_dots_list li:before {display:none}
+.custom_dots_list li.slick-active {background:var(--white);}
+.custom_dots_list li.slick-active:after {opacity:1;}
+.custom-flex {align-items:center; justify-content:space-between; margin: 75px 0 0 0;}
+
+
+
