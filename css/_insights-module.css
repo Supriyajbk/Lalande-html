@@ -44,5 +44,11 @@
   .insights-grid {width: 100%; min-height: 542px!important; margin-bottom: 20px; display: flex !important; flex-wrap: wrap;}
     .insights-grid a {margin-top: auto;}
     .insights-wrap .heading-rt {display: none;}
+    .insights-grid:nth-child(4){overflow: inherit;}
+    .insights-grid:nth-child(4) a{padding: 0; display: block;}
+    .insights-grid:nth-child(4) .insights-thumb{position: relative; height: 164px; margin-bottom: 16px; width: calc(100% + 32px); left: -16px;}
+
+    .insights-grid h3{font-size: 2.5rem;}
+    .insights-grid .cat-wrap{margin-bottom: 10px;}
     
 }
