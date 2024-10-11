@@ -101,7 +101,6 @@ jQuery(document).ready(function () {
     draggable: true,
     swipeToSlide: true,
     touchThreshold: 100,
-    cssEase: 'ease-in-out',
     speed: 1500,
 });
 
