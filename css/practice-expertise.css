@@ -9,7 +9,6 @@
 .practice-default-main{position: relative; padding: 80px 0;}
 .practice-default-main:before{content: ""; height: 255px; width: 255px; position: absolute; background: var(--dirty-white); left: -80px; z-index: -1; top: 0px; display: block;}
 .practice-default-main:after{ content: ""; height: 255px; width: 1000%; position: absolute; background: var(--dirty-white); left: -1000%; z-index: -1; top: 0px; display: block;}
-.practice-default-article{width: 62.578%; flex-grow: 1;}
 .practice-default-article .practice-intro{font-size: 1.5rem; line-height: 1.33; color: var(--grey); margin: 0 0 24px 0; display: block; }
 
 .content-features-main{margin-bottom: 40px;}
@@ -18,14 +17,13 @@
 
 
 
-.practice-default-aside{width: calc(100% - 70%); margin: -145px 0 0 6.25%; z-index: 1;}
 .dynamic-block{width: 100%; clear: both; background-color: var(--green-900); z-index: 1; margin: 48px 0;}
 .dynamic-block-wrap{padding: 40px;}
 .dynamic-block-cont{margin-bottom: 22px; color: var(--white);}
 .dynamic-block-cont h2{color: var(--white)}
-.dynamic-block-cont .readmore{color: var(--white)}
+
 .dynamic-block .stats-main{padding: 0;}
-.dynamic-block .stats-list{padding: 24px;}
+.dynamic-block .stats-list{padding: 24px; flex: 0 0 100%;}
 .dynamic-block .stats-list .h4{line-height: 1.5;}
 
 .condition-list ul {margin: 0; padding: 0; gap: 8px;}
@@ -49,8 +47,7 @@
 
 .practice-form{background-color: var(--green-700); padding: 40px; margin-bottom: 80px;}
 .practice-form h3{color: var(--white);}
-.practice-form .frm_forms .frm-wrapper  .frm_submit  {width: 100%;}
-.practice-form .frm_forms .frm-wrapper  .frm_submit  button{width: 100%;}
+
 .practice-form .frm-wrapper .frm_checkbox label{margin-bottom: 20px;}
 
 .client-says{margin-bottom: 60px;}
@@ -71,7 +68,7 @@
 .recent-insights-module {background: none; padding: 0;}
 .recent-insights-wrap .heading h2{color: var(--heading)}
 .recent-insight-grid a{margin-top: auto;}
-
+/* .recent-insight-grid { flex-grow: 1; width: 31.62075471698113%; position: relative; z-index: 1; min-height: 542px; overflow: hidden; } */
 .testimonial-aut-wrap{gap: 16px; color: var(--white); align-items: center;}
 .testimonial-aut img{width: 48px; border-radius: 80px; height: 48px;}
 
@@ -85,15 +82,54 @@
 .features-main .slick-arrow.prev-arrow {left: -80px;}
 
 
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
-  .practice-form{padding: 20px;}
-  
+@media only screen and (min-width: 1200px){
+ 
+  .recent-insights-main{display: block;}
+  .dynamic-block .stats-list{flex: 0 0 33.33%;}
 
-} 
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+  /* .practice-default-article{margin-bottom: 80px;} */
+
+  .concise-info { max-width: inherit; }
+
+  .dynamic-block .stats-list:first-child:after{display: none;}
+  .dynamic-block .stats-list::after { position: absolute; content: ""; left: auto; top: 0; display: block; width: calc(100% - 50px); height: 1px; background-color: rgb(157 181 173 / 50%); bottom: -71px; }
+
+}
+
+
 
 @media only screen and (min-width: 1024px){
-.recent-insights-main{display: block;}
-.recent-insight-grid {width: 100%; margin-bottom: 20px; display: flex;}
+  .practice-default-main{display: flex;}
+
+  .practice-default-article{width: 62.578%; flex-grow: 1;}
+  .practice-default-aside{width: calc(100% - 70%); margin: -145px 0 0 6.25%; z-index: 1;}
+  .practice-form .frm_forms .frm-wrapper  .frm_submit  {width: 100%;}
+  .practice-form .frm_forms .frm-wrapper  .frm_submit  button{width: 100%;}
+  
+  .recent-insight-grid {width: 100%; margin-bottom: 20px; display: flex;}
+  
+
+
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  .practice-default-article{margin-bottom: 40px;}
+  .dynamic-block .stats-list { padding: 16px;}
+
+  .dynamic-block .stats-list:first-child:after{display: none;}
+  .dynamic-block .stats-list::after { position: absolute; content: ""; left: auto; top: 0; display: block; width: calc(100% - 50px); height: 1px; background-color: rgb(157 181 173 / 50%); bottom: -71px; }
+
+  .recent-insights-main{margin-bottom: 40px;}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+  .practice-default-main{padding: 40px 0;}
+  .content-features-main .content-features-grid{width: 100%;}
+  .content-features-main .content-features-grid { padding: 32px;}
+
 
 
 }

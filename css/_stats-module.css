@@ -4,7 +4,7 @@
 .stats-bg-thumb:before{ background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.00) 0%, #051719 100%); content: ""; display: block; width: 100%; height: 100%; left: 0; right: 0; margin: auto; position: absolute;}
 
 
-.stats-list{color: var(--white); margin-bottom: 8px; padding: 32px 16px; flex: 0 0 25%; position: relative; flex-grow: 1;}
+.stats-list{color: var(--white); margin-bottom: 8px; padding: 32px 16px; flex: 0 0 25%; position: relative; }
 .stats-list:after{position: absolute; content: ""; left: 0; top: 71px; display: block; width: 1px; height: calc(100% - 133px); background-color: rgb(157 181 173 / 50%); bottom: -71px}
 .stats-list .number{font-size: 4rem; line-height: 1.5; font-family:'DM Serif Text'; margin-bottom: 20px;}
 .stats-list .h4{font-size: 1.5rem; color: var(--white); font-family: "DM Serif Medium", sans-serif}
