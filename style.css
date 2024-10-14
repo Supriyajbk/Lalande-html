@@ -390,18 +390,24 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .fixed-social-icons { display: flex; align-items: center; flex-wrap: wrap; margin: 0 0 51px 0; justify-content: flex-end;}
 .fixed-social-icons .share-text {font-size: 0.813rem; color: rgba(0, 7, 51, 0.5); line-height: 1.69; font-weight: 600; margin:0 15px 0 0; display: inline-block;}
 .sharethis-inline-share-buttons .st-btn {width: 40px; height: 40px!important; color: var(--heading); line-height: 38px!important;
-position: relative; z-index: 1; text-decoration: none; border-radius: 50%!important; background-color: var(--limegreen)!important; display: inline-block!important; text-align: center!important; cursor: pointer; margin: 0 0 0 10px!important; min-width: inherit!important; padding: 0 !important;}
+position: relative; z-index: 1; text-decoration: none;  background-color: var(--lime-500)!important; display: inline-block!important; text-align: center!important; cursor: pointer; margin: 0 0 0 10px!important; min-width: inherit!important; padding: 0 !important; border-radius: 0!important;}
 .sharethis-inline-share-buttons .st-btn.st-first {margin-left: 0!important;}
-.sharethis-inline-share-buttons {font-size: 0; display: inline-block!important; vertical-align: middle; z-index: 1 !important;}
+.sharethis-inline-share-buttons {font-size: 0; display: flex; vertical-align: middle; z-index: 1 !important; margin-bottom: 40px;}
 .sharethis-inline-share-buttons .st-btn:after {font-family: "Font Awesome 6 Brands"; font-weight: normal; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block; font-size: 1.25rem;}
-.sharethis-inline-share-buttons .st-btn[data-network=twitter]:after {content: "\e61b"; }
-.sharethis-inline-share-buttons .st-btn[data-network=facebook]:after {content: "\f39e";}
-.sharethis-inline-share-buttons .st-btn[data-network=linkedin]:after {content: "\f0e1";}
-.sharethis-inline-share-buttons .st-btn[data-network=mailru]:after {content: "\40"; font-family: "Font Awesome 6 Pro";}
-.sharethis-inline-share-buttons .st-btn[data-network=sharethis]:after {content: "\f0c1"; font-family: "Font Awesome 6 Pro";}
+.sharethis-inline-share-buttons .st-btn[data-network=twitter]:after {content: ""; background-image: url("./images/twitter.svg"); background-repeat: no-repeat; display: block; position: absolute; width: 24px; height: 24px; left: 8px; top: 8px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; }
+.sharethis-inline-share-buttons .st-btn[data-network=facebook]:after {content: ""; background-image: url("./images/facebook.svg"); background-repeat: no-repeat; display: block; position: absolute; width: 24px; height: 24px; left: 8px; top: 8px;transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; }
+.sharethis-inline-share-buttons .st-btn[data-network=linkedin]:after {content: ""; background-image: url("./images/linkedin.svg"); background-repeat: no-repeat; display: block; position: absolute; width: 24px; height: 24px; left: 8px; top: 8px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out;}
+.sharethis-inline-share-buttons .st-btn[data-network=instagram]:after {content: ""; background-image: url("./images/instagram.svg"); background-repeat: no-repeat; display: block; position: absolute; width: 24px; height: 24px; left: 8px; top: 8px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out;}
+.sharethis-inline-share-buttons .st-btn[data-network=sharethis]:after {content: ""; background-image: url("./images/share.svg"); background-repeat: no-repeat; display: block; position: absolute; width: 24px; height: 24px; left: 8px; top: 8px; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; }
 .share-text{font-size: 1rem; color: var(--darkgreen); font-weight: bold; margin-right: 15px;}
 
-.sharethis-inline-share-buttons .st-btn:hover {color: var(--limegreen); background: var(--heading)!important; opacity: 1 !important; top: 0!important;}
+.sharethis-inline-share-buttons .st-btn[data-network=twitter]:hover:after {content: ""; background-image: url("./images/twitter-white.svg"); }
+.sharethis-inline-share-buttons .st-btn[data-network=facebook]:hover:after {content: ""; background-image: url("./images/facebook-white.svg"); }
+.sharethis-inline-share-buttons .st-btn[data-network=linkedin]:hover:after {content: ""; background-image: url("./images/linkedin-white.svg");}
+.sharethis-inline-share-buttons .st-btn[data-network=instagram]:hover:after {content: ""; background-image: url("./images/instagram-white.svg"); }
+.sharethis-inline-share-buttons .st-btn[data-network=sharethis]:hover:after {content: ""; background-image: url("./images/share-white.svg");  }
+
+.sharethis-inline-share-buttons .st-btn:hover {color: var(--limegreen); background: var(--green-700)!important; opacity: 1 !important; top: 0!important;}
 .sharethis-inline-share-buttons .st-btn span, .sharethis-inline-share-buttons .st-btn img {display: none!important;}
 .at4-visually-hidden {display: none;}
 
