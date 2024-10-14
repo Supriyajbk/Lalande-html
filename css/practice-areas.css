@@ -33,7 +33,7 @@
     .features-main .features-grid:first-child {margin-top: 0;}
     .features-main .features-grid::before {display: none;}
     .features-main .features-grid .h4 {font-size: 1.625rem;}
-    .features-main .features-grid .readmore {font-size: 1rem; padding: 0 13px 0 48px;}
+    .features-main .features-grid .readmore {text-indent: inherit;}
     .features-main .features-grid .readmore:hover::before {background-position: center;}
     .features-main .features-grid .readmore:hover::after {width: 100%;}
 }
