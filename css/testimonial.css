@@ -33,7 +33,7 @@
 @media only screen and (min-width: 1024px){
     .testimonial-wrap{padding: 0 0 122px;}
     .testimonial-row{column-count: 3;}
-
+    .testimonial-section .stats-more{margin-top: 66px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .testimonial-wrap{padding: 64px 0;}
