@@ -29,13 +29,13 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .stats-main{padding: 20px 0;}
+    .stats-main{padding: 20px 0 40px;}
     .stats-row{display: block;}
-    .stats-list::after {  left: 17px; top: 0; display: block; height: 1px; width: calc(100% - 33px);}
-    .stats-list:first-child:after{display: none;}
+    .stats-list::after {  left: 17px; bottom: 0; display: block; height: 1px; width: calc(100% - 33px); top: inherit}
     .stats-list{padding: 24px 14px; width: 100%; margin-bottom: 0;}
     .stats-list .number {font-size: 2.25rem; line-height: 1.33; margin-bottom: 8px;}
     .stats-list .h4 {margin-bottom: 10px;}
+    .stats-more{margin-top: 40px;}
 
 
 

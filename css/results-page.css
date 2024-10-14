@@ -1,5 +1,5 @@
 @import url("../css/_split-banner.css?v=999uuu");
-@import url("../css/_stats-module.css");
+@import url("../css/_stats-module.css?v=77788");
 @import url("../css/_form-section.css");
 
 
@@ -13,7 +13,7 @@
 .result-rt{ text-align: center; z-index: 1; position: relative;}
 
 .result-rt .result-icon{max-width: 24px; margin: 0 auto 4px;}
-.result-rt .h1{ color: var(--white); margin: 0 auto 24px; }
+.result-rt .h1{ color: var(--white); margin: 0 auto 24px; line-height: 1.17;}
 .result-rt p{font-size: 1.125rem; line-height: 1.5; color: var(--light-grey); margin-bottom: 0;}
 .result-rt .consult-btn{font-size: 1.125rem}
 .result-rt .button{width: 100%;}
