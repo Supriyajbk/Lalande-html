@@ -11,38 +11,43 @@
 
 
 .about-content {clear: both; width: 100%; position: relative; padding: 80px 0;}
-.about-content:before {content: ""; height: 255px; width:255px; position: absolute; background: var(--dirty-white); left:0; z-index: -1; top:0; display: block;}
-.about-content:after {content: ""; height: 255px; width:1000%; position: absolute; background: var(--dirty-white); left: -1000%; z-index: -1; top:0; display: block;}
-.about-content .container-md {max-width: 1064px;}
+.about-content .container-md:before {content: ""; height: 255px; width:255px; position: absolute; background: var(--dirty-white); left:-188px; z-index: -1; top:-80px; display: block;}
+.about-content .container-md:after {content: ""; height: 255px; width:1000%; position: absolute; background: var(--dirty-white); left: -1000%; z-index: -1; top:-80px; display: block;}
+.about-content .container-md {max-width: 1064px; position: relative;}
 .about-content h3 {padding-top: 25px;}
 .about-content ul {margin-top: -4px;}
 .about-content .accordion-module {margin-top: 40px;}
 .about-content .accordion-item .accordion-heading {font-weight: 600;}
 
 .about-content .single-testimonial {clear: both; width: 100%; position: relative; margin-top: 38px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
-.about-content .single-test-lt {width: 56.390977443609025%; flex-grow: 1;}
+.about-content .single-test-lt {width: 56.390977443609025%; flex-grow: 1; padding-top: 47px;}
 .about-content .single-test-lt .stars {margin-bottom: 20px;}
 .about-content .single-test-lt p {font-size: 1.5rem; line-height: 1.42; margin-bottom: 16px;}
 .about-content .single-test-lt .author-name {display: block; font-size: 1.5rem; font-family:"DM Serif Text", sans-serif; color: var(--green-900);}
 .about-content .single-test-rt {margin-left: 10.526315789473683%; width: calc(100% - 66.9172932330827%);}
 
+.about-thumb .lawyer-logo {max-width: 1280px; margin: 0 auto; width: calc(100% - 20px); left: 20px; right: 0; height: inherit;}
+.about-thumb .lawyer-logo img {width: 100px; height: 102px;}
+
 /*-- media css starts here --*/
 
 @media only screen and (min-width: 1024px) {
-    
+.about-content .single-testimonial:before {content: ""; height: 255px; width:357px; position: absolute; background: var(--dirty-white); right:-188px; z-index: -1; top:-125px; display: block;}
+.about-content .single-testimonial:after {content: ""; height: 255px; width:1000%; position: absolute; background: var(--dirty-white); right: -1000%; z-index: -1; top:-125px; display: block;}   
 }
+
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
  .lawyer-logo {left: 20px;}
 
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
-    .about-content::before, .about-content::after {display: none;}
+    .about-content .container-md::before, .about-content .container-md::after {display: none;}
 }
 
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-    .lawyer-logo {left: inherit; right: 11px;}
+    .about-thumb .lawyer-logo {left: inherit; right: 11px; text-align: right;}
     .about-content {padding: 41px 0 40px;}
     .about-content h3 {padding-top: 0; margin-top: -3px;}
     .about-content .single-testimonial {margin-top: 61px;}
