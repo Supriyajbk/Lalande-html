@@ -13,7 +13,7 @@
 .result-rt{ text-align: center; z-index: 1; position: relative;}
 
 .result-rt .result-icon{max-width: 24px; margin: 0 auto 4px;}
-.result-rt .h1{ color: var(--white); margin: 0 auto 24px; max-width: 300px;}
+.result-rt .h1{ color: var(--white); margin: 0 auto 24px; }
 .result-rt p{font-size: 1.125rem; line-height: 1.5; color: var(--light-grey); margin-bottom: 0;}
 .result-rt .consult-btn{font-size: 1.125rem}
 .result-rt .button{width: 100%;}
@@ -27,7 +27,8 @@
     .result-lt{flex: 1;}
     .result-rt{width: 415px; margin-top: -146px;}
     .result-rt p{display: inline-block;}
-
+    .result-rt .h1{max-width: 250px;}
+    .result-lt h2{margin-bottom: 24px;}
 
 }
 
