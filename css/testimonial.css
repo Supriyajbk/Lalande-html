@@ -26,7 +26,7 @@
 .testimonial-aut-cont span{margin-bottom: 0;}
 
 .testimonial-wrap span.readmore{cursor: pointer;}
-.testimonial-section .stats-more{margin-top: -20px;}
+/* .testimonial-section .stats-more{margin-top: -20px;} */
 .testimonial-wrap ul > span:first-child{margin-top: 0; display: block;}
 .testimonial-wrap ul > span{margin-top: 46px; display: block;}
 
@@ -38,7 +38,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .testimonial-wrap{padding: 64px 0;}
     .testimonial-row {column-count: 2;}
-
+    .testimonial-section .stats-more{margin-top: 64px;}
 
 }
 
@@ -52,5 +52,6 @@
     .testimonial-list{margin-bottom: 32px;}
     .testimonial-aut-cont .h4 { font-size: 1.25rem; line-height: 1; margin-bottom: 4px;}
     .testimonial-section .stats-more { margin-top: 0;  text-align: left;}
+    .testimonial-list.no-testimonial-img {margin-bottom: 32px};
 
 }
