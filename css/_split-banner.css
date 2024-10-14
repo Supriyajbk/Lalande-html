@@ -83,7 +83,7 @@ flex-wrap: wrap; align-items: center; z-index: 1; flex-grow: 1;}
     .split-banner-section .container {padding: 0;}
     .split-banner-main .split-banner-thumb {width: 100%; overflow: hidden; position: relative;}
     .split-banner-main .split-banner-thumb .contact-img {position: inherit; width: 100%;}
-    .split-banner-main .split-banner-text {width: 100%; padding:40px 40px 36px 40px;}
+    .split-banner-main .split-banner-text {width: 100%; padding:40px 20px 36px 20px;}
     .split-banner-main .split-banner-text .split-txt-inner {max-width: 100%; margin-left: 0;}
     
     .split-banner-section.no-banner-img .container {padding: 0 24px;}

@@ -1,6 +1,7 @@
 .hamiltion-stats-module {clear: both; width: 100%; background: var(--green-900); padding: 80px 0 42px; position: relative; z-index: 1; color: var(--white);}
 .hamiltion-stats-module .heading h2{color: var(--white);}
 .hamiltion-stats-top {padding:47px 24px 47px; border: 1px solid #2B3F3E; text-align: center;}
+.hamiltion-stats-top:only-child {margin-bottom:38px;}
 .hamiltion-stats-top-inner {max-width: 820px; margin: 0 auto; position: relative;}
 .hamiltion-stats-top-inner h2 {color: var(--white); font-family: "DM Sans", sans-serif; font-size: 2.25rem; line-height: 1.33;}
 .hamiltion-stats-top-inner h2 span {display: block; color: var(--white-lime);}
@@ -77,6 +78,7 @@
     .hamiltion-stats-bottom .stats-list p {margin-bottom: 24px;}
 
     .hamiltion-stats-top {padding: 24px 16px 23px;}
+    .hamiltion-stats-top:only-child {margin-bottom:8px;}
     .hamiltion-stats-top-inner h2 {font-size: 2rem; line-height: 1.19;}
     .hamiltion-stats-top-inner h2 span {display: inline;}
     .hamiltion-stats-top-inner .logo-text {display: none;}

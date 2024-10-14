@@ -472,6 +472,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 /*-- media css starts here --*/
 @media only screen and (min-width:1024px) {
     .hide-in-desktop {display:none;}
+   
     
     
 }
@@ -494,15 +495,15 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
 @media only screen and (max-width:1023px) and (min-width:768px) {
     .hide-in-tab, .hide-in-tablet {display:none;}
-    /* #mainContent {padding: 64px 0 0 0;} */
 
     .heading-lt {width: 50%;}
     .heading-rt {width: calc(100% - 50%);}
     
-    /* .space-top #mainContent { padding: 76px 0 0; } */
 
     .frm_half {width:calc(50% - 10px); float: left; clear: none!important;}
     .frm_first {margin-right: 20px;}
+    
+    
 
 }
 
@@ -517,9 +518,13 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .heading_mobile_menu.active::after {transform:translateY(-50%) rotate(-180deg);}
     
     .stars{margin-bottom: 20px;}
+    
+
 }
 
 @media only screen and (max-width:767px) and (min-width:200px) {
+    
+    
     blockquote {width: calc(100% + 32px); position: relative; left: -16px; padding: 64px 32px 64px 32px; margin:39px 0 12px;}
     .container, .container-lg {padding:0 16px; max-width:100%;}
     /* #mainContent {padding: 64px 0 0 0;} */
@@ -546,10 +551,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm-wrapper .frm_form_field.form-field.frm_required_field.frm_top_container.vertical_radio, 
     .default_form .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio {width: 100%; margin: 0 0 23px 0;}
     .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio label { line-height: 1.25;}
-    /* .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"],  */
     .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"] {left: inherit; right: 0; width: 35px; height: 35px; border-radius: 5px; margin: 0;}
-    /* .frm_forms.with_frm_style .frm_checkbox input[type="checkbox"]:checked::before,  */
-    /* .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.frm_blank_field input[type="checkbox"]:checked::before {height: 35px; width: 35px; font-size: 21px; line-height: 33px; top: 0;} */
     .frm_forms .frm_form_fields .frm-wrapper .frm_form_field {margin: 0; width: 100%; min-height: 35px;}
     .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_form_field.vertical_radio .frm_error {text-align: right!important;}
     .frm_forms .frm_form_fields .frm_form_field label span {display: block;}
