@@ -7,7 +7,7 @@ jQuery(document).ready(function () {
       var $featuredSlider = jQuery('.features-main');
       var featureSlideCount = $featuredSlider.children().length;
       if (windowWidth >= 1024) {
-        if (featureSlideCount > 5) {
+        if (featureSlideCount > 4) {
           $featuredSlider.slick({
             slidesToShow: 4,
             slidesToScroll: 1,

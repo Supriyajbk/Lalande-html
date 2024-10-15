@@ -59,7 +59,7 @@
 .client-block-slider ul.slick-dots {padding-top: 0; justify-content: left; margin-left: -8px;}
 .client-block-slider ul.slick-dots li:hover button{background-color: var(--green-900);}
 .client-block-slider ul.slick-dots li{margin-bottom: 0!important;}
-
+.client-block-slide.slick-slide img{display: inline-flex;}
 
 .client-block .stars{margin-bottom: 11px;}
 .client-aut-cont{max-width: 133px; align-items: center;}

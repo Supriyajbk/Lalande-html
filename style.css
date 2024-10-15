@@ -213,9 +213,10 @@ img.mobile {display:none;}
 .iframe-container {overflow: hidden; padding-top: 56.25%; /* 16:9*/ position: relative;}
 .iframe-container iframe {border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;}
 
-body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close {padding-right: 9px; width: 40px;height: 40px; opacity: 1;line-height: 40px; top: -45px; background-color: transparent; right: -45px;}
+body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close {padding-right: 0; width: 40px;height: 40px; opacity: 1;line-height: 40px; top: -45px; background-color: transparent; right: -45px; display: flex; align-items: center; justify-content: center;}
 body .mfp-image-holder .mfp-close:hover, body .mfp-iframe-holder .mfp-close:hover {opacity: 0.8}
 body .mfp-close:after {display: none;}
+body .mfp-iframe-holder button.mfp-close::before{left:0;} 
 
 
 
@@ -359,7 +360,10 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 /*-- common form css ends here --*/
 
 .stars{clear: both; width: 100%; margin-bottom: 6px}
-.stars img{width: 97px; height: 15px; }
+.stars img{width: 17px;}
+
+.rating-star img {margin-right: 3px;}
+.rating-star img:last-child {margin-right: 0;}
 
 .optional-text {font-size:1rem; color:var(--white-lime); font-weight:500; margin:0 0 25px 0; display:block; line-height: 1.4;}
 .optional-head {font-size:0.875rem; color:var(--green-300); font-weight:500; margin:0 0 9px 0; display:block; line-height: 1.43;}
@@ -502,9 +506,10 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
     .frm_half {width:calc(50% - 10px); float: left; clear: none!important;}
     .frm_first {margin-right: 20px;}
+   
     
     
-
+    
 }
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
@@ -518,7 +523,8 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
     .heading_mobile_menu.active::after {transform:translateY(-50%) rotate(-180deg);}
     
     .stars{margin-bottom: 20px;}
-    
+    body .mfp-iframe-holder .mfp-close {right: 0;}
+    .mfp-iframe-holder {padding: 40px;}
 
 }
 

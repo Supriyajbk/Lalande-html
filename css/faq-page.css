@@ -9,7 +9,7 @@
 .faq-main{padding: 0 0 80px;}
 .faq-head{margin: 0 auto 40px; text-align: center;}
 .faq-head h3{color: var(--white); margin-bottom: 0;}
-.faq-row{gap: 48px 24px; margin-bottom: 48px;}
+.faq-row{gap: 48px 24px; }
 .faq-block-list{flex: 0 0 calc(33.33% - 16px); padding: 32px; border: 1px solid var(--green-500); color: var(--white); display: flex; flex-direction: column;}
 .faq-block-list h4{color: var(--white); font-family:"DM Sans", sans-serif; font-weight: 600;}
 .faq-block-list h4 a{color: var(--white);}
@@ -19,7 +19,7 @@
 
 @media only screen and (min-width: 1024px){
     .hero-banner-main{padding: 75px 0 64px;}
-
+    .faq-row .mini-cta-module{margin-top: 32px; margin-bottom: 32px;}
 
 }
 
