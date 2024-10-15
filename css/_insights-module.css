@@ -18,6 +18,9 @@
 .insights-grid:nth-child(4){ flex: 100%;}
 .insights-grid h3 a{color: var(--white);}
 
+h3.no_result_found{margin-bottom: 0; color: var(--white);}
+
+
 /* Hover */
 .insights-grid a:hover .h4{color: var(--lime-500);}
 .insights-grid a:hover .insights-thumb {transform: scale(1.1);}

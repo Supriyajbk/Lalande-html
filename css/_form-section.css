@@ -26,8 +26,9 @@
 
 .form-section .background-bg{opacity: 0.05;}
 .form-main.no_rt_form .form-lt p{max-width: 100%;}
-@media only screen and (min-width: 1024px){
 
+@media only screen and (min-width: 1024px){
+.form-lt p{width: 288px;}
 
 
 
