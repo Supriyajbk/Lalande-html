@@ -531,7 +531,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 @media only screen and (max-width:767px) and (min-width:200px) {
     
     
-    blockquote {width: calc(100% + 32px); position: relative; left: -16px; padding: 64px 32px 64px 32px; margin:39px 0 12px;}
+    blockquote {width: calc(100% + 32px); position: relative; left: -16px; padding: 64px 32px 64px 32px; margin:39px 0 16px;}
     .container, .container-lg {padding:0 16px; max-width:100%;}
     /* #mainContent {padding: 64px 0 0 0;} */
     .breadcrumb, .breadcrumb ul {margin: 0 0 40px 0!important;}
