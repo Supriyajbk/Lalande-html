@@ -14,7 +14,7 @@
 
 /* Features */
 .features-main {display: flex; flex-wrap: wrap; width: 100%;}
-.features-main .features-grid {padding: 32px; flex-direction: column; width: 25%; display:flex; flex-wrap: wrap; vertical-align: top; position: relative; margin: 64px 0 0 0; align-items: flex-start;}
+.features-main .features-grid {padding: 32px; flex-direction: column; width: 25%; display:flex; flex-wrap: wrap; vertical-align: top; position: relative; margin: 44px 0 0 0; align-items: flex-start;}
 .features-main .features-grid:before {content:""; background: var(--light-grey); width: 1px; opacity: 0.5; height:calc(100% - 122px); display:block; top: 29px; left: 0; position: absolute;}
 .features-main .features-grid .feature-icon {width: 100%; clear: both; margin: 0 0 16px 0;}
 .features-main .features-grid .feature-icon img {width:auto; height:24px;}
@@ -26,10 +26,10 @@
 .features-main .features-grid ul li a:hover {color: var(--lime-500);}
 .features-main .features-grid .readmore {margin-top: auto;}
 
-.features-main .features-grid.signup-grid {background: var(--green-700); text-align: center; padding: 40px 32px; align-items: center;}
+.features-main .features-grid.signup-grid {background: var(--green-700); text-align: center; padding: 40px 32px; align-items: center; flex-grow: 1;}
 .features-main .features-grid.signup-grid:before {display: none;}
 .features-main .features-grid.signup-grid .result-icon{width:24px; margin:0 auto 8px;}
-.features-main .features-grid.signup-grid .h1{ color: var(--white); margin: 0 auto 24px; max-width: 300px; letter-spacing: normal; line-height: 1.17; font-size: 3rem;}
+.features-main .features-grid.signup-grid .h1{ color: var(--white); margin: 0 auto 24px; letter-spacing: normal; line-height: 1.17; font-size: 3rem; padding: 0 23px;}
 .features-main .features-grid.signup-grid p{font-size: 1.125rem; line-height: 1.5; color: var(--light-grey); margin-bottom: 37px;}
 .features-main .features-grid.signup-grid .consult-btn{font-size: 1.125rem}
 .features-main .features-grid.signup-grid .button{width: 100%;}
@@ -76,6 +76,7 @@
     .features-module {padding: 40px 0 20px;}
     
     .intro-lt .button {width: 100%;}
+    .features-main:only-child {margin-top: 0;}
     .features-main {width: calc(100% + 32px); left: -16px; position: relative; margin: 38px 0 0 0;}
     .features-main .features-grid {padding: 16px; margin:0;}
     .features-main .features-grid::before {height: calc(100% - 41px); top: 22px;}

@@ -143,12 +143,12 @@ p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {m
 .alignleft {float: left;}
 .alignright {float: right;}
 .aligncenter {display: block; margin-left: auto; margin-right: auto; text-align: center;}
-blockquote.alignleft, figure.wp-caption.alignleft, img.alignleft {margin:5px 24px 15px 0;}
+blockquote.alignleft, figure.wp-caption.alignleft, img.alignleft {margin:4px 40px 15px 0;}
 .wp-caption.alignleft {margin: 5px 55px 37px 0;}
-blockquote.alignright, figure.wp-caption.alignright, img.alignright {margin:5px 0 15px 23px;}
+blockquote.alignright, figure.wp-caption.alignright, img.alignright {margin:5px 0 15px 40px;}
 .wp-caption.alignright {margin: 7px 0 37px 55px;}
-blockquote.aligncenter, img.aligncenter, .wp-caption.aligncenter {margin-top: 17px; margin-bottom:15px;}
-img.alignnone {margin:17px 0 15px; display: block; clear: both;}
+blockquote.aligncenter, img.aligncenter, .wp-caption.aligncenter {margin-top:33px; margin-bottom:31px;}
+img.alignnone {margin:33px 0 31px; display: block; clear: both;}
 .hide {display: none;}
 .bypostauthor > article .fn:before, .comment-edit-link:before, .comment-reply-link:before, .comment-reply-login:before, .comment-reply-title small a:before, .contributor-posts-link:before, .menu-toggle:before, .search-toggle:before, .slider-direction-nav a:before, .widget_twentyfourteen_ephemera .widget-title:before {-webkit-font-smoothing: antialiased; display: inline-block; font: normal 16px/1 Genericons; text-decoration: inherit; vertical-align: text-bottom;}
 .comment-form label {display: block;}
@@ -176,7 +176,7 @@ img.alignnone {margin:17px 0 15px; display: block; clear: both;}
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     h1 {font-size: 2.5rem; line-height: 1.2; margin-bottom: 40px;}
-    h2 {font-size: 2.25rem; line-height: 1.33; margin-bottom: 20px;}
+    h2 {font-size: 2.25rem; line-height: 1.1; margin-bottom: 24px;}
     h3 {margin-bottom: 20px;}
     h4 {margin-bottom: 20px;}
     
