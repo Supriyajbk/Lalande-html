@@ -269,7 +269,7 @@ ul.slick-dots li.slick-active button {background:var(--white);}
 /* Custom Selectbox */
 select.selectBox {display:none!important;}
 body .selectBox-dropdown {outline: 0; width: 100% !important; font-size: 1rem; line-height: 1.25; background: var(--green-700); color: var(--light-grey); box-shadow: none; border-radius: 0; padding: 22px 16px 21px 16px; border-bottom: 1px solid var(--lime-500); vertical-align: middle; height: auto; text-transform: capitalize; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; cursor: pointer; font-weight: bold;}
-body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color:rgba(207, 216, 223, 0.5);}
+body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color: var(--lime-500);} 
 body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis; font-weight: 600;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
 body .selectBox-dropdown .selectBox-arrow {width:auto; right:20px; top:calc(50% + 2px); transform:translateY(-50%); font-size:14px; color: var(--lime-500); border:none; font-family:"Font Awesome 6 Pro"; font-weight:600; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none;}
@@ -360,9 +360,9 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 /*-- common form css ends here --*/
 
 .stars{clear: both; width: 100%; margin-bottom: 6px}
-.stars img{width: 17px;}
+.stars img{width: 97px;}
 
-.rating-star img {margin-right: 3px;}
+.rating-star img {margin-right: 3px; width: 17px;}
 .rating-star img:last-child {margin-right: 0;}
 
 .optional-text {font-size:1rem; color:var(--white-lime); font-weight:500; margin:0 0 25px 0; display:block; line-height: 1.4;}

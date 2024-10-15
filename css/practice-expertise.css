@@ -49,6 +49,7 @@
 .practice-form h3{color: var(--white);}
 
 .practice-form .frm-wrapper .frm_checkbox label{margin-bottom: 20px;}
+.practice-form .frm_forms .frm_form_fields .frm-wrapper .frm_form_field {width: 100%;}
 
 .client-says{margin-bottom: 60px;}
 .client-block{padding: 40px; border: 1px solid var(--light-grey);}
