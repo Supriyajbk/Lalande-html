@@ -11,7 +11,9 @@
 .hamiltion-stats-bottom:only-child {margin-top: -67px;}
 .hamiltion-stats-bottom .stats-list{color: var(--white); margin-top: 7px; padding: 32px 16px; flex: 0 0 25%; position: relative; display: flex; flex-wrap: wrap; flex-direction: column; align-items: flex-start;}
 .hamiltion-stats-bottom .stats-list:before{position: absolute; content: ""; left: 0; display: block; width: 1px; height:calc(100% - 235px); background-color: rgb(157 181 173 / 50%); top:118px;}
-.hamiltion-stats-bottom .stats-list .number{font-size: 4rem; line-height: 1.5; font-family:'DM Serif Text'; margin-bottom: 19px;}
+.hamiltion-stats-bottom .stats-list .number{font-size: 0; margin-bottom: 19px;}
+.hamiltion-stats-bottom .stats-list .number span{font-size: 4rem; line-height: 1.5; font-family:'DM Serif Text';}
+
 .hamiltion-stats-bottom .stats-list .h4{font-size: 1.5rem; color: var(--white); font-weight: 500; font-family: "DM Sans", sans-serif; letter-spacing: -0.48px;}
 .hamiltion-stats-bottom .stats-list .h4 a {color: var(--white);}
 .hamiltion-stats-bottom .stats-list .h4 a:hover {color: var(--lime-500);}
@@ -75,7 +77,8 @@
     .hamiltion-stats-bottom .stats-list::before{display: none;}
     .hamiltion-stats-bottom .stats-list{padding:24px 16px; width: 100%; margin-top: 9px;}
     .hamiltion-stats-bottom .stats-list .readmore {margin-top: 0;}
-    .hamiltion-stats-bottom .stats-list .number {font-size: 2.25rem; line-height: 1.33; margin-bottom: 10px;}
+    .hamiltion-stats-bottom .stats-list .number {margin-bottom: 10px;}
+    .hamiltion-stats-bottom .stats-list .number span{font-size: 2.25rem; line-height: 1.33;}
     .hamiltion-stats-bottom .stats-list .h4 {margin-bottom: 10px; font-size: 1.25rem; letter-spacing: -0.4px;}
     .hamiltion-stats-bottom .stats-list p {margin-bottom: 24px;}
 

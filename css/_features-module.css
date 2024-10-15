@@ -89,4 +89,5 @@
     .features-main .features-grid.signup-grid {margin: 17px 0 -22px 0; padding: 39px 15px 40px;}
     .features-main .features-grid.signup-grid p {padding: 0 5px;}
     .features-main .features-grid.signup-grid .btn-wrap {padding: 0; margin: 39px 0 0 0;}
+    .features-main .features-grid.signup-grid .h1 {padding: 0 15px; max-width: 100%;}
 }
