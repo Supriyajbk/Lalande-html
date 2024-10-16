@@ -1,0 +1,30 @@
+.mini-cta-module {clear: both; width: 100%; background: var(--green-900); color:var(--light-grey); min-height:32.223vw; z-index: 1;}
+.mini-cta-bg {top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; z-index: -1;}
+.mini-cta-main {max-width: 1030px; width: 100%; margin: 0 auto; padding:/*13.36% 7.766990291262135%*/ 13.36% 6.25%; min-height: 32.223vw; display: flex; align-items: center;}
+.mini-cta-main h2 {color: var(--white); margin-bottom: 7px;}
+.mini-cta-main p {margin: 0;}
+.mini-cta-main .btn-wrap .button {font-size: 1.125rem; width: 100%; padding: 16px 31px;}
+.mini-cta-main .btn-wrap {gap: 8px;}
+.mini-cta-main .btn-wrap svg {margin-left: 16px;}
+
+.mini-cta-content {justify-content: space-between; gap:5.048543689320388%;}
+.mini-cta-lt {width: 56.50485436893204%; flex-grow: 1; padding: 10px 0 0 0;}
+.mini-cta-rt {width:235px;}
+
+/*-- media starts here --*/
+@media only screen and (max-width: 1180px) and (min-width:1024px){
+    .mini-cta-main {padding:13.36% 9.766990291262135%;}
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .mini-cta-main {padding:/* 18% 0*/ 31.5% 0;}
+}
+
+@media only screen and (max-width:767px) and (min-width:200px){
+    .mini-cta-main {padding:32px 16px 24px;}
+    .mini-cta-main h2 {margin-bottom: 11px;}
+    .mini-cta-main h2 span:after {bottom: 1px;}
+    .mini-cta-lt {width: 100%; padding: 0;}
+    .mini-cta-rt {width: 100%; margin: 52px 0 0 0;}
+}

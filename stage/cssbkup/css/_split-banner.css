@@ -1,0 +1,103 @@
+/* Banner */
+.split-banner-section {clear: both; width: 100%; position: relative; overflow: hidden;  background-color: var(--green-900); z-index: 1; min-height: 402px; padding: 80px 0 0 0;}
+.split-banner-section .container {max-width: 100%; padding-right: 0;}
+.split-banner-main{min-height: 402px;}
+.split-banner-main .split-banner-text {clear: both;  padding:40px 90px 40px 80px;  position: relative; width: 50.5%; display: flex;
+flex-wrap: wrap; align-items: center; z-index: 1; flex-grow: 1;}
+.split-banner-main .split-banner-text .split-txt-inner {max-width: 593px; margin-left: auto; width: 100%;}
+.split-banner-main .split-banner-text .split-banner-bg {background: var(--optionaltxt); height: 1000%; width: 1000%; display: block; right: 0; top: -100%; z-index: -1;}
+.split-banner-main .split-banner-text h1 {color: var(--white);  font-weight: 500; letter-spacing: -1.44px;}
+.split-banner-main .split-banner-text h1 span {color: var(--link);}
+.split-banner-main .split-banner-text .optional-text {color: var(--link); margin-bottom: 24px;}
+.split-banner-main .split-banner-text p {font-size: 1.25rem; margin-bottom:32px; line-height: 1.4; color:var(--white); font-weight: normal; letter-spacing: -0.4px;}
+.split-banner-main .split-banner-text hr.small {background: var(--optionaltxt);}
+.split-banner-main .split-banner-text .button.btn-white {color: var(--linkhover);}
+
+.split-banner-main .contact-links {margin: 0;}
+.split-banner-main .contact-links li {margin-bottom: 9px; display: block; width: 100%;}
+.split-banner-main .contact-links li:last-child {margin-bottom: 0;}
+.split-banner-main .contact-links li:before {display: none;}
+.split-banner-main .contact-links li i {font-size: 20px; line-height: 100%; color: var(--linkhover); letter-spacing:normal; font-weight: 400;  position: absolute; left: 0; top:3px; width: 20px; text-align: center;}
+.split-banner-main .contact-links li a {line-height: 100%; font-size: 20px; font-weight: 500; color: var(--link); letter-spacing: -0.4px; padding-left: 30px; display: inline-block;}
+.split-banner-main .contact-links li a:hover {color: var(--linkhover);}
+
+.split-banner-main .split-banner-thumb {width:49.445%; position: relative; display: flex; flex-wrap: wrap; z-index: 1;}
+.split-banner-main .split-banner-thumb .contact-img:after {background-color: rgba(157, 151, 154, 0.2); content: ""; width: 100%; height: 100%; top: 0; left: 0; position: absolute; display:block;}
+.split-banner-main .split-banner-thumb .contact-img {display: flex; flex-wrap: wrap; height: 100%; width: 100%;}
+
+.split-banner-section .banner-bg:before {background: radial-gradient(50% 50% at 50% 50%, rgba(5, 23, 25, 0.00) 0%, #051719 100%); content: ""; display: block; width: 100%; height: 100%; left: 0; right: 0; margin: auto; position: absolute;}
+.split-banner-section .banner-bg{opacity: 0.4;}
+
+.split-banner-section.no-banner-img {min-height: inherit;}
+.split-banner-section.no-banner-img .container {max-width: 1280px;}
+.split-banner-section.no-banner-img .split-banner-main .split-banner-text {padding: 40px 0 40px 0; flex-grow: 1;}
+.split-banner-section.no-banner-img .split-banner-main .split-banner-text .split-banner-bg {width: 10000%; right: -1000%;}
+.split-banner-section.no-banner-img .split-banner-main .split-banner-text .split-txt-inner {max-width: 100%; width: 100%;}
+
+.split-banner-main .split-banner-text .button.btn-big.consult-btn {padding: 16px 24px 16px 25px; letter-spacing: -0.28px;}
+.split-banner-main .split-banner-text .button.btn-big.consult-btn svg{margin-left: 16px;}
+.split-banner-main .split-banner-text:only-child .split-txt-inner{max-width: 100%; margin-left: inherit;}
+
+/* Right Aligned */
+.split-banner-section.right-content .split-banner-main {flex-direction: row-reverse;}
+.split-banner-section.right-content .split-banner-main .split-banner-text .split-banner-bg {left: 0;}
+.split-banner-section.right-content.no-banner-img .split-banner-main .split-banner-text .split-banner-bg {left: inherit;}
+.split-banner-section.right-content.no-banner-img .split-banner-main .split-banner-text {text-align: right; padding-left: 0;}
+.split-banner-section.right-content.no-banner-img .split-banner-main .split-banner-text  .btn-wrap {justify-content: flex-end;}
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1400px){
+    .split-banner-main .split-banner-text {padding: 64px 34px 60px 0;}
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 768px) {
+    .split-banner-section.no-banner-img .container {padding:0 40px;}
+}
+
+/* @media only screen and (max-width: 1199px) and (min-width:1024px){
+    .split-banner-main .split-banner-text {width: 38.333%;}
+    .split-banner-main .split-banner-thumb {width: 61.667%;}
+} */
+
+@media only screen and (max-width: 1140px) and (min-width:1024px){
+    .members-grid, .members-grid:nth-child(3n+1) {width: 47.829%; margin: 26px 0 0 3.0534351145038165%;}
+    .members-grid:nth-child(2n+1) {margin-left: 0;}
+}
+
+@media only screen and (min-width: 1024px){
+    /* .split-banner-main {min-height: 512px;} */
+}
+
+@media only screen and (max-width: 1023px) and (min-width:768px){
+    .split-banner-main .split-banner-thumb .contact-img {height: 512px;}
+    .split-banner-main .split-banner-text {padding:40px 40px 36px 40px;}
+    .split-banner-main .split-banner-text h1 {margin-bottom: 23px;}
+    .split-banner-main .split-banner-text hr.small {margin: 20px 0 21px;}
+
+}
+
+
+
+@media only screen and (max-width: 1023px) and (min-width:200px){
+    .split-banner-section .container {padding: 0;}
+    .split-banner-main .split-banner-thumb {width: 100%; overflow: hidden; position: relative;}
+    .split-banner-main .split-banner-thumb .contact-img {position: inherit; width: 100%;}
+    .split-banner-main .split-banner-text {width: 100%; padding:40px 20px 36px 20px;}
+    .split-banner-main .split-banner-text .split-txt-inner {max-width: 100%; margin-left: 0;}
+    
+    .split-banner-section.no-banner-img .container {padding: 0 24px;}
+    .split-banner-section.right-content .split-banner-main .split-banner-text .split-banner-bg {left: -40px; right: inherit;}
+
+
+    
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .split-banner-main .split-banner-thumb .contact-img {height: inherit;}
+    .split-banner-main .split-banner-text { padding: 40px 16px 40px 16px; }
+    .split-banner-main .split-banner-text h1 { font-size: 2.5rem; line-height: 1.3; letter-spacing: -1.2px; margin-bottom: 24px; }
+    .split-banner-main .split-banner-text .optional-text {margin-bottom: 23px;}
+    .split-banner-text .button{width: 100%;}
+    
+
+}

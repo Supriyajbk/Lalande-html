@@ -1,0 +1,38 @@
+@import url("_split-banner.css");
+@import url("_features-module.css");
+@import url("_hamiltion-stats-module.css");
+@import url("_form-section.css");
+
+.split-banner-section, .split-banner-main {min-height: 398px;}
+.features-main .features-grid {width: 33.333%; margin: 22px 0 0 0;}
+.features-main .features-grid .h4 {margin-bottom: 23px;}
+
+/*-- media css starts here --*/
+
+@media only screen and (min-width: 1024px) {
+    .features-main:only-child .features-grid:nth-child(-n+3) {margin-top: 0;}    
+    .features-main .features-grid:nth-child(4n+1):before {display: block;}
+    .features-main .features-grid:nth-child(3n+1):before {display: none;}
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .features-main .features-grid {width: 50%; margin: 30px 0 0 0;}    
+    .features-main .features-grid:nth-child(3n+1):before {display: block;}
+    .features-main .features-grid:nth-child(2n+1):before {display: none;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+   
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    .features-main {margin: 34px 0 0 0;}
+    .features-main .features-grid .feature-icon {margin: 0 0 8px 0;}
+    .features-main .features-grid {width: 100%; margin: 31px 0 0 0;}
+    .features-main .features-grid:first-child {margin-top: 0;}
+    .features-main .features-grid::before {display: none;}
+    .features-main .features-grid .h4 {font-size: 1.625rem;}
+    .features-main .features-grid .readmore {text-indent: inherit;}
+    .features-main .features-grid .readmore:hover::before {background-position: center;}
+    .features-main .features-grid .readmore:hover::after {width: 100%;}
+}

@@ -1,0 +1,54 @@
+@import url("_default-banner.css");
+@import url("_logo-slider.css");
+@import url("_features-module.css");
+@import url("_faq-block.css");
+@import url("_simple-features-module.css");
+@import url("_content-img-module.css");
+@import url("_testimonial-module.css");
+@import url("_single-lawyer.css");
+@import url("_accordion-module.css");
+@import url("_hamiltion-stats-module.css");
+@import url("_dynamic-selector-module.css");
+@import url("_mini-cta-module.css");
+@import url("_recent-insights-module.css");
+@import url("_form-section.css");
+
+.default-banner-main .default-banner-text h1 span:after {height: 3px;}
+
+.sec-wrapper {clear: both; width: 100%; padding: 80px 0 0 0; z-index: 1; overflow: hidden;}
+.sec-wrap {position: relative; z-index: 1; background-color: var(--green-900); overflow:hidden;}
+.sec-wrap .recent-insights-module {background: none;}
+.sec-wrap > .background-bg img {object-fit: fill;}
+.accordion-module {padding: 0 0 80px 0; margin: 0;}
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1280px) and (min-width:1024px){
+   
+}
+
+@media only screen and (min-width:1024px){
+    #mainContent {padding: 0;}
+}
+
+@media (min-width:768px) {}
+
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+}
+
+@media only screen and (max-width: 1023px) and (min-width:200px){
+
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .sec-wrapper {padding: 40px 0 0 0;}
+    .accordion-module {padding: 0 0 40px 0;}
+}
+
+
+@media only screen and (max-width: 389px) {}

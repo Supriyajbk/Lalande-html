@@ -1,0 +1,24 @@
+.browse-row{gap: 24px;}
+.browse-row .browse-submit { width: 302px;  text-align: left; text-transform: capitalize; display: inline-block; font-size: 0.875rem; font-weight: bold; line-height: normal; padding: 23px 24px 20px; cursor: pointer; border: 0 none; background-color: var(--lime-500); position: relative;  color: var(--heading); font-family: "DM Sans", sans-serif; text-decoration: none; letter-spacing: -0.28px; overflow: hidden; z-index: 1;}
+.browse-dropdown{width: calc(33.33% - 302px); flex: 1;}
+.browse-row .browse-submit span{position: relative; display: block; font-weight: 600; padding-right: 20px;}
+.browse-row .browse-submit span::before{ font-family: "Font Awesome 6 Pro"; content: "\f054"; display: block; position: absolute;  transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; right: 0; top: 2px; left: auto; font-size: 12px;}
+.browse-row .browse-submit::after{position: absolute; content: ""; width: 100%; height: 100%; top: 0; left: -100%; background: var(--green-700); z-index: -1; transition: all .35s;}
+.browse-row .browse-submit:hover::after{left: 0;}
+.browse-row .browse-submit:hover{color: var(--white);}
+
+  @media only screen and (max-width: 1023px) and (min-width: 768px){
+  .browse-row .browse-submit{width: 250px;}
+
+
+
+  }
+
+  @media only screen and (max-width: 767px) and (min-width: 200px){
+    .browse-row {display: block;}
+    .browse-row .browse-submit {width: 100%; margin-bottom: 16px;}
+    .browse-dropdown{width: 100%; margin-bottom: 16px;}
+    /* .browse-row .browse-submit span::before{right: -8px;} */
+    
+    .browse-dropdown:last-child{margin-bottom: 0;}
+      }

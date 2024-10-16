@@ -1,0 +1,25 @@
+.recent-insights-module {clear: both; width: 100%; background: var(--green-900); padding: 80px 0; position: relative; z-index: 1;}
+.recent-insights-module .heading h2{color: var(--white);}
+.recent-insights-main {gap:24px; display: flex; flex-wrap: wrap;}
+.recent-insight-grid {flex-grow: 1; width:31.62075471698113%; position: relative; z-index: 1; min-height: 542px; overflow: hidden;}
+.recent-insight-grid a span {display: block;}
+.recent-insight-grid a {display: flex; flex-wrap: wrap; padding:32px 32px 33px; width: 100%; height: 100%;}
+.recent-insight-grid .recent-insight-thumb {top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; z-index: -1; transition: all 0.3s ease-in-out;}
+.recent-insight-grid .recent-insight-thumb:before {background: linear-gradient(180deg, rgba(5, 23, 25, 0.00) 50%, rgba(5, 23, 25, 0.70) 76.38%), linear-gradient(203deg, rgba(5, 23, 25, 0.00) 5.91%, rgba(5, 23, 25, 0.20) 75.39%), linear-gradient(203deg, rgba(5, 23, 25, 0.00) 5.91%, rgba(5, 23, 25, 0.20) 75.39%), linear-gradient(203deg, rgba(5, 23, 25, 0.00) 5.91%, rgba(5, 23, 25, 0.20) 75.39%), linear-gradient(0deg, rgba(5, 23, 25, 0.20) 0%, rgba(5, 23, 25, 0.20) 100%); content: ""; position: absolute; left: 0; top: 0; width:100%; height: 100%; display: block;}
+
+.recent-insight-grid .recent-insight-content {margin-top: auto;}
+.recent-insight-grid .recent-insight-content .recent-date {display: block; font-size: 0.75rem; font-weight: bold; font-family: "DM Sans", sans-serif; line-height: 1.67; color: var(--white-lime); margin: 0 0 12px 0;}
+.recent-insight-grid .recent-insight-content .h4 {color: var(--white); font-family: "DM Sans", sans-serif; font-weight: 500; margin: 0; transition: all .3s ease-in-out;}
+
+/* Hover */
+.recent-insight-grid a:hover .h4{color: var(--lime-500);}
+.recent-insight-grid a:hover .recent-insight-thumb {transform: scale(1.1);}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+  .recent-insights-module {padding: 30px 0 31px;}
+    .recent-insights-main .slick-list {overflow: visible;}
+  .recent-insight-grid {width: 300px; min-height: 542px!important; margin-right: 16px; display: flex !important; flex-wrap: wrap;}
+    .recent-insight-grid a {margin-top: auto; padding: 32px 24px 33px;}
+    .recent-insights-wrap .heading-rt {display: none;}
+    
+}

@@ -1,0 +1,92 @@
+.contact-section{width: 100%; overflow: hidden; z-index: 1; background-color: var(--green-900); }
+.contact-main{z-index: 1; }
+.contact-lt{flex: 27.5%; padding: 80px 80px 80px 0; flex-grow: 1; color: var(--white)}
+.contact-lt h1{color: var(--white);}
+.contact-lt .optional-text{font-size: 1.25rem; margin-bottom: 27px; letter-spacing: -0.2px;}
+.contact-lt p{font-size: 1.25rem; letter-spacing: -0.4px; line-height: 1.75rem;}
+
+.contact-rt{flex: calc(100% - 36.6%); flex-grow: 1; }
+.contact-rt.no-contact-lt:after{left: -100vw;}
+
+.contact-rt-txt .contact-rt-left h2{color: var(--white); margin-bottom: 0;}
+.contact-rt-txt {gap: 23px; margin-bottom: 48px;}
+.contact-rt-txt .contact-rt-left{flex: 0 0 300px; flex-grow: 1;}
+.contact-rt-txt .contact-rt-right{flex: 0 0 calc(100% - 323px); flex-grow: 1; margin-top: auto;}
+.contact-rt-txt .contact-rt-right .optional-text{font-size: 1rem; color: var(--light-grey); font-weight: normal; margin-bottom: 0; line-height: 1.5rem;}
+.contact-rt-txt .contact-rt-right .optional-text  a{color: var(--white-lime);}
+.contact-rt-txt .contact-rt-right .optional-text  a:hover{color: var(--lime-500);}
+
+.contact-rt-txt.no-heading{display: block;}
+
+
+.location-section{background-color: var(--green-900); padding: 80px 0;}
+.location-head{color: var(--white); text-align: center; max-width: 966px; margin: 0 auto 48px;}
+.location-head .h1{color: var(--white);}
+.location-head p{font-size: 1.25rem; line-height: 1.4;}
+.location-row{gap: 40px;}
+
+.location-list{flex: 0 0 calc(25% - 30px);  padding-top: 22px;}
+.location-list h3{font-size: 1.875rem; color: var(--white-lime); position: relative; padding-top: 42px;}
+.location-list h3:after{position: absolute;  display: block; width: 16px; height: 16px; top: 0; left: 2px; font-family: "Font Awesome 6 Pro" ; content:"\f3c5"; font-size: 16px; color: var(--lime-500);}
+
+.location-list ul{margin: 18px 0 0 24px;}
+.location-list ul li{margin-bottom: 8px;}
+.location-list ul li:before{font-size: 0.8rem; left: -20.5px; top: 5px; line-height: 14px;}
+.location-list ul li a{color: var(--dirty-white); font-size: 1.125rem; line-height: 1.33; font-weight: normal;}
+.location-list ul li a:hover{color: var(--lime-500);}
+.location-list ul > li:last-child{margin-bottom: 0;}
+
+@media only screen and (max-width:1240px)and (min-width:1024px){
+  .contact-lt{flex: 33.5%; padding: 80px 40px 80px 0;}
+  .contact-rt::before {left: calc(100% - 64.7%);}
+  .contact-rt::after {left: calc(100% - 64.7%);}
+  .contact-rt-wrap { padding: 60px 20px 60px 12px; }
+ }
+ @media only screen and (min-width: 1200px){
+   .contact-rt-wrap{padding:  60px  0 60px 80px;}
+
+
+ }
+
+
+ @media only screen and (min-width: 1024px){
+ .contact-rt::before { position: absolute; width: 1000vw; height: 100%; content: ""; display: block; top: 0px; left: calc(100% - 67.7%); background-image: url("../images/contact-rt-img@2x.png"); background-size: contain; bottom: 0; z-index: -1; }
+ .contact-rt:after{position: absolute; width: 1000vw; height: 100%; content:""; display: block; top: 0px; left: calc(100% - 67.7%); background-color: var(--green-700); bottom: 0; z-index: -2;}
+ .contact-lt p{margin-bottom: 30px;}
+}
+
+ @media only screen and (max-width: 1023px)and (min-width: 768px){
+  /* .contact-main{display: block;} */
+  .contact-lt{flex: 100%; padding: 80px 0;}
+  .contact-rt{flex: 100%; position: relative; padding: 80px 0;}
+  .contact-rt::before { position: absolute; width: 1000vw; height: 100%; content: ""; display: block; top: 0px; left: -80px; background-image: url("../images/contact-rt-img@2x.png"); background-size: contain; bottom: 0; z-index: -1; }
+  .contact-rt:after{position: absolute; width: 1000vw; height: 100%; content:""; display: block; top: 0px; left: -80px; background-color: var(--green-700); bottom: 0; z-index: -2;}
+
+
+  .location-list { flex: 0 0 calc(50% - 20px);}
+
+
+
+
+ }
+ @media only screen and (max-width: 767px)and (min-width: 200px){
+  .contact-main{display: block;}
+  .contact-lt{padding: 40px 12px;}
+  .contact-lt h1{margin-bottom: 25px;}
+  .contact-lt .btn-wrap .button{width: 100%;}
+  .contact-rt::before { position: absolute; width: 100vw; height: 100%; content: ""; display: block; top: 0px; left: -20px; background-image: url("../images/form-bg-mobile@2x.jpg"); background-size: contain; bottom: 0; z-index: -1; }
+  .contact-rt:after{position: absolute; width: 1000vw; height: 100%; content:""; display: block; top: 0px; left: -80px; background-color: var(--green-700); bottom: 0; z-index: -2;}
+  .contact-rt{position: relative; padding: 35px 0;}
+  .contact-rt-txt{display: block; margin-bottom: 32px;}
+  .contact-rt-left{margin-bottom: 10px;}
+
+  .location-section{padding: 40px 0;}
+  .location-head{margin: 0 auto 34px;}
+  .location-head .h1{font-size: 2.25rem;}
+  .location-row{display: block;}
+  .location-list{flex: 100%; margin-bottom: 34px;}
+  .location-list:last-child{margin-bottom: 0;}
+
+  .location-head .h1 span:after{bottom: 0;}
+
+ }
