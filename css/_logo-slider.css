@@ -1,5 +1,5 @@
 .logo-slider-module {position:relative; z-index: 1; clear: both; width: 100%; padding:58px 0;}
-.logo-slider-row {position: inherit!important;}
+.logo-slider-row {position: inherit!important; justify-content: center;}
 .logo-slider-row .slick-track{display: flex; align-items: center;}
 .logo-slider {max-width: 1124px; margin: 0 auto; padding: 0 0 0 24px;}
 .logo-img { margin: 0 24px;}

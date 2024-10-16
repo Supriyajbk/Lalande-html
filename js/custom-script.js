@@ -70,4 +70,73 @@ jQuery(document).ready(function () {
     jQuery(".accordion-item .content").not(jQuerycontent).slideUp("slow");
   });
 
+    
+//jQuery(".dynamic-selector").each(function () {
+//    const $prodSlide = jQuery(this);
+//
+//    jQuery(".ds-thumb:first-child").addClass("active");
+//    jQuery(".ds-rt-inner:first-child").addClass("active").show(); 
+//
+//    $prodSlide.find(".ds-thumb").on("click", function (e) {
+//        e.preventDefault();
+//        
+//        jQuery(this).addClass("active").siblings().removeClass("active");
+//        let data = jQuery(this).data("name");
+//        $prodSlide.find(".ds-rt-inner").hide();
+//        const $targetContent = $prodSlide.find('.ds-rt-inner[data-image="' + data + '"]');
+//        $targetContent.fadeIn(800);
+//
+//        if (jQuery(window).width() <= 1023) { 
+//            jQuery('html, body').animate({
+//                scrollTop: $targetContent.offset().top - 80
+//            }, 800);
+//        }
+//    });
+//});
+    
+
+jQuery(".dynamic-selector").each(function () {
+    const $prodSlide = jQuery(this);
+
+    jQuery(".ds-thumb:first-child").addClass("active");
+    jQuery(".ds-rt-inner:first-child").addClass("active").show();
+
+    $prodSlide.find(".ds-thumb").on("click", function (e) {
+        e.preventDefault();
+
+        const $this = jQuery(this);
+        const data = $this.data("name");
+        const $currentContent = $prodSlide.find(".ds-rt-inner:visible");
+        const $targetContent = $prodSlide.find('.ds-rt-inner[data-image="' + data + '"]');
+        const isWideScreen = window.innerWidth > 1023;
+
+        if ($currentContent[0] !== $targetContent[0]) {
+            $this.addClass("active").siblings().removeClass("active");
+
+            const animateHeightAndFade = function () {
+                jQuery(this).hide();
+                
+                $targetContent.css({ display: 'block', height: 'auto', opacity: 0 });
+                const targetHeight = $targetContent.outerHeight();
+
+                $targetContent.css({ height: 0 }).animate({ height: targetHeight }, 400, function () {
+                    $targetContent.fadeTo(400, 1);
+                });
+            };
+
+            if (isWideScreen) {
+                $currentContent.fadeTo(400, 0, animateHeightAndFade);
+            } else {
+                $currentContent.fadeOut(400, animateHeightAndFade).promise().done(function () {
+                    $('html, body').animate({ scrollTop: $targetContent.offset().top - 80 }, 400);
+                });
+            }
+        } else if (!isWideScreen) {
+            $('html, body').animate({ scrollTop: $targetContent.offset().top - 80 }, 400);
+        }
+    });
+});
+
+
+    
 });
