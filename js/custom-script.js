@@ -128,11 +128,11 @@ jQuery(".dynamic-selector").each(function () {
                 $currentContent.fadeTo(400, 0, animateHeightAndFade);
             } else {
                 $currentContent.fadeOut(400, animateHeightAndFade).promise().done(function () {
-                    $('html, body').animate({ scrollTop: $targetContent.offset().top - 80 }, 400);
+                    jQuery('html, body').animate({ scrollTop: $targetContent.offset().top - 80 }, 400);
                 });
             }
         } else if (!isWideScreen) {
-            $('html, body').animate({ scrollTop: $targetContent.offset().top - 80 }, 400);
+            jQuery('html, body').animate({ scrollTop: $targetContent.offset().top - 80 }, 400);
         }
     });
 });

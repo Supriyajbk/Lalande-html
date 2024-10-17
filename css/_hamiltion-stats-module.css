@@ -25,7 +25,7 @@
 .hsc-wrap {clear: both; width: 100%; background: var(--green-900); position: relative; z-index: 1; color: var(--white);}
 .hsc-wrap .background-bg .object-fit img {object-fit: fill;}
 .hsc-wrap .hamiltion-stats-module {background: none; padding: 40px 0 40px; z-index: initial;}
-.hsc-wrap .hamiltion-stats-module .logo-text {bottom: -50px; opacity: 1;}
+.hsc-wrap .hamiltion-stats-module .logo-text {bottom: -48px; opacity: 1;}
 .hsc-wrap .hamiltion-stats-content {padding:75px 0 80px; clear: both; width: 100%; position: relative; z-index: 1;}
 .hsc-wrap .hamiltion-stats-content .hsc-inner {gap:2.0754716981132075%; justify-content: space-between;}
 
@@ -91,7 +91,7 @@
     .hsc-wrap .hamiltion-stats-module {padding: 40px 0 31px;}
     .hsc-wrap .hamiltion-stats-content .hsc-inner-lt .stars {margin-bottom: 22px;}
     .hsc-wrap .hamiltion-stats-content .hsc-inner-lt h2 {line-height: 1.11; margin-bottom: 24px;}
-    .hsc-wrap .hamiltion-stats-content .hsc-inner-rt .accordion-item .accordion-heading {line-height: 1.38; padding: 10px 80px 10px 16px;}
+    .hsc-wrap .hamiltion-stats-content .hsc-inner-rt .accordion-item .accordion-heading {line-height: 1.38; padding:10px 80px 10px 24px;}
     .hsc-wrap .hamiltion-stats-content .hsc-inner-rt .accordion-item.active .accordion-heading::before {top: 8px;}
     .hsc-wrap .hamiltion-stats-content .hsc-inner-rt .accordion-item.active .accordion-heading::after {top: 8px;}
     .hsc-wrap .hamiltion-stats-content .hsc-inner-rt .accordion-item .content {margin-top: -7px;}
