@@ -506,7 +506,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-accept:hover:after {color: var(
 
     .frm_half {width:calc(50% - 10px); float: left; clear: none!important;}
     .frm_first {margin-right: 20px;}
-   
+    body ul.selectBox-dropdown-menu li{padding: 0 10px;}
     
     
     

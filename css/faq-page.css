@@ -17,7 +17,7 @@
 .faq-block-list p{margin-bottom: 60px;}
 .faq-block-list .readmore{margin-top: auto;}
 
-.faq-head.no-faq-row{margin-bottom: 0;}
+.faq-head.no-faq-row{margin-bottom: 0; margin-top: 15px;}
 
 @media only screen and (min-width: 1024px){
     .hero-banner-main{padding: 75px 0 64px;}
@@ -26,7 +26,8 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-.faq-block-list {padding: 20px; flex: 0 0 calc(50% - 16px);}
+    .faq-block-list {padding: 20px; flex: 0 0 calc(50% - 16px);}
+    .faq-main{padding: 0 0 48px;}
 
 }
 

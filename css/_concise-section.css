@@ -6,14 +6,14 @@
 .concise-info.no_img { max-width: inherit;  width: 100%; }
 .concise-txt{ padding: 40px;}
 .concise-txt .optional-text{margin: 0 0 8px 0;}
-.concise-txt h4{font-size: 2rem; color: var(--white); font-family: DMSerifText;}
-.concise-txt .button{padding: 18px 45px 19px;}
+.concise-txt h4{font-size: 2rem; color: var(--white); font-family: "DM Serif Text", sans-serif;}
+.concise-txt .button{padding: 18px 45px 19px; font-size: 1.125rem; font-weight: 500;}
 .concise-txt .button:after{content: "\f061"; font-size: 1.125rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: static;  margin: -3px 0 0 13px; vertical-align: middle; line-height: 12px; background: none; }
 .concise-thumb { width: 265px; flex: 1; position: absolute; right: 0; left: auto; display: block; content: ""; height: 100%;}
 
 
 @media only screen and (min-width: 1300px){
-    .concise-info{max-width: 571px; }
+    .concise-info{max-width: 500px; }
 
 
 
