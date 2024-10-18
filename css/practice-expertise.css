@@ -101,7 +101,6 @@
 
   /* .concise-info { max-width: inherit; } */
   
-
   .dynamic-block .stats-list:first-child:after{display: none;}
   .dynamic-block .stats-list::after { position: absolute; content: ""; left: auto; top: 0; display: block; width: calc(100% - 50px); height: 1px; background-color: rgb(157 181 173 / 50%); bottom: -71px; }
   
