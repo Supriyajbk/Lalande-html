@@ -1,0 +1,55 @@
+@import url("../css/_split-banner.css?v=999uuu");
+@import url("../css/_stats-module.css?v=77788");
+@import url("../css/_form-section.css");
+
+
+
+.result-main-section{width: 100%;position: relative; clear: both;}
+.result-main {position: relative; padding: 80px 0 54px; clear: both; width: 100%;  flex-wrap: wrap; gap: 0 50px; }
+.result-main:before{content: ""; height: 255px; width: 255px; position: absolute; background: var(--dirty-white); left: -80px; z-index: -1; top: 0px; display: block;}
+.result-main:after{content: ""; height: 255px; width: 1000%; position: absolute; background: var(--dirty-white); left: -1000%; z-index: -1; top: 0px; display: block;}
+.result-lt h2{max-width: 667px;}
+.result-lt p{font-size: 1.25rem; line-height: 1.4;}
+.result-rt{ text-align: center; z-index: 1; position: relative;}
+
+.result-rt .result-icon{max-width: 24px; margin: 0 auto 4px;}
+.result-rt .h1{ color: var(--white); margin: 0 auto 24px; line-height: 1.17;}
+.result-rt p{font-size: 1.125rem; line-height: 1.5; color: var(--light-grey); margin-bottom: 0;}
+.result-rt .consult-btn{font-size: 1.125rem}
+.result-rt .button{width: 100%;}
+.result-rt .btn-wrap{gap: 8px; margin-top: 37px;}
+.result-rt-wrap{ padding: 40px 30px; color: var(--white); background-color: var(--green-700); text-align: center;  }
+
+.result-main-section .result-rt-wrap .btn-wrap .consult-btn:after, .result-main-section .result-rt-wrap .btn-wrap .consult-btn:before{background: var(--green-900)!important; color: var(--white);}
+.stats-list:nth-child(n+13){display:none;}
+@media only screen and (min-width: 1024px){
+    .result-main{display: flex;}
+    .result-lt{flex: 1;}
+    .result-rt{width: 415px; margin-top: -146px;}
+    .result-rt p{display: inline-block;}
+    .result-rt .h1{max-width: 250px;}
+    .result-lt h2{margin-bottom: 24px;}
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .result-main{padding: 55px 0 60px;}
+    .result-lt{margin-bottom: 40px;}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .result-main { padding: 40px 0 0; display: block;}
+    .result-rt { margin-top: 0; width: calc(100% + 40px); left: -20px; }
+    .result-rt .h1{font-size: 3rem; max-width: 245px;}
+    .result-lt{margin-bottom: 20px;}
+    .result-rt-wrap{ padding: 40px 15px;}
+
+    .result-lt h2{font-size: 2.25rem; line-height: 1.33; margin-bottom: 12px;}
+    .result-rt p{max-width: 300px; margin: 0 auto 0;}
+    .result-main:before, .result-main:after{display: none;}
+}

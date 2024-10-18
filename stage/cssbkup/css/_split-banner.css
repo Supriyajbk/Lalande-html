@@ -36,7 +36,7 @@ flex-wrap: wrap; align-items: center; z-index: 1; flex-grow: 1;}
 
 .split-banner-main .split-banner-text .button.btn-big.consult-btn {padding: 16px 24px 16px 25px; letter-spacing: -0.28px;}
 .split-banner-main .split-banner-text .button.btn-big.consult-btn svg{margin-left: 16px;}
-.split-banner-main .split-banner-text:only-child .split-txt-inner{max-width:1336px; margin: 0 auto;}
+.split-banner-main .split-banner-text:only-child .split-txt-inner{max-width: 100%; margin-left: inherit;}
 
 /* Right Aligned */
 .split-banner-section.right-content .split-banner-main {flex-direction: row-reverse;}

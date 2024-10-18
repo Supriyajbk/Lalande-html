@@ -1,0 +1,45 @@
+@import url("../css/_hero-banner-section.css");
+@import url("../css/_mini-cta-module.css");
+@import url("../css/_browse-section.css");
+@import url("../css/_form-section.css?v=999");
+
+
+
+.faq-section{width: 100%; clear: both; overflow: hidden; background: var(--green-900);}
+.faq-main{padding: 0 0 80px;}
+.faq-head{margin: 0 auto 40px; text-align: center;}
+.faq-head h3{color: var(--white); margin-bottom: 0;}
+.faq-row{gap: 48px 24px; }
+.faq-block-list{flex: 0 0 calc(33.33% - 16px); padding: 32px; border: 1px solid var(--green-500); color: var(--white); display: flex; flex-direction: column;}
+.faq-block-list h4{color: var(--white); font-family:"DM Sans", sans-serif; font-weight: 600;}
+.faq-block-list h4 a{color: var(--white);}
+.faq-block-list h4 a:hover{color: var(--lime-500);}
+.faq-block-list p{margin-bottom: 60px;}
+.faq-block-list .readmore{margin-top: auto;}
+
+.faq-head.no-faq-row{margin-bottom: 0; margin-top: 15px;}
+
+@media only screen and (min-width: 1024px){
+    .hero-banner-main{padding: 75px 0 64px;}
+    .faq-row .mini-cta-module{margin-top: 32px; margin-bottom: 32px;}
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .faq-block-list {padding: 20px; flex: 0 0 calc(50% - 16px);}
+    .faq-main{padding: 0 0 48px;}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .hero-banner-text{margin-bottom: 30px;}
+    .faq-main{padding: 0 0 40px;}
+    .faq-row{display: block;}
+    .faq-block-list h4{margin-bottom: 14px;}
+    .faq-block-list p{margin-bottom: 15px;}
+    .faq-block-list{margin-bottom: 24px;}
+
+    .faq-row .mini-cta-module {width: calc(100% + 32px); left: -16px; margin: 0 0 24px 0;}
+    .stats-more{margin-top: 40px;}
+
+}

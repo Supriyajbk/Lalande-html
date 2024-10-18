@@ -10,7 +10,6 @@
 /*-- media css starts here --*/
 
 @media only screen and (min-width: 1024px) {
-    .features-main .features-grid .feature-icon {margin: 0 0 8px 0;}
     .features-main:only-child .features-grid:nth-child(-n+3) {margin-top: 0;}    
     .features-main .features-grid:nth-child(4n+1):before {display: block;}
     .features-main .features-grid:nth-child(3n+1):before {display: none;}
@@ -34,5 +33,6 @@
     .features-main .features-grid::before {display: none;}
     .features-main .features-grid .h4 {font-size: 1.625rem;}
     .features-main .features-grid .readmore {text-indent: inherit;}
-    .features-main .features-grid .readmore:hover::before {background-position: 8px center; width: 100%; height: 100%;}
+    .features-main .features-grid .readmore:hover::before {background-position: center;}
+    .features-main .features-grid .readmore:hover::after {width: 100%;}
 }

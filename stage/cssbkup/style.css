@@ -362,7 +362,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .stars{clear: both; width: 100%; margin-bottom: 6px}
 .stars img{width: 97px;}
 
-.rating-star img {margin-right: 3px; width: 17px; display: inline-block!important;}
+.rating-star img {margin-right: 3px; width: 17px;}
 .rating-star img:last-child {margin-right: 0;}
 
 .optional-text {font-size:1rem; color:var(--white-lime); font-weight:500; margin:0 0 25px 0; display:block; line-height: 1.4;}

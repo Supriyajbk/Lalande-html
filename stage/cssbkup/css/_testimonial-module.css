@@ -5,7 +5,7 @@
 .testimonial-module .testimonial-slider .slider-for .testimonial-thumb {width:352px!important; height: 352px; left: 0!important; position: absolute!important; top: 0!important;}
 .testimonial-module .testimonial-slider .slider-for .slick-track {width: 352px!important; transform: none!important; height: 352px !important;}
 .testimonial-module .testimonial-slider .slider-nav {width: calc(100% - 398px); margin-right: auto; padding-top: 16px;}
-.testimonial-module .testimonial-slider .slider-nav:before {content: ""; width: 143px; height: 106px; background: url('../images/testimonial-icon.svg') 0 0 no-repeat; display: block; position: absolute; top: -10px; left: -53px; opacity: 0.8; z-index: -1; background-size: 100% 100%;}
+.testimonial-module .testimonial-slider .slider-nav:before {content: ""; width: 143px; height: 106px; background: url('../images/testimonial-icon.svg') 0 0 no-repeat; display: block; position: absolute; top: -10px; left: -53px; opacity: 0.3; z-index: -1; background-size: 100% 100%;}
 
 
 .testimonial-content p {font-size: 1.5rem; line-height: 1.42; margin-bottom: 16px; color:var(--light-grey);}

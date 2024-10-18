@@ -1,4 +1,4 @@
-.recent-insights-module {clear: both; width: 100%; background: var(--green-900); padding: 70px 0 80px 0; position: relative; z-index: 1;}
+.recent-insights-module {clear: both; width: 100%; background: var(--green-900); padding: 80px 0; position: relative; z-index: 1;}
 .recent-insights-module .heading h2{color: var(--white);}
 .recent-insights-main {gap:24px; display: flex; flex-wrap: wrap;}
 .recent-insight-grid {flex-grow: 1; width:31.62075471698113%; position: relative; z-index: 1; min-height: 542px; overflow: hidden;}

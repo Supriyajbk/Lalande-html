@@ -44,12 +44,10 @@
     ul.main_menu li.current-menu-parent>a,
     ul.main_menu li.current-page-ancestor>a,
     ul.main_menu li.current-menu-ancestor>a,
+    ul.main_menu li.current-menu-ancestor>a,
     ul.main_menu li.menu-item-has-children a:hover,
     ul.main_menu li.current_page_item>a,
-    ul.main_menu li>a:hover,
-    ul.main_menu li.current_page_item a > span,  
-    ul.main_menu li.current_page_ancestor li.current-page-ancestor a > span  
-    {color: var(--lime-500);}
+    ul.main_menu li>a:hover {color: var(--lime-500);}
     
     
     /* Mega Menu */
@@ -74,14 +72,6 @@
 
     .menu-image-title-below.menu-image-not-hovered > img, .menu-image-hovered.menu-image-title-below .menu-image-hover-wrapper, .menu-image-title-below .menu-image-hover-wrapper {margin:0 0 15px 0 !important; height: 24px; width: auto; padding: 0;}
     .menu-image-title.menu-image-title-above, .menu-image-title.menu-image-title-below, .menu-image-title-below, .menu-image-title-above, .menu-item a.menu-image-title-above, .menu-item a.menu-image-title-below, .menu-image-title.menu-image-title-above, .menu-image-title.menu-image-title-below {text-align: left; letter-spacing: -0.6px; color: var(--coal); font-weight: 500; line-height: 140%; font-size: 1.25rem;}
-     ul.main_menu li a:hover .menu-image-title.menu-image-title-above, 
-    ul.main_menu li a:hover .menu-image-title.menu-image-title-below, 
-    ul.main_menu li a:hover .menu-image-title-below, 
-    ul.main_menu li a:hover .menu-image-title-above, 
-    ul.main_menu li a:hover .menu-item a.menu-image-title-above, 
-    ul.main_menu li a:hover .menu-item a.menu-image-title-below, 
-    ul.main_menu li a:hover .menu-image-title.menu-image-title-above, 
-    ul.main_menu li a:hover .menu-image-title.menu-image-title-below {color: var(--lime-500)}
 }
 
 

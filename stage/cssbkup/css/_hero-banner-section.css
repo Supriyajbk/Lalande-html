@@ -1,0 +1,29 @@
+.hero-bg{background-color: var(--green-900); overflow: hidden; z-index: 1; width: 100%;}
+
+
+.hero-banner-main{padding: 75px 0 80px; text-align: center;  margin: 0 auto; position: relative; z-index: 1;}
+.hero-banner-text{max-width: 946px; margin: 0 auto; text-align: center;}
+.hero-banner-main{color: var(--white);}
+.hero-banner-main h1{color: var(--white); margin-bottom: 22px; letter-spacing: -1.44px;}
+.hero-banner-main p{font-size: 1.25rem; line-height: 1.4; margin-bottom: 22px;}
+.hero-banner-main .banner-btn{justify-content: center;}
+.hero-banner-main .button.btn-big.consult-btn svg { margin-left: 11px; position: relative; top: 1px;}
+
+
+@media only screen and (min-width: 1024px){
+    .hero-banner-text{margin-bottom: 58px;}
+    .hero-banner{padding: 80px 0 0 0;}
+
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .hero-bg{padding: 80px 0 0;}
+    .hero-banner-main { padding: 40px 0 40px;}
+    .hero-banner-main .stars{margin-bottom: 10px;}
+    .hero-banner-main .button{width: 100%;}
+    .hero-banner-text p{ margin: 0 auto 32px;}
+
+
+
+}
